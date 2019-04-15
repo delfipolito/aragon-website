@@ -179,10 +179,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _templateObject = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: cover;\n  background-position: center;\n  padding: 30px;\n  ', ';\n  ', ';\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n  height: 100%;\n  ', ';\n  max-height: auto;\n  grid-column-start: 1;\n  ', ';\n  grid-column-end: 2;\n  transition: all 0.25s ease-in-out;\n\n  &.center {\n    justify-content: center;\n    p,\n    h1 {\n      text-align: center;\n    }\n  }\n  &.left {\n    justify-content: flex-start;\n  }\n  &.right {\n    justify-content: center;\n    ', ';\n  }\n\n  p {\n    font-family: \'FontRegular\', sans-serif;\n    font-size: 16px;\n    line-height: 1.75;\n    letter-spacing: 0.1px;\n    text-align: left;\n    color: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: left;\n    color: ', ';\n    margin: 15px 0 0 0;\n  }\n  .left-box {\n    width: 100%;\n    ', ';\n  }\n  .right-box {\n    width: 100%;\n    ', ';\n    margin-left: 0;\n    margin-left: ', ';\n  }\n  .center-box {\n    width: 80%;\n    margin: auto;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: cover;\n  background-position: center;\n  padding: 30px;\n  ', ';\n  ', ';\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n  height: 100%;\n  ', ';\n  max-height: auto;\n  grid-column-start: 1;\n  ', ';\n  grid-column-end: 2;\n  transition: all 0.25s ease-in-out;\n\n  &.center {\n    justify-content: center;\n    p,\n    h1 {\n      text-align: center;\n    }\n  }\n  &.left {\n    justify-content: flex-start;\n  }\n  &.right {\n    justify-content: center;\n    ', ';\n  }\n\n  p {\n    font-family: \'FontRegular\', sans-serif;\n    font-size: 16px;\n    line-height: 1.75;\n    letter-spacing: 0.1px;\n    text-align: left;\n    color: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: left;\n    color: ', ';\n    margin: 15px 0 0 0;\n  }\n  .left-box {\n    width: 100%;\n    ', ';\n  }\n  .right-box {\n    width: 100%;\n    ', ';\n    margin-left: 0;\n    margin-left: ', ';\n  }\n  .center-box {\n    width: 80%;\n    margin: auto;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  img {\n    max-width: 100%;\n    width: 430px;\n    height: auto;\n    ', ';\n    margin: 15px 0;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  img {\n    max-width: 100%;\n    width: 430px;\n    height: auto;\n    ', ';\n    margin: 15px 0;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  grid-column-start: 1;\n  grid-column-end: 3;\n  grid-column-start: 1;\n  ', ';\n  height: auto;\n'], ['\n  grid-column-start: 1;\n  grid-column-end: 3;\n  grid-column-start: 1;\n  ', ';\n  height: auto;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: cover;\n  background-position: center;\n  padding: 30px;\n  ', ';\n  ', ';\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n  ', ';\n  height: auto;\n  grid-column-start: 1;\n  ', ';\n  grid-column-end: 2;\n  transition: all 0.25s ease-in-out;\n\n  &.center {\n    justify-content: center;\n    p,\n    h1 {\n      text-align: center;\n    }\n  }\n  &.left {\n    justify-content: flex-start;\n  }\n  &.right {\n    justify-content: center;\n    ', ';\n  }\n\n  p {\n    font-family: \'FontRegular\', sans-serif;\n    font-size: 16px;\n    line-height: 1.75;\n    letter-spacing: 0.1px;\n    text-align: left;\n    color: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: left;\n    color: ', ';\n    margin: 15px 0 0 0;\n  }\n  .left-box {\n    width: 100%;\n    ', ';\n  }\n  .right-box {\n    width: 100%;\n    ', ';\n    margin-left: 0;\n    margin-left: ', ';\n  }\n  .center-box {\n    width: 80%;\n    margin: auto;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: cover;\n  background-position: center;\n  padding: 30px;\n  ', ';\n  ', ';\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n  ', ';\n  height: auto;\n  grid-column-start: 1;\n  ', ';\n  grid-column-end: 2;\n  transition: all 0.25s ease-in-out;\n\n  &.center {\n    justify-content: center;\n    p,\n    h1 {\n      text-align: center;\n    }\n  }\n  &.left {\n    justify-content: flex-start;\n  }\n  &.right {\n    justify-content: center;\n    ', ';\n  }\n\n  p {\n    font-family: \'FontRegular\', sans-serif;\n    font-size: 16px;\n    line-height: 1.75;\n    letter-spacing: 0.1px;\n    text-align: left;\n    color: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: left;\n    color: ', ';\n    margin: 15px 0 0 0;\n  }\n  .left-box {\n    width: 100%;\n    ', ';\n  }\n  .right-box {\n    width: 100%;\n    ', ';\n    margin-left: 0;\n    margin-left: ', ';\n  }\n  .center-box {\n    width: 80%;\n    margin: auto;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  img {\n    max-width: 100%;\n    width: 430px;\n    height: auto;\n    ', ';\n    margin: 15px 0;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  img {\n    max-width: 100%;\n    width: 430px;\n    height: auto;\n    ', ';\n    margin: 15px 0;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -204,15 +203,15 @@ var _ui = __webpack_require__(2);
 
 var _reactStatic = __webpack_require__(4);
 
+var _Fade = __webpack_require__(11);
+
+var _Fade2 = _interopRequireDefault(_Fade);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
 var medium = function medium(css) {
   return (0, _ui.breakpoint)('medium', css);
@@ -221,85 +220,99 @@ var large = function large(css) {
   return (0, _ui.breakpoint)('large', css);
 };
 
-var Card = function (_React$Component) {
-  _inherits(Card, _React$Component);
 
-  function Card() {
-    _classCallCheck(this, Card);
+var LCard = function LCard(_ref) {
+  var props = _objectWithoutProperties(_ref, []);
 
-    return _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).apply(this, arguments));
-  }
-
-  _createClass(Card, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          title = _props.title,
-          content = _props.content,
-          className = _props.className,
-          image = _props.image,
-          background = _props.background,
-          gradient = _props.gradient,
-          colorWhite = _props.colorWhite,
-          textAlign = _props.textAlign,
-          linkTo = _props.linkTo,
-          label = _props.label,
-          children = _props.children;
-
-      return _react2.default.createElement(
-        LongCard,
-        {
-          className: textAlign + ' ' + className,
-          colorWhite: colorWhite,
-          image: image || false,
-          background: background ? __webpack_require__(11)("./" + background) : '',
-          gradient: gradient ? gradient : '' },
-        image && textAlign == 'right' && _react2.default.createElement(
-          ImageContainer,
-          { className: 'image-container' },
-          _react2.default.createElement('img', { src: __webpack_require__(11)("./" + image) })
-        ),
+  return _react2.default.createElement(
+    LongCard,
+    {
+      className: props.textAlign + ' ' + props.className,
+      colorWhite: props.colorWhite,
+      image: props.image || false,
+      background: props.background ? __webpack_require__(12)("./" + props.background) : '',
+      gradient: props.gradient ? props.gradient : '' },
+    props.image && props.textAlign == 'right' && _react2.default.createElement(
+      ImageContainer,
+      { className: 'image-container' },
+      _react2.default.createElement(
+        _Fade2.default,
+        { left: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: props.bottom ? 800 : 400, distance: '50px' },
+        ' ',
+        _react2.default.createElement('img', { src: __webpack_require__(12)("./" + props.image) })
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: props.textAlign + '-box' },
+      props.label && _react2.default.createElement(
+        'div',
+        { className: 'label' },
         _react2.default.createElement(
-          'div',
-          { className: textAlign + '-box' },
-          label && _react2.default.createElement(
-            'div',
-            { className: 'label' },
-            _react2.default.createElement(
-              'p',
-              null,
-              label
-            )
-          ),
-          title && _react2.default.createElement(
-            'h1',
-            null,
-            title
-          ),
-          content && _react2.default.createElement(
-            'h1',
-            null,
-            content
-          ),
-          children
-        ),
-        image && textAlign == 'left' && _react2.default.createElement(
-          ImageContainer,
-          { className: 'image-container' },
-          _react2.default.createElement('img', { src: __webpack_require__(11)("./" + image) })
+          'p',
+          null,
+          props.label
         )
-      );
-    }
-  }]);
+      ),
+      props.title && _react2.default.createElement(
+        'h1',
+        null,
+        props.title
+      ),
+      props.content && _react2.default.createElement(
+        'h1',
+        null,
+        props.content
+      ),
+      props.children
+    ),
+    props.image && props.textAlign == 'left' && _react2.default.createElement(
+      ImageContainer,
+      { className: 'image-container' },
+      _react2.default.createElement(
+        _Fade2.default,
+        { right: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: props.bottom ? 800 : 400, distance: '50px' },
+        ' ',
+        _react2.default.createElement('img', { src: __webpack_require__(12)("./" + props.image) })
+      )
+    )
+  );
+};
 
-  return Card;
-}(_react2.default.Component);
+var Card = function Card(_ref2) {
+  var props = _objectWithoutProperties(_ref2, []);
 
-var LongCard = (0, _styledComponents2.default)('div')(_templateObject, function (props) {
+  return _react2.default.createElement(
+    _react2.default.Fragment,
+    null,
+    _react2.default.createElement(
+      _ui.BreakPoint,
+      { to: 'medium' },
+      _react2.default.createElement(LCard, props)
+    ),
+    _react2.default.createElement(
+      _ui.BreakPoint,
+      { from: 'medium' },
+      _react2.default.createElement(
+        LongFade,
+        null,
+        _react2.default.createElement(
+          _Fade2.default,
+          { delay: 100 },
+          _react2.default.createElement(LCard, props)
+        )
+      )
+    )
+  );
+};
+
+var LongFade = _styledComponents2.default.div(_templateObject, medium('height: 500px '));
+
+var LongCard = (0, _styledComponents2.default)('div')(_templateObject2, function (props) {
   return props.background && 'background-image: url(' + props.background + ');';
 }, function (props) {
   return props.gradient && 'background-image:' + props.gradient + ';';
-}, medium('padding: 30px 15px;'), large('padding: 30px 60px;'), medium('flex-direction: row;'), medium('max-height: 500px '), medium('grid-column-end: 3;'), medium('justify-content: flex-end'), function (props) {
+}, medium('padding: 30px 15px;'), large('padding: 30px 60px;'), medium('flex-direction: row;'), medium('height: 500px '), medium('grid-column-end: 3;'), medium('justify-content: flex-end'), function (props) {
   return props.colorWhite ? '#b4b5cc' : '#7f8198';
 }, medium('font-size: 46px;'), function (props) {
   return props.colorWhite ? 'white' : '#2d4051';
@@ -307,7 +320,7 @@ var LongCard = (0, _styledComponents2.default)('div')(_templateObject, function 
   return props.image ? medium('30px') : medium('50%');
 });
 
-var ImageContainer = (0, _styledComponents2.default)('div')(_templateObject2, medium('width: 50%;'), medium('height: 430px;'));
+var ImageContainer = (0, _styledComponents2.default)('div')(_templateObject3, medium('width: 50%;'), medium('height: 430px;'));
 
 exports.default = Card;
 
@@ -322,7 +335,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Page = __webpack_require__(17);
+var _Page = __webpack_require__(18);
 
 Object.defineProperty(exports, 'Page', {
   enumerable: true,
@@ -344,9 +357,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _templateObject = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  height: 100%;\n  transition: all 0.25s ease-in-out;\n  ', ';\n  img {\n    height: 130px;\n    width: 130px;\n    ', ' ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  height: 100%;\n  transition: all 0.25s ease-in-out;\n  ', ';\n  img {\n    height: 130px;\n    width: 130px;\n    ', ' ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  transition: all 0.25s ease-in-out;\n  ', ';\n  height: auto;\n  min-height: ', ';\n  img {\n    height: 130px;\n    width: 130px;\n    ', ';\n    ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  transition: all 0.25s ease-in-out;\n  ', ';\n  height: auto;\n  min-height: ', ';\n  img {\n    height: 130px;\n    width: 130px;\n    ', ';\n    ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -368,15 +379,15 @@ var _ui = __webpack_require__(2);
 
 var _reactStatic = __webpack_require__(4);
 
+var _Fade = __webpack_require__(11);
+
+var _Fade2 = _interopRequireDefault(_Fade);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
 var medium = function medium(css) {
   return (0, _ui.breakpoint)('medium', css);
@@ -385,80 +396,75 @@ var large = function large(css) {
   return (0, _ui.breakpoint)('large', css);
 };
 
-var Card = function (_React$Component) {
-  _inherits(Card, _React$Component);
 
-  function Card() {
-    _classCallCheck(this, Card);
+var SCard = function SCard(_ref) {
+  var props = _objectWithoutProperties(_ref, []);
 
-    return _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).apply(this, arguments));
-  }
-
-  _createClass(Card, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          title = _props.title,
-          content = _props.content,
-          imageUrl = _props.imageUrl,
-          linkTo = _props.linkTo,
-          gradient = _props.gradient,
-          textAlign = _props.textAlign,
-          background = _props.background,
-          imageBig = _props.imageBig,
-          label = _props.label,
-          colorWhite = _props.colorWhite,
-          children = _props.children;
-
-      return _react2.default.createElement(
-        SmallCard,
-        {
-          target: '_blank',
-          colorWhite: colorWhite,
-          textAlign: textAlign,
-          background: background ? __webpack_require__(11)("./" + background) : '',
-          gradient: gradient ? gradient : '',
-          imageBig: imageBig ? imageBig : '' },
-        _react2.default.createElement('img', { src: __webpack_require__(133)("./" + imageUrl + '.svg') }),
-        label && _react2.default.createElement(
-          'div',
-          { className: 'label' },
-          _react2.default.createElement(
-            'p',
-            null,
-            label
-          )
-        ),
-        _react2.default.createElement(
-          'h1',
-          null,
-          title
-        ),
-        _react2.default.createElement(
-          'h1',
-          null,
-          content
-        )
-      );
-    }
-  }]);
-
-  return Card;
-}(_react2.default.Component);
-
-Card.propTypes = {
-  image: _propTypes2.default.node
+  return _react2.default.createElement(
+    SmallCard,
+    {
+      target: '_blank',
+      colorWhite: props.colorWhite,
+      textAlign: props.textAlign,
+      background: props.background ? __webpack_require__(12)("./" + props.background) : '',
+      gradient: props.gradient ? props.gradient : '',
+      imageBig: props.imageBig ? props.imageBig : '',
+      height: props.height ? props.height : '' },
+    _react2.default.createElement('img', { src: __webpack_require__(133)("./" + props.imageUrl + '.svg') }),
+    props.label && _react2.default.createElement(
+      'div',
+      { className: 'label' },
+      _react2.default.createElement(
+        'p',
+        null,
+        props.label
+      )
+    ),
+    _react2.default.createElement(
+      'h1',
+      null,
+      props.title
+    ),
+    _react2.default.createElement(
+      'h1',
+      null,
+      props.content
+    )
+  );
 };
-Card.defaultProps = {};
 
+var Card = function Card(_ref2) {
+  var props = _objectWithoutProperties(_ref2, []);
+
+  return _react2.default.createElement(
+    _react2.default.Fragment,
+    null,
+    _react2.default.createElement(
+      _ui.BreakPoint,
+      { to: 'medium' },
+      _react2.default.createElement(SCard, props)
+    ),
+    _react2.default.createElement(
+      _ui.BreakPoint,
+      { from: 'medium' },
+      _react2.default.createElement(
+        _Fade2.default,
+        { delay: 100 },
+        _react2.default.createElement(SCard, props)
+      )
+    )
+  );
+};
 
 var SmallCard = _styledComponents2.default.div(_templateObject, function (props) {
   return props.background && 'background-image: url(' + props.background + ');';
 }, function (props) {
   return props.gradient && 'background-image:' + props.gradient + ';';
 }, function (props) {
-  return props.textAlign = 'left' ? 'flex-start' : 'center';
+  return props.textAlign == 'left' ? 'flex-start' : 'center';
 }, medium('padding: 30px 60px;'), function (props) {
+  return props.height ? props.height : '500px';
+}, function (props) {
   return props.imageBig && 'height: auto;';
 }, function (props) {
   return props.imageBig && 'width: 100%;';
@@ -466,7 +472,7 @@ var SmallCard = _styledComponents2.default.div(_templateObject, function (props)
   return props.colorWhite ? '#b4b5cc' : '#7f8198';
 }, function (props) {
   return props.textAlign ? props.textAlign : 'center';
-}, medium('font-size: 36px; width: calc(100% + 110px);'), large('width: inherit; font-size: 46px;'), function (props) {
+}, medium('font-size: 36px; width: 100%;'), large('width: inherit; font-size: 46px;'), function (props) {
   return props.textAlign ? props.textAlign : 'center';
 }, function (props) {
   return props.colorWhite ? 'white' : '#2d4051';
@@ -640,12 +646,18 @@ exports.default = SecondaryNavbar;
 
 /***/ }),
 /* 11 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-reveal/Fade");
+
+/***/ }),
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./": 7,
-	"./Bella/Features": 31,
-	"./Bella/Features.js": 31,
+	"./Bella/Features": 32,
+	"./Bella/Features.js": 32,
 	"./Bella/MoreFeatures": 41,
 	"./Bella/MoreFeatures.js": 41,
 	"./Bella/TryBella": 42,
@@ -664,10 +676,10 @@ var map = {
 	"./Bella/assets/background-2.png": 136,
 	"./Bella/assets/background-3.png": 137,
 	"./Bella/assets/bg_2.png": 138,
-	"./Bella/assets/hello.svg": 32,
+	"./Bella/assets/hello.svg": 33,
 	"./Bella/assets/hero-background.jpg": 103,
-	"./Bella/assets/hero-title.svg": 33,
-	"./Bella/assets/play.svg": 34,
+	"./Bella/assets/hero-title.svg": 34,
+	"./Bella/assets/play.svg": 35,
 	"./Bella/assets/video-background.png": 102,
 	"./Discover/About": 44,
 	"./Discover/About.js": 44,
@@ -694,24 +706,24 @@ var map = {
 	"./Discover/assets/quote1.png": 145,
 	"./Discover/assets/quote2.png": 146,
 	"./Discover/assets/unstoppable-org-background.png": 104,
-	"./Discover/assets/unstoppable-org.svg": 35,
+	"./Discover/assets/unstoppable-org.svg": 36,
 	"./General/Card": 8,
 	"./General/Card.js": 8,
 	"./General/LongCard": 6,
 	"./General/LongCard.js": 6,
-	"./General/Quote": 15,
-	"./General/Quote.js": 15,
+	"./General/Quote": 16,
+	"./General/Quote.js": 16,
 	"./General/Section": 3,
 	"./General/Section.js": 3,
 	"./General/assets/arrow.svg": 5,
-	"./General/assets/hero-arrow.svg": 14,
-	"./Home/About": 30,
-	"./Home/About.js": 30,
-	"./Home/Hero": 29,
-	"./Home/Hero.js": 29,
+	"./General/assets/hero-arrow.svg": 15,
+	"./Home/About": 31,
+	"./Home/About.js": 31,
+	"./Home/Hero": 30,
+	"./Home/Hero.js": 30,
 	"./Home/home-assets/background-home1.png": 147,
 	"./Home/home-assets/fight-background.svg": 85,
-	"./Home/home-assets/home-video.mp4": 13,
+	"./Home/home-assets/home-video.mp4": 14,
 	"./Home/home-assets/home1.svg": 86,
 	"./Home/home-assets/home2.svg": 87,
 	"./Home/home-assets/home3.svg": 88,
@@ -724,26 +736,26 @@ var map = {
 	"./Network/assets/network2.svg": 91,
 	"./Network/assets/network3.svg": 92,
 	"./Network/assets/network4.svg": 93,
-	"./Page/Footer": 23,
-	"./Page/Footer.js": 23,
-	"./Page/MenuItem": 19,
-	"./Page/MenuItem.js": 19,
-	"./Page/MenuPanel": 20,
-	"./Page/MenuPanel.js": 20,
-	"./Page/Navbar": 18,
-	"./Page/Navbar.js": 18,
-	"./Page/Page": 17,
-	"./Page/Page.js": 17,
-	"./Page/SidePanel": 21,
-	"./Page/SidePanel.js": 21,
+	"./Page/Footer": 24,
+	"./Page/Footer.js": 24,
+	"./Page/MenuItem": 20,
+	"./Page/MenuItem.js": 20,
+	"./Page/MenuPanel": 21,
+	"./Page/MenuPanel.js": 21,
+	"./Page/Navbar": 19,
+	"./Page/Navbar.js": 19,
+	"./Page/Page": 18,
+	"./Page/Page.js": 18,
+	"./Page/SidePanel": 22,
+	"./Page/SidePanel.js": 22,
 	"./Page/assets/forum.png": 70,
-	"./Page/assets/ghost.svg": 26,
-	"./Page/assets/logo-footer.svg": 24,
-	"./Page/assets/logo.svg": 12,
-	"./Page/assets/menu.svg": 22,
-	"./Page/assets/rocket.svg": 27,
-	"./Page/assets/twitter.svg": 25,
-	"./Page/assets/youtube.svg": 28,
+	"./Page/assets/ghost.svg": 27,
+	"./Page/assets/logo-footer.svg": 25,
+	"./Page/assets/logo.svg": 13,
+	"./Page/assets/menu.svg": 23,
+	"./Page/assets/rocket.svg": 28,
+	"./Page/assets/twitter.svg": 26,
+	"./Page/assets/youtube.svg": 29,
 	"./Project/About": 50,
 	"./Project/About.js": 50,
 	"./Project/AragonClient": 51,
@@ -754,8 +766,8 @@ var map = {
 	"./Project/Association.js": 53,
 	"./Project/ContributeContent": 54,
 	"./Project/ContributeContent.js": 54,
-	"./Project/Entry": 16,
-	"./Project/Entry.js": 16,
+	"./Project/Entry": 17,
+	"./Project/Entry.js": 17,
 	"./Project/FeedbackModule": 55,
 	"./Project/FeedbackModule.js": 55,
 	"./Project/GovernanceContent": 56,
@@ -780,7 +792,7 @@ var map = {
 	"./Project/assets/Roadmap.js": 62,
 	"./Project/assets/Wiki": 65,
 	"./Project/assets/Wiki.js": 65,
-	"./Project/assets/association.svg": 36,
+	"./Project/assets/association.svg": 37,
 	"./Project/assets/community-background.png": 106,
 	"./Project/assets/contribute-background1.png": 149,
 	"./Project/assets/contribute1.svg": 94,
@@ -793,14 +805,14 @@ var map = {
 	"./Project/assets/grants-background.png": 108,
 	"./Project/assets/grants1.svg": 99,
 	"./Project/assets/hero-background.png": 109,
-	"./Project/assets/history-mobile.svg": 37,
-	"./Project/assets/history.svg": 38,
+	"./Project/assets/history-mobile.svg": 38,
+	"./Project/assets/history.svg": 39,
 	"./Project/assets/oliver.png": 151,
 	"./Project/assets/project1.svg": 100,
 	"./Project/assets/project2.svg": 101,
 	"./Project/assets/project3.png": 152,
 	"./Project/assets/roadmap-background.png": 110,
-	"./Project/assets/speech.svg": 39,
+	"./Project/assets/speech.svg": 40,
 	"./Project/assets/yalda.png": 153,
 	"./index": 7,
 	"./index.js": 7
@@ -819,28 +831,28 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 11;
+webpackContext.id = 12;
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDM3MC4xIDMzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNzAuMSAzMzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOnVybCgjU1ZHSURfMV8pO30KCS5zdDF7ZmlsbDp1cmwoI1NWR0lEXzJfKTt9Cgkuc3Qye2ZpbGw6dXJsKCNTVkdJRF8zXyk7fQoJLnN0M3tmaWxsOiMyMDIwMUU7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNF8pO30KCS5zdDV7ZmlsbDojMzUzNTM0O30KCS5zdDZ7ZmlsbDojMjgyODI4O30KCS5zdDd7ZmlsbDp1cmwoI1NWR0lEXzVfKTtzdHJva2U6dXJsKCNTVkdJRF82Xyk7c3Ryb2tlLXdpZHRoOjg7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Zz4KCQoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTk4MS45NjM2IiB5MT0iMjQ0NC40OTYxIiB4Mj0iMjE2My4yOTY5IiB5Mj0iMjQ0NC40OTYxIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0wLjI5NjQgMC45NTUxIC0wLjk1NTEgLTAuMjk2NCAzMTU0LjY4MzYgLTExNDQuMDkzMykiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxOTciIGN5PSIxMzkuMSIgcj0iOTAuNyIvPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNDQuNjAxNiIgeTE9IjExMy4xMzE4IiB4Mj0iMzI0LjMzNjIiIHkyPSIyMjIuMTE4MSI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yNjAuNywxMTEuOWM2LjUsOC44LDkuOSwxOS4yLDkuOSwzMGMwLDEzLjEtNS40LDI1LjItMTQuNiwzNWw1LjYsMjAuOWgxN2wxNy45LTIwLjNsNC44LTI5LjdsMS0xNy43CgkJbC0xNy43LTIwTDI2MC43LDExMS45eiIvPgoJPGc+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8zXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMTEuNDU1OCIgeTE9IjEyNi43NDE5IiB4Mj0iMjI0LjEyMjQiIHkyPSIyODAuNzQxOSI+CgkJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0U1RTEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJCTwvbGluZWFyR3JhZGllbnQ+CgkJPHBhdGggY2xhc3M9InN0MiIgZD0iTTYzLjcsMjAwLjJsMy4xLDEyLjNjMCwwLDM2LjYsNzUuMSwxMTksMTAzYzAsMCw3Ny4yLTMyLDExMC41LTg2LjNsLTQ4LjItNDAuMWMwLDAtMjIsMTcuNS01NC43LDE3LjUKCQkJYy0zMi43LDAtNzcuMS0xOS41LTc3LjEtNTkuN2MwLTQwLjIsNDYtNTQuOSw0Ni01NC45bC0xOS42LTQuOEg5Mi42bC0zMS44LDc2LjZMNjMuNywyMDAuMnoiLz4KCTwvZz4KCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik0zMDUuNCwyMjguMSIvPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF80XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxODYuNDczOCIgeTE9IjIzMy43MjY3IiB4Mj0iMTg2LjQ3MzgiIHkyPSIzNi41Ij4KCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzBEMEQwRCIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDQiIGQ9Ik0zNDAuNiwxMTkuNWMtMS40LTEuNC00Mi00NC40LTE1My4zLTgyLjdsLTAuNy0wLjNjLTEwNy44LDM3LTE1NC4yLDgzLTE1NC4yLDgzYzQuMiwyNC41LDE0LjgsNTEuOCwyNC40LDczCgkJYzAuOCwxLjgsMTMuNiwyNC40LDIzLjEsMzYuN2MtNS42LTEyLjMtMTEuNy0yMy0xMS43LTQxLjRjMC01MS45LDQwLjItOTQuMSw5MC41LTk1LjljMS4yLDAsMi41LDAsMy43LDAuMWwtMTItMTIKCQljMCwwLDQ4LjMtOC4xLDExMC4zLDI5LjRjMCwwLDAuOSwxLjksMCw3LjVjMCwwLDI5LjIsMTIuNiwzMS43LDM3LjFzLTEzLDM4LjUtMjUuNSw0MC41YzAsMCw2LjUtMTAuMS0zLjUtMTUuNQoJCWMtMi4xLTEuMi00LjYtMS43LTcuMS0xLjZ2MGMtMTkuMSwwLTIxLjMsMjEuOC0yMS4zLDIxLjhjLTAuMiwxLjEtMC4yLDIuMi0wLjIsMy4zYzAsMC0zLjIsMzEuOSw1My42LDMxLjMKCQljMCwwLDI4LjgtMzIuNiwzNi40LTYxLjljMi44LTEwLjgsNC44LTE4LjksNi4xLTI0LjljMy4yLTguNSw2LjMtMTcuMyw5LjMtMjYuNEwzNDAuNiwxMTkuNXoiLz4KCTxwYXRoIGNsYXNzPSJzdDUiIGQ9Ik0yMzYuNiwxMTYiLz4KCTxwYXRoIGNsYXNzPSJzdDYiIGQ9Ik0yMzYsMTE5LjFjMC44LTAuNCwzLjQtMS43LDYuNC00LjhjNiwwLjgsMTEuOSwyLjcsMTEuOSwyLjdjLTEwLjktNi42LTI1LjgtMTAuNS00Mi4zLTEwLjQKCQljMCwwLDYuMyw5LDIzLjgsMTIuN0MyMzUuOCwxMTkuMywyMzUuOSwxMTkuMiwyMzYsMTE5LjF6Ii8+Cgk8Zz4KCQk8cGF0aCBjbGFzcz0ic3Q2IiBkPSJNMTg2LjEsNDEuM2MxMC42LDMuMyw4Ny42LDI4LjksMTQ5LjIsNzkuOGw2LjktMmwtMC41LTAuNGMtNjAuMi01MS0xMzYuMy03Ny41LTE1Mi4xLTgyLjZsLTEuNS0wLjVsLTItMC42CgkJCWwtMy41LDEuMWMtMTUuOCw1LjEtOTEuOSwzMS42LTE1Mi4xLDgyLjZsLTAuNywwLjZsNi43LDIuMkM5OC4xLDcwLjMsMTc1LjUsNDQuNiwxODYuMSw0MS4zeiIvPgoJPC9nPgoJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF81XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxODYuMDU3IiB5MT0iMjQ4Ljc5NTUiIHgyPSIxODYuMDU3IiB5Mj0iLTE2Ljk3MjgiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzZfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI0Ljg0MTUiIHkxPSIxNjguODYxNiIgeDI9IjM0Ny4yNzI2IiB5Mj0iMTY4Ljg2MTYiPgoJCTxzdG9wICBvZmZzZXQ9IjMuOTE5NjU0ZS0wMiIgc3R5bGU9InN0b3AtY29sb3I6IzJDRjRFMSIvPgoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0IyRTEiLz4KCTwvbGluZWFyR3JhZGllbnQ+Cgk8cGF0aCBjbGFzcz0ic3Q3IiBkPSJNMzQxLjcsMTA5LjJjLTYwLjItNTEtMTM2LjMtNzcuNS0xNTIuMS04Mi42bC0xLjUtMC41bC0yLTAuNmwtMy41LDEuMWMtMTUuOCw1LjEtOTEuOSwzMS42LTE1Mi4xLDgyLjYKCQlsLTEuMywxLjFsMC4zLDEuN2MwLjEsMC40LDYuNiwzOS4xLDI4LjgsODIuOGMxMy4xLDI1LjcsMjksNDgsNDcuMiw2Ni41YzIyLjMsMjIuNiw0OC4zLDM5LjMsNzcuMiw0OS43bDEuNywwLjZsMS43LDAuNmwxLjgtMC43CgkJbDEuNy0wLjZjMjguOS0xMC40LDU0LjgtMjcuMSw3Ny4yLTQ5LjdjMTguMi0xOC40LDM0LjEtNDAuOCw0Ny4yLTY2LjVjMjIuMi00My42LDI4LjgtODIuNCwyOC44LTgyLjhsMC4zLTEuN0wzNDEuNywxMDkuMnoKCQkgTTMwOC41LDE5MmMtMTIuOCwyNS4xLTI4LjMsNDctNDYuMSw2NWMtMjIuMSwyMi4zLTQ3LjcsMzguNy03Ni4zLDQ4LjhjLTI4LjYtMTAuMS01NC4yLTI2LjQtNzYuMy00OC43CgkJYy0xNy44LTE4LTMzLjMtMzkuOC00Ni4xLTY0LjljLTE5LjMtMzcuOC0yNi41LTcxLjctMjgtNzkuNUM5Ny40LDYxLDE3NS40LDM1LjIsMTg2LjEsMzEuOGMxMC42LDMuNCw4OC43LDI5LjIsMTUwLjQsODAuOQoJCUMzMzUsMTIwLjQsMzI3LjcsMTU0LjMsMzA4LjUsMTkyeiIvPgo8L2c+Cjwvc3ZnPgo="
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/4df3cfa2-home-video.mp4";
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSIxMSIgdmlld0JveD0iMCAwIDcgMTEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDEwTDYgNS41TDEgMSIgc3Ryb2tlPSIjMDFDM0UzIi8+Cjwvc3ZnPgo="
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -903,7 +915,7 @@ var Quote = function (_React$Component) {
           title && image && _react2.default.createElement(
             'h4',
             null,
-            _react2.default.createElement('img', { src: __webpack_require__(11)("./" + image) }),
+            _react2.default.createElement('img', { src: __webpack_require__(12)("./" + image) }),
             title
           ),
           content && _react2.default.createElement(
@@ -924,7 +936,7 @@ var QuoteContainer = _styledComponents2.default.div(_templateObject);
 exports.default = Quote;
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -979,7 +991,7 @@ var EntryBox = _styledComponents2.default.div(_templateObject, medium('left: -34
 exports.default = Entry;
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1005,11 +1017,11 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _ui = __webpack_require__(2);
 
-var _Navbar = __webpack_require__(18);
+var _Navbar = __webpack_require__(19);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
-var _Footer = __webpack_require__(23);
+var _Footer = __webpack_require__(24);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -1093,7 +1105,7 @@ var Content = _styledComponents2.default.div(_templateObject);
 exports.default = Page;
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1107,7 +1119,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  height: 64px;\n  display: flex;\n  justify-content: flex-start;\n  ', ';\n  align-items: center;\n  padding: 0 20px;\n  position: fixed;\n  z-index: 5;\n  .brand {\n    display: flex;\n  }\n  a {\n    position: relative;\n    &:focus {\n      outline: 0;\n      &:after {\n        content: \'\';\n        position: absolute;\n        top: 2px;\n        left: -5px;\n        right: -5px;\n        bottom: 0;\n        outline: 2px solid #22e0ff;\n      }\n    }\n    &:active:after {\n      display: none;\n    }\n  }\n  ', ';\n'], ['\n  width: 100%;\n  height: 64px;\n  display: flex;\n  justify-content: flex-start;\n  ', ';\n  align-items: center;\n  padding: 0 20px;\n  position: fixed;\n  z-index: 5;\n  .brand {\n    display: flex;\n  }\n  a {\n    position: relative;\n    &:focus {\n      outline: 0;\n      &:after {\n        content: \'\';\n        position: absolute;\n        top: 2px;\n        left: -5px;\n        right: -5px;\n        bottom: 0;\n        outline: 2px solid #22e0ff;\n      }\n    }\n    &:active:after {\n      display: none;\n    }\n  }\n  ', ';\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  ul {\n    display: flex;\n    height: 100%;\n  }\n  li {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 185px;\n  }\n  li.logo {\n    width: 100px;\n  }\n  button {\n    margin: 0 0 0 10px;\n  }\n  height: 64px;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  ', ';\n'], ['\n  ul {\n    display: flex;\n    height: 100%;\n  }\n  li {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 185px;\n  }\n  li.logo {\n    width: 100px;\n  }\n  button {\n    margin: 0 0 0 10px;\n  }\n  height: 64px;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  ', ';\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 148px;\n  height: 100%;\n  img {\n    height: 44px;\n  }\n'], ['\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 148px;\n  height: 100%;\n  img {\n    height: 44px;\n  }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 148px;\n  height: 100%;\n  img {\n    height: 62%;\n  }\n'], ['\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 148px;\n  height: 100%;\n  img {\n    height: 62%;\n  }\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n  margin: 0 !important;\n  position: relative;\n  top: 4px;\n  height: 44px;\n'], ['\n  margin: 0 !important;\n  position: relative;\n  top: 4px;\n  height: 44px;\n']);
 
 var _react = __webpack_require__(0);
@@ -1122,17 +1134,17 @@ var _reactStatic = __webpack_require__(4);
 
 var _ui = __webpack_require__(2);
 
-var _MenuItem = __webpack_require__(19);
+var _MenuItem = __webpack_require__(20);
 
 var _MenuItem2 = _interopRequireDefault(_MenuItem);
 
-var _MenuPanel = __webpack_require__(20);
+var _MenuPanel = __webpack_require__(21);
 
 var _MenuPanel2 = _interopRequireDefault(_MenuPanel);
 
 var _reactSpring = __webpack_require__(69);
 
-var _logo = __webpack_require__(12);
+var _logo = __webpack_require__(13);
 
 var _logo2 = _interopRequireDefault(_logo);
 
@@ -1299,7 +1311,7 @@ var _initialiseProps = function _initialiseProps() {
               _react2.default.createElement(
                 LogoLink,
                 { to: '/' },
-                _react2.default.createElement('img', { src: _logo2.default, style: { height: _this2.state.image + 'px' } })
+                _react2.default.createElement('img', { src: _logo2.default })
               )
             ),
             _react2.default.createElement(
@@ -1359,7 +1371,7 @@ var MobileLogo = _styledComponents2.default.img(_templateObject4);
 exports.default = Navbar;
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1430,7 +1442,7 @@ MenuItem.defaultProps = {
 exports.default = MenuItem;
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1461,11 +1473,11 @@ var _reactStatic = __webpack_require__(4);
 
 var _ui = __webpack_require__(2);
 
-var _SidePanel = __webpack_require__(21);
+var _SidePanel = __webpack_require__(22);
 
 var _SidePanel2 = _interopRequireDefault(_SidePanel);
 
-var _menu = __webpack_require__(22);
+var _menu = __webpack_require__(23);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -1559,7 +1571,7 @@ var Pannel = _styledComponents2.default.div(_templateObject2);
 exports.default = Panel;
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1596,7 +1608,7 @@ var _reactSpring = __webpack_require__(69);
 
 var _ui = __webpack_require__(2);
 
-var _logo = __webpack_require__(12);
+var _logo = __webpack_require__(13);
 
 var _logo2 = _interopRequireDefault(_logo);
 
@@ -1763,13 +1775,13 @@ var LogoImg = _styledComponents2.default.img(_templateObject8);
 exports.default = SidePanel;
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxwYXRoIGQ9Ik0yIDE5di0yLjM1MmgyMFYxOUgyem0wLTUuODUydi0yLjI5NmgyMHYyLjI5Nkgyek0yIDVoMjB2Mi4zNTJIMlY1eiIgZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPg=="
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1803,15 +1815,15 @@ var _Section = __webpack_require__(3);
 
 var _Section2 = _interopRequireDefault(_Section);
 
-var _logoFooter = __webpack_require__(24);
+var _logoFooter = __webpack_require__(25);
 
 var _logoFooter2 = _interopRequireDefault(_logoFooter);
 
-var _twitter = __webpack_require__(25);
+var _twitter = __webpack_require__(26);
 
 var _twitter2 = _interopRequireDefault(_twitter);
 
-var _ghost = __webpack_require__(26);
+var _ghost = __webpack_require__(27);
 
 var _ghost2 = _interopRequireDefault(_ghost);
 
@@ -1819,11 +1831,11 @@ var _forum = __webpack_require__(70);
 
 var _forum2 = _interopRequireDefault(_forum);
 
-var _rocket = __webpack_require__(27);
+var _rocket = __webpack_require__(28);
 
 var _rocket2 = _interopRequireDefault(_rocket);
 
-var _youtube = __webpack_require__(28);
+var _youtube = __webpack_require__(29);
 
 var _youtube2 = _interopRequireDefault(_youtube);
 
@@ -2028,37 +2040,37 @@ var LogoImg = _styledComponents2.default.img(_templateObject7);
 exports.default = Footer;
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDM3MC4xIDMzMS4zIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNzAuMSAzMzEuMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOnVybCgjU1ZHSURfMV8pO30KCS5zdDF7ZmlsbDp1cmwoI1NWR0lEXzJfKTt9Cgkuc3Qye2ZpbGw6dXJsKCNTVkdJRF8zXyk7fQoJLnN0M3tmaWxsOiMyMDIwMUU7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNF8pO30KCS5zdDV7ZmlsbDojMzUzNTM0O30KCS5zdDZ7ZmlsbDojMjgyODI4O30KCS5zdDd7ZmlsbDp1cmwoI1NWR0lEXzVfKTtzdHJva2U6dXJsKCNTVkdJRF82Xyk7c3Ryb2tlLXdpZHRoOjg7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQo8L3N0eWxlPgo8Zz4KCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxOTgxLjk2MzYiIHkxPSIyNDQ0LjQ5NjEiIHgyPSIyMTYzLjI5NjkiIHkyPSIyNDQ0LjQ5NjEiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuMjk2NCAwLjk1NTEgLTAuOTU1MSAtMC4yOTY0IDMxNTQuNjgzNiAtMTE0NC4wOTMzKSI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjE5NyIgY3k9IjEzOS4xIiByPSI5MC43Ii8+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzJfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjI0NC42MDE2IiB5MT0iMTEzLjEzMTgiIHgyPSIzMjQuMzM2MiIgeTI9IjIyMi4xMTgxIj4KCQk8c3RvcCAgb2Zmc2V0PSIzLjkxOTY1NGUtMDIiIHN0eWxlPSJzdG9wLWNvbG9yOiMyQ0Y0RTEiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNCMkUxIi8+Cgk8L2xpbmVhckdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTI2MC43LDExMS45YzYuNSw4LjgsOS45LDE5LjIsOS45LDMwYzAsMTMuMS01LjQsMjUuMi0xNC42LDM1bDUuNiwyMC45aDE3bDE3LjktMjAuM2w0LjgtMjkuN2wxLTE3LjcKCQlsLTE3LjctMjBMMjYwLjcsMTExLjl6Ii8+Cgk8Zz4KCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjExMS40NTU4IiB5MT0iMTI2Ljc0MTkiIHgyPSIyMjQuMTIyNCIgeTI9IjI4MC43NDE5Ij4KCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzJDRTVFMSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNCMkUxIi8+CgkJPC9saW5lYXJHcmFkaWVudD4KCQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNjMuNywyMDAuMmwzLjEsMTIuM2MwLDAsMzYuNiw3NS4xLDExOSwxMDNjMCwwLDc3LjItMzIsMTEwLjUtODYuM2wtNDguMi00MC4xYzAsMC0yMiwxNy41LTU0LjcsMTcuNQoJCQljLTMyLjcsMC03Ny4xLTE5LjUtNzcuMS01OS43YzAtNDAuMiw0Ni01NC45LDQ2LTU0LjlsLTE5LjYtNC44SDkyLjZsLTMxLjgsNzYuNkw2My43LDIwMC4yeiIvPgoJPC9nPgoJPHBhdGggY2xhc3M9InN0MyIgZD0iTTMwNS40LDIyOC4xIi8+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzRfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE4Ni40NzM4IiB5MT0iMjMzLjcyNjciIHgyPSIxODYuNDczOCIgeTI9IjM2LjUiPgoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiLz4KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMEQwRDBEIi8+Cgk8L2xpbmVhckdyYWRpZW50PgoJPHBhdGggY2xhc3M9InN0NCIgZD0iTTM0MC42LDExOS41Yy0xLjQtMS40LTQyLTQ0LjQtMTUzLjMtODIuN2wtMC43LTAuM2MtMTA3LjgsMzctMTU0LjIsODMtMTU0LjIsODNjNC4yLDI0LjUsMTQuOCw1MS44LDI0LjQsNzMKCQljMC44LDEuOCwxMy42LDI0LjQsMjMuMSwzNi43Yy01LjYtMTIuMy0xMS43LTIzLTExLjctNDEuNGMwLTUxLjksNDAuMi05NC4xLDkwLjUtOTUuOWMxLjIsMCwyLjUsMCwzLjcsMC4xbC0xMi0xMgoJCWMwLDAsNDguMy04LjEsMTEwLjMsMjkuNGMwLDAsMC45LDEuOSwwLDcuNWMwLDAsMjkuMiwxMi42LDMxLjcsMzcuMXMtMTMsMzguNS0yNS41LDQwLjVjMCwwLDYuNS0xMC4xLTMuNS0xNS41CgkJYy0yLjEtMS4yLTQuNi0xLjctNy4xLTEuNnYwYy0xOS4xLDAtMjEuMywyMS44LTIxLjMsMjEuOGMtMC4yLDEuMS0wLjIsMi4yLTAuMiwzLjNjMCwwLTMuMiwzMS45LDUzLjYsMzEuMwoJCWMwLDAsMjguOC0zMi42LDM2LjQtNjEuOWMyLjgtMTAuOCw0LjgtMTguOSw2LjEtMjQuOWMzLjItOC41LDYuMy0xNy4zLDkuMy0yNi40TDM0MC42LDExOS41eiIvPgoJPHBhdGggY2xhc3M9InN0NSIgZD0iTTIzNi42LDExNiIvPgoJPHBhdGggY2xhc3M9InN0NiIgZD0iTTIzNiwxMTkuMWMwLjgtMC40LDMuNC0xLjcsNi40LTQuOGM2LDAuOCwxMS45LDIuNywxMS45LDIuN2MtMTAuOS02LjYtMjUuOC0xMC41LTQyLjMtMTAuNAoJCWMwLDAsNi4zLDksMjMuOCwxMi43QzIzNS44LDExOS4zLDIzNS45LDExOS4yLDIzNiwxMTkuMXoiLz4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDYiIGQ9Ik0xODYuMSw0MS4zYzEwLjYsMy4zLDg3LjYsMjguOSwxNDkuMiw3OS44bDYuOS0ybC0wLjUtMC40Yy02MC4yLTUxLTEzNi4zLTc3LjUtMTUyLjEtODIuNmwtMS41LTAuNWwtMi0wLjYKCQkJbC0zLjUsMS4xYy0xNS44LDUuMS05MS45LDMxLjYtMTUyLjEsODIuNmwtMC43LDAuNmw2LjcsMi4yQzk4LjEsNzAuMywxNzUuNSw0NC42LDE4Ni4xLDQxLjN6Ii8+Cgk8L2c+Cgk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzVfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE4Ni4wNTciIHkxPSIyNDguNzk1NSIgeDI9IjE4Ni4wNTciIHkyPSItMTYuOTcyOCI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNl8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjQuODQxNSIgeTE9IjE2OC44NjE2IiB4Mj0iMzQ3LjI3MjYiIHkyPSIxNjguODYxNiI+CgkJPHN0b3AgIG9mZnNldD0iMy45MTk2NTRlLTAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMkNGNEUxIi8+CgkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzJDQjJFMSIvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxwYXRoIGNsYXNzPSJzdDciIGQ9Ik0zNDEuNywxMDkuMmMtNjAuMi01MS0xMzYuMy03Ny41LTE1Mi4xLTgyLjZsLTEuNS0wLjVsLTItMC42bC0zLjUsMS4xYy0xNS44LDUuMS05MS45LDMxLjYtMTUyLjEsODIuNgoJCWwtMS4zLDEuMWwwLjMsMS43YzAuMSwwLjQsNi42LDM5LjEsMjguOCw4Mi44YzEzLjEsMjUuNywyOSw0OCw0Ny4yLDY2LjVjMjIuMywyMi42LDQ4LjMsMzkuMyw3Ny4yLDQ5LjdsMS43LDAuNmwxLjcsMC42bDEuOC0wLjcKCQlsMS43LTAuNmMyOC45LTEwLjQsNTQuOC0yNy4xLDc3LjItNDkuN2MxOC4yLTE4LjQsMzQuMS00MC44LDQ3LjItNjYuNWMyMi4yLTQzLjYsMjguOC04Mi40LDI4LjgtODIuOGwwLjMtMS43TDM0MS43LDEwOS4yegoJCSBNMzA4LjUsMTkyYy0xMi44LDI1LjEtMjguMyw0Ny00Ni4xLDY1Yy0yMi4xLDIyLjMtNDcuNywzOC43LTc2LjMsNDguOGMtMjguNi0xMC4xLTU0LjItMjYuNC03Ni4zLTQ4LjcKCQljLTE3LjgtMTgtMzMuMy0zOS44LTQ2LjEtNjQuOWMtMTkuMy0zNy44LTI2LjUtNzEuNy0yOC03OS41Qzk3LjQsNjEsMTc1LjQsMzUuMiwxODYuMSwzMS44YzEwLjYsMy40LDg4LjcsMjkuMiwxNTAuNCw4MC45CgkJQzMzNSwxMjAuNCwzMjcuNywxNTQuMywzMDguNSwxOTJ6Ii8+CjwvZz4KPC9zdmc+Cg=="
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyMCAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS42NDE0IDEuODc5NzRDMTkuMTk4IDIuMDY4OCAxOC43Mzc2IDIuMjE3OTQgMTguMjY1MyAyLjMyNTkyQzE4Ljc4NTggMS44NTA0MSAxOS4xNzcxIDEuMjU1NjUgMTkuMzk3OSAwLjU5MTc5MVYwLjU5MTc5MUMxOS40NjA5IDAuNDAyMjcxIDE5LjI0NjggMC4yMzgzODggMTkuMDY4OCAwLjMzOTg2MlYwLjMzOTg2MkMxOC40MTE3IDAuNzE0NTk4IDE3LjcwMzggMC45OTU3MjEgMTYuOTY0OSAxLjE3NTUxQzE2LjkyMiAxLjE4NTk0IDE2Ljg3NzggMS4xOTEyMyAxNi44MzM0IDEuMTkxMjNDMTYuNjk4OCAxLjE5MTIzIDE2LjU2OCAxLjE0MzE4IDE2LjQ2NSAxLjA1NTk4QzE1LjY3ODkgMC4zODk4MjYgMTQuNjY3NyAwLjAyMjk0OTIgMTMuNjE3OSAwLjAyMjk0OTJDMTMuMTYzNyAwLjAyMjk0OTIgMTIuNzA1IDAuMDkxMDE5NCAxMi4yNTQ3IDAuMjI1Mjg4QzEwLjg1OTUgMC42NDEzMzUgOS43ODI5NSAxLjc0NzgxIDkuNDQ1MTkgMy4xMTI5NkM5LjMxODQ3IDMuNjI1MDEgOS4yODQxNyA0LjEzNzUyIDkuMzQzMTUgNC42MzYyNEM5LjM0OTkxIDQuNjkzNTUgOS4zMjE3MyA0LjczMzU1IDkuMzA0MzYgNC43NTIzMUM5LjI3Mzg1IDQuNzg1MTkgOS4yMzA1OSA0LjgwNDA1IDkuMTg1NjggNC44MDQwNUM5LjE4MDY2IDQuODA0MDUgOS4xNzU1MSA0LjgwMzgxIDkuMTcwNCA0LjgwMzM1QzYuMTE2MjggNC41MzA1NSAzLjM2MjIyIDMuMTE1OTYgMS40MTU1MSAwLjgyMDE4OVYwLjgyMDE4OUMxLjMxNjI0IDAuNzAzMDkgMS4xMjU4NyAwLjcxNzQ1MiAxLjA0Njc1IDAuODQ3OTMyVjAuODQ3OTMyQzAuNjY1NTMgMS40NzY3IDAuNDY0MDcxIDIuMTk1ODYgMC40NjQwNzEgMi45Mjc2NUMwLjQ2NDA3MSA0LjA0OTE1IDAuOTMyNzMyIDUuMTA2MDQgMS43NDY4IDUuODc2NTJDMS40MDQ0NiA1Ljc5ODQ4IDEuMDczMTIgNS42NzU1OCAwLjc2NTMzNiA1LjUxMTIzVjUuNTExMjNDMC42MTY0MzEgNS40MzE3IDAuNDMzMjE5IDUuNTMzOTIgMC40MzExMjcgNS42OTc2NlY1LjY5NzY2QzAuNDA5ODEzIDcuMzYzNzIgMS40MjQ0MSA4Ljg0NjIgMi45NDQzMSA5LjUxMzc2QzIuOTEzNzEgOS41MTQ0NiAyLjg4MzEgOS41MTQ3OSAyLjg1MjQ0IDkuNTE0NzlDMi42MTE1MiA5LjUxNDc5IDIuMzY3NTcgOS40OTI0MiAyLjEyNzQ4IDkuNDQ4MzFWOS40NDgzMUMxLjk1OTc5IDkuNDE3NTIgMS44MTg5MSA5LjU3MDQ2IDEuODcwOTggOS43MjY3NlY5LjcyNjc2QzIuMzY0MzEgMTEuMjA3NSAzLjY5MDQ1IDEyLjI5OSA1LjI3NzQgMTIuNTQ2OEMzLjk2MDMyIDEzLjM5NjggMi40MjY1NSAxMy44NDUyIDAuODMwMjAyIDEzLjg0NTJMMC4zMzI1MzggMTMuODQ0OUMwLjE3OTIwNCAxMy44NDQ5IDAuMDQ5NTIwNyAxMy45NDEgMC4wMTA0NDUzIDE0LjA4MzhDLTAuMDI4MDQ2MiAxNC4yMjQ0IDAuMDQyODU0IDE0LjM3MjggMC4xNzM2MDggMTQuNDQ1OUMxLjk3MjQ0IDE1LjQ1MjMgNC4wMjQyNyAxNS45ODQzIDYuMTA4MTYgMTUuOTg0M0M3LjkzMjI1IDE1Ljk4NDMgOS42Mzg1MiAxNS42MzYyIDExLjE3OTYgMTQuOTQ5OUMxMi41OTI0IDE0LjMyMDcgMTMuODQwOSAxMy40MjEzIDE0Ljg5MDMgMTIuMjc2N0MxNS44NjggMTEuMjEwNCAxNi42MzI0IDkuOTc5NDQgMTcuMTYyNSA4LjYxODEzQzE3LjY2NzcgNy4zMjA0OSAxNy45MzQ4IDUuOTM1ODkgMTcuOTM0OCA0LjYxMzk3VjQuNTUxQzE3LjkzNDcgNC4zMzg3NCAxOC4wMzQ2IDQuMTM5MDIgMTguMjA4OCA0LjAwMzA3QzE4Ljg2OTkgMy40ODcwNCAxOS40NDU1IDIuODc5NiAxOS45MTk3IDIuMTk3NjRWMi4xOTc2NEMyMC4wNDQ5IDIuMDE3NTcgMTkuODQ3NSAxLjc5MTg4IDE5LjY0MTQgMS44Nzk3NFYxLjg3OTc0WiIgZmlsbD0iIzdGODE5OCIvPgo8L3N2Zz4K"
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxNiAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjkuNzc3NzgiIGhlaWdodD0iMy40IiByeD0iMSIgZmlsbD0iIzdGODE5OCIvPgo8cmVjdCB5PSI2LjgwMDA1IiB3aWR0aD0iMTYiIGhlaWdodD0iMy40IiByeD0iMSIgZmlsbD0iIzdGODE5OCIvPgo8cmVjdCB5PSIxMy42MDAxIiB3aWR0aD0iNi4yMjIyMiIgaGVpZ2h0PSIzLjQiIHJ4PSIxIiBmaWxsPSIjN0Y4MTk4Ii8+CjxyZWN0IHg9IjkuNzc3ODMiIHk9IjEzLjYwMDEiIHdpZHRoPSI2LjIyMjIyIiBoZWlnaHQ9IjMuNCIgcng9IjEiIGZpbGw9IiM3RjgxOTgiLz4KPHJlY3QgeD0iMTIuNDQ0MyIgd2lkdGg9IjMuNTU1NTYiIGhlaWdodD0iMy40IiByeD0iMSIgZmlsbD0iIzdGODE5OCIvPgo8L3N2Zz4K"
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjNweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjMgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzICg3MjUyMCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+cm9ja2V0LWNoYXQ8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iSG9tZUAyeCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEwNDMuMDAwMDAwLCAtMjM4Mi4wMDAwMDApIiBmaWxsPSIjN0Y4MTk2IiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8ZyBpZD0icm9ja2V0LWNoYXQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNDMuMDAwMDAwLCAyMzgyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwIj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTEuNDA1MzgxNCwyLjI3MDIwMTQzIEMxMC40MTkzMDY4LDIuMjcwMjAxNDMgOS40NTIxNjc3NiwyLjM1OTg5NjA0IDguNTI0MjU3MzEsMi41MzM1NDEyNiBDNy4zODM4NDA2NCwwLjk4MDYwMjEyMyA1LjYyMTQ4MjQ2LDAuMDY4OTI3ODc1MiAzLjcwODM1NDksMC4wNjg5Mjc4NzUyIEMyLjIyMjAyNjEzLDAuMDY4OTI3ODc1MiAxLjM4MDU3NTg0LDAuNTQ3ODE0NTk4IDAuMDYwNTIyMTEyNiwxLjE0ODcyNDI4IEwxLjA4MzUzODc0LDIuMDA4MTg3MTMgQzIuMDQ0NDYxMjYsMi44MTU1MTIyNCAyLjYyNTEwMTk3LDMuOTgxMzIxMiAyLjcwNjA2MDEyLDUuMjQyODYzMzMgQzEuMjMyMDkzMDIsNi41NzM5OTYxIDAuNDM0NTE1ODk5LDguMjA2MzkzNzYgMC40MzQ1MTU4OTksOS45NDEyOTk1NSBDMC40MzQ1MTU4OTksMTEuNjc2OTQxNyAxLjI1OTY3NDUyLDEzLjM1MDY1MTkgMi43Njc4Njg0MiwxNC42OTMzNDYzIEMyLjY3NDE5MTM0LDE1LjkzNDQxNjMgMi4wOTU2MjI4MSwxNy4wNzg1MDEyIDEuMTQ4Mjc2NjgsMTcuODc0NDEyIEwwLjEyNTI2MDA1MSwxOC43MzM4MDEyIEwxLjMzMjU1ODMsMTkuMjgzMzgzMSBDMy44MjEzMjQ3NCwyMC40MTY0MjE5IDYuODQ0MDcyLDE5LjcxNjgzMzQgOC41ODI0OTI4NywxNy4zNTg0ODM5IEM5LjQ5OTk3MDk0LDE3LjUyNzA0NzkgMTAuNDQ3MDMxMywxNy42MTIzMjQgMTEuNDA1MzA5OSwxNy42MTIzMjQgQzE3LjM1MDkxMDgsMTcuNjEyMzI0IDIyLjM3NjE3NTQsMTQuMzA5MDg4MiAyMi4zNzYxNzU0LDkuOTQxMjI1OSBDMjIuMzc2MTc1NCw1LjU3MDcxMjU4IDE3LjM0NzEyMzcsMi4yNzAyMDE0MyAxMS40MDUzODE0LDIuMjcwMjAxNDMgWiBNMTguMTQ4NTU5NCwxNC4wNzc4NTU4IEMxNi4zNTkyNjI4LDE1LjI4MTgxMDcgMTMuOTY0NDU5MiwxNS45NDQ3OTk3IDExLjQwNTM4MTQsMTUuOTQ0Nzk5NyBDOS43MDEzMzAyMywxNS45NDQ3OTk3IDguNTY0OTE1MDIsMTUuNjU5MTQ2NiA3LjgzMzI5MDU3LDE1LjQ5NjYyMTIgTDcuNTMyMjUyMDEsMTUuOTkzNjk3MiBDNi41OTYxOTU3MiwxNy41Mzk1NjY4IDQuODk5MTQ3MTEsMTguMzQ3MzMzOCAzLjE2OTMwMDgsMTguMTA0MDI0MyBDNC4wMzIxMTYwNSwxNi45MzYxNTMzIDQuNDMzNjE5ODgsMTUuNDkzNzQ5MiA0LjM5ODgyMTQ1LDE0LjI5ODQ4MzkgTDQuMzk1OTYzMjcsMTMuOTAzMTA1OSBMNC4wODkzNTEyNCwxMy42NTUxNTcgQzMuMTYwMTU0NjEsMTIuOTAzNjUxNyAyLjA1MjUzNTY0LDExLjY0OTMyNjQgMi4wNTI1MzU2NCw5Ljk0MTM3MzE5IEMyLjA1MjUzNTY0LDguNDA2MTgxNSAyLjk3OTMwMjgxLDYuOTM3MTE5MzQgNC42NjIwNjA0OSw1LjgwNDgxNjk4IEM2LjQ1MTM1NzA5LDQuNjAwODYyMDMgOC44NDYxNjA2NCwzLjkzNzg3MzA4IDExLjQwNTIzODUsMy45Mzc4NzMwOCBDMTMuOTY0MzE2MywzLjkzNzg3MzA4IDE2LjM1OTA0ODQsNC42MDA5MzU2NyAxOC4xNDg0MTY1LDUuODA0ODE2OTggQzE5LjgzMTI0NTYsNi45MzcxMTkzNCAyMC43NTc5NDEzLDguNDA2MTA3ODYgMjAuNzU3OTQxMyw5Ljk0MTM3MzE5IEMyMC43NTc5NDEzLDExLjQ3NjYzODUgMTkuODMxMzE3MSwxMi45NDU1NTM0IDE4LjE0ODU1OTQsMTQuMDc3ODU1OCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjExLjI0MzMyMjIiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjYuOTU2Njg0NTgiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBpZD0iT3ZhbCIgY3g9IjE1LjU2NTExNTUiIGN5PSI5Ljk3NDQzNzk1IiByeD0iMS4yNjIxMDM5OCIgcnk9IjEuMzAwNzE5MDgiPjwvZWxsaXBzZT4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjJweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMjIgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzLjEgKDcyNjMxKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Db21iaW5lZCBTaGFwZSAyPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IlByb2plY3QtLS1Sb2FkbWFwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTAzMi4wMDAwMDAsIC0zNTA0LjAwMDAwMCkiIGZpbGw9IiM3RjgxOTYiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJ5b3V0dWJlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDMyLjAwMDAwMCwgMzQ5My4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJDb21iaW5lZC1TaGFwZS0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMTAuMDMyNTMzKSI+CiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTIxLjc3MjM5NDUsNC40MjIwMDc0NCBDMjEuNzcyMzk0NSw0LjQyMjAwNzQ0IDIyLDYuMjc2NTY0NjkgMjIsOC4xMzEwODA3NSBMMjIsOS44NDAxODQ5NSBDMjIsMTEuNjU4MzY4NiAyMS43NzIzOTQ1LDEzLjUxMjkyNTkgMjEuNzcyMzk0NSwxMy41MTI5MjU5IEMyMS43NzIzOTQ1LDEzLjUxMjkyNTkgMjEuNTQ0ODMyLDE1LjA3NjU3NyAyMC45LDE1Ljc2NzQ2ODcgQzIwLjA2NTUwMzksMTYuNjQwMTg3IDE5LjExNzIyNjYsMTYuNjc2NTYwNiAxOC43LDE2LjcxMjkzNDEgQzE1LjYyNzYwNTUsMTYuOTY3NDY2NyAxMSwxNi45Njc0NjY3IDExLDE2Ljk2NzQ2NjcgQzExLDE2Ljk2NzQ2NjcgNS4yNzIzOTQ1MywxNi45MzEwOTMxIDMuNTI3NjA1NDcsMTYuNzQ5MzQ4OSBDMy4wMzQ0OTYwOSwxNi42NDAyMjgyIDEuOTM0NDk2MDksMTYuNjc2NjAxOCAxLjEsMTUuNzY3NTA5OSBDMC40NTUyMTA5MzcsMTUuMDc2NjE4MiAwLjIyNzYwNTQ2OSwxMy41MTI5NjcxIDAuMjI3NjA1NDY5LDEzLjUxMjk2NzEgQzAuMjI3NjA1NDY5LDEzLjUxMjk2NzEgMCwxMS42OTQ3ODM0IDAsOS44NDAyMjYxNCBMMCw4LjEzMTEyMTk0IEMwLDYuMjc2NTY0NjkgMC4yMjc2MDU0NjksNC40MjIwMDc0NCAwLjIyNzYwNTQ2OSw0LjQyMjAwNzQ0IEMwLjIyNzYwNTQ2OSw0LjQyMjAwNzQ0IDAuNDE3MjI2NTYzLDIuODU4Mzk3NDggMS4xLDIuMTY3NDY0NjEgQzEuOTM0NDk2MDksMS4yOTQ3NDYzMiAyLjg4Mjc3MzQ0LDEuMjU4MzcyNzYgMy4zLDEuMjIxOTk5MiBDNi4zNzIzOTQ1MywxLjAwMzg0MDIzIDExLDAuOTY3NDY2NjY3IDExLDAuOTY3NDY2NjY3IEMxMSwwLjk2NzQ2NjY2NyAxNS42Mjc2MDU1LDEuMDAzODQwMjMgMTguNywxLjIyMTk5OTIgQzE5LjExNzIyNjYsMS4yNTgzNzI3NiAyMC4wNjU1MDM5LDEuMjU4MzcyNzYgMjAuOSwyLjE2NzQ2NDYxIEMyMS41NDQ3ODkxLDIuODU4MzU2MjggMjEuNzcyMzk0NSw0LjQyMjAwNzQ0IDIxLjc3MjM5NDUsNC40MjIwMDc0NCBaIE04LjM0NDgzMjAzLDUuMjk0NzI1NzMgTDguMzQ0ODMyMDMsMTMuMTg1NjQ2MiBMMTUuNTUxNzIyNyw5LjMzMTExOTg4IEw4LjM0NDgzMjAzLDUuMjk0NzI1NzMgWiIgaWQ9IkNvbWJpbmVkLVNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2084,7 +2096,7 @@ var _Section = __webpack_require__(3);
 
 var _Section2 = _interopRequireDefault(_Section);
 
-var _homeVideo = __webpack_require__(13);
+var _homeVideo = __webpack_require__(14);
 
 var _homeVideo2 = _interopRequireDefault(_homeVideo);
 
@@ -2148,7 +2160,7 @@ var Container = _styledComponents2.default.div(_templateObject3);
 exports.default = Hero;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2335,7 +2347,7 @@ var Container = _styledComponents2.default.div(_templateObject, medium('grid-tem
 exports.default = About;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2345,8 +2357,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .label {\n    display: flex\n    p{\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8FB5C8;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .label {\n    display: flex\n    p{\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8FB5C8;\n    }\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  grid-column-start: 1;\n  grid-column-end: 3;\n  grid-column-start: 1;\n  ', ';\n  height: auto;\n'], ['\n  grid-column-start: 1;\n  grid-column-end: 3;\n  grid-column-start: 1;\n  ', ';\n  height: auto;\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2370,7 +2381,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Fade = __webpack_require__(40);
+var _Fade = __webpack_require__(11);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -2419,122 +2430,91 @@ var Features = function Features() {
     _react2.default.createElement(
       Container,
       null,
-      _react2.default.createElement(
-        LongFade,
-        null,
-        _react2.default.createElement(
-          _Fade2.default,
+      _react2.default.createElement(_LongCard2.default, {
+        background: 'Bella/assets/background-1.png',
+        image: 'Bella/assets/1.svg',
+        textAlign: 'right',
+        label: 'new',
+        title: 'Call people by their name',
+        content: feature1
+      }),
+      _react2.default.createElement(_LongCard2.default, {
+        background: 'Bella/assets/background-2.png',
+        image: 'Bella/assets/2.svg',
+        label: 'new',
+        textAlign: 'left',
+        title: _react2.default.createElement(
+          'span',
           null,
-          _react2.default.createElement(_LongCard2.default, {
-            background: 'Bella/assets/background-1.png',
-            image: 'Bella/assets/1.svg',
-            textAlign: 'right',
-            label: 'new',
-            title: 'Call people by their name',
-            content: feature1
-          })
-        )
-      ),
-      _react2.default.createElement(
-        LongFade,
-        null,
-        _react2.default.createElement(
-          _Fade2.default,
-          null,
-          _react2.default.createElement(_LongCard2.default, {
-            background: 'Bella/assets/background-2.png',
-            image: 'Bella/assets/2.svg',
-            label: 'new',
-            textAlign: 'left',
-            title: _react2.default.createElement(
-              'span',
-              null,
-              'Get activity',
-              _react2.default.createElement('br', null),
-              ' notifications'
-            ),
-            content: feature2
-          })
-        )
-      ),
-      _react2.default.createElement(
-        LongFade,
-        null,
-        _react2.default.createElement(
-          _Fade2.default,
-          null,
-          _react2.default.createElement(_LongCard2.default, {
-            background: 'Bella/assets/background-3.png',
-            image: 'Bella/assets/3.svg',
-            textAlign: 'right',
-            label: 'invite-only',
-            title: 'The easiest payroll ever made',
-            content: feature3
-          })
-        )
-      )
+          'Get activity',
+          _react2.default.createElement('br', null),
+          ' notifications'
+        ),
+        content: feature2
+      }),
+      _react2.default.createElement(_LongCard2.default, {
+        background: 'Bella/assets/background-3.png',
+        image: 'Bella/assets/3.svg',
+        textAlign: 'right',
+        label: 'invite-only',
+        title: 'The easiest payroll ever made',
+        content: feature3
+      })
     )
   );
 };
 
 var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px 500px'));
-var LongFade = _styledComponents2.default.div(_templateObject2, medium('height: 500px '));
 
 exports.default = Features;
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/a436d3bf-hello.svg";
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDE0IiBoZWlnaHQ9IjgzIiB2aWV3Qm94PSIwIDAgNDE0IDgzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNODQuNTU4NiAwLjk2Njc5N1Y2LjEyMTA5SDEzNS4yNTJMOTUuMDM3MSA4MUgxMDEuMTU0TDE0MS41OTYgNC43NjE3MlYwLjk2Njc5N0g4NC41NTg2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTE4Mi41NjggODFIMjEyLjI0OEMyMjYuMjk1IDgxIDIzOC4xMzMgNzIuODQzOCAyMzguMTMzIDU4LjE3MzhDMjM4LjEzMyA0OS41MDc4IDIzMi40NjkgNDEuMDExNyAyMjQuNjUyIDM4LjM0OTZDMjI5LjY5MyAzNS45MTQxIDIzNC4yMjUgMjkuNzk2OSAyMzQuMjI1IDIyLjIwN0MyMzQuMjI1IDYuNzQ0MTQgMjIxLjcwNyAwLjk2Njc5NyAyMDkuMTMzIDAuOTY2Nzk3SDE4Mi41NjhWODFaTTE5NC43NDYgMzQuMTU4MlYxMS45NTUxSDIwOS4zNTlDMjE3LjQwMiAxMS45NTUxIDIyMy4wMSAxNS42MzY3IDIyMy4wMSAyMi44ODY3QzIyMy4wMSAzMS4yMTI5IDIxNy4yMzIgMzQuMTU4MiAyMTAuODg5IDM0LjE1ODJIMTk0Ljc0NlpNMTk0Ljc0NiA2OS4zODg3VjQ0LjY5MzRIMjEyLjcwMUMyMjEuMDI3IDQ0LjY5MzQgMjI2LjE4MiA0OS45NjA5IDIyNi4xODIgNTYuODE0NUMyMjYuMTgyIDY1LjI1MzkgMjIxLjI1NCA2OS4zODg3IDIxMi40MTggNjkuMzg4N0gxOTQuNzQ2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTI3NS4xMzkgODIuMDc2MkMyODQuNDg0IDgyLjA3NjIgMjkxLjYyMSA3OC45MDQzIDI5Ny44NTIgNzIuMTA3NEwyODkuODA5IDY1LjAyNzNDMjg1LjQ0NyA2OS43Mjg1IDI4MC44NTkgNzEuNDI3NyAyNzUuMTk1IDcxLjQyNzdDMjY1LjQ1MyA3MS40Mjc3IDI2MC41ODIgNjUuNTM3MSAyNTkuNTYyIDU2LjM2MTNIMjk5LjM4MUMyOTkuNjA3IDU1LjU2ODQgMjk5LjgzNCA1My4yNDYxIDI5OS44MzQgNTEuMDkzOEMyOTkuODM0IDM4LjkxNiAyOTMuNjA0IDIzLjMzOTggMjc0LjE3NiAyMy4zMzk4QzI1NS45MzggMjMuMzM5OCAyNDcuMjE1IDM3Ljc4MzIgMjQ3LjIxNSA1Mi45NjI5QzI0Ny4yMTUgNjguNDgyNCAyNTYuNDQ3IDgyLjA3NjIgMjc1LjEzOSA4Mi4wNzYyWk0yNTkuNTYyIDQ3Ljg2NTJDMjYwLjc1MiAzOS4zNjkxIDI2NS4yMjcgMzMuMTk1MyAyNzQuMDYyIDMzLjE5NTNDMjgxLjg3OSAzMy4xOTUzIDI4Ni44MDcgMzcuODk2NSAyODcuOTM5IDQ0LjI5NjlDMjg4LjIyMyA0NS40Mjk3IDI4OC4zMzYgNDYuNjE5MSAyODguMjc5IDQ3Ljg2NTJIMjU5LjU2MloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0zMTkuODUgODIuMDc2MkMzMjIuNzk1IDgyLjA3NjIgMzI2LjU5IDgxLjU2NjQgMzI5LjM2NSA4MUwzMjkuMzA5IDcxLjE0NDVDMzI3Ljc3OSA3MS4zNzExIDMyNi4xOTMgNzEuNTQxIDMyNS4yMyA3MS41NDFDMzIxLjQ5MiA3MS41NDEgMzIwLjEzMyA2OS41NTg2IDMyMC4xMzMgNjYuMzMwMVYwLjk2Njc5N0gzMDguNDY1VjY5LjUwMkMzMDguNDY1IDc4Ljg0NzcgMzEyLjgyNiA4Mi4wNzYyIDMxOS44NSA4Mi4wNzYyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTM0OS45MDggODIuMDc2MkMzNTIuODU0IDgyLjA3NjIgMzU2LjY0OCA4MS41NjY0IDM1OS40MjQgODFMMzU5LjM2NyA3MS4xNDQ1QzM1Ny44MzggNzEuMzcxMSAzNTYuMjUyIDcxLjU0MSAzNTUuMjg5IDcxLjU0MUMzNTEuNTUxIDcxLjU0MSAzNTAuMTkxIDY5LjU1ODYgMzUwLjE5MSA2Ni4zMzAxVjAuOTY2Nzk3SDMzOC41MjNWNjkuNTAyQzMzOC41MjMgNzguODQ3NyAzNDIuODg1IDgyLjA3NjIgMzQ5LjkwOCA4Mi4wNzYyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTM4OS44NTkgMjMuMzM5OEMzNzkuMDk4IDIzLjMzOTggMzcyLjA3NCAyNy45ODQ0IDM2Ni42MzcgMzUuNTE3NkwzNzUuNTg2IDQxLjk3NDZDMzc4LjQ3NSAzNy4yNzM0IDM4My4xMTkgMzMuNTkxOCAzODkuOTE2IDMzLjU5MThDMzk5LjgyOCAzMy41OTE4IDQwMi44MyAzNy44OTY1IDQwMy4wNTcgNDcuNjM4N0gzODcuMzExQzM3NC4wNTcgNDcuNjM4NyAzNjQuNDI4IDUxLjg4NjcgMzY0LjQyOCA2My45NTEyQzM2NC40MjggNzUuNDQ5MiAzNzMuMDM3IDgyLjA3NjIgMzg0LjY0OCA4Mi4wNzYyQzM5MS43MjkgODIuMDc2MiAzOTkuNDMyIDc4Ljc5MSA0MDMuMjI3IDcyLjE2NDFMNDA0LjAyIDgxSDQxMy43MDVWNDYuNTYyNUM0MTMuNzA1IDMyLjYyODkgNDA0Ljk4MiAyMy4zMzk4IDM4OS44NTkgMjMuMzM5OFpNMzg2Ljk3MSA3Mi4xMDc0QzM4MC4wMDQgNzIuMTA3NCAzNzYuNDM2IDY4LjkzNTUgMzc2LjQzNiA2NC4yOTFDMzc2LjQzNiA1OS42NDY1IDM4MC4xMTcgNTYuMTM0OCAzODcuOTkgNTYuMTM0OEg0MDMuMDU3VjU3Ljg5MDZDNDAxLjg2NyA2NS41MzcxIDM5Ni4xNDYgNzIuMTA3NCAzODYuOTcxIDcyLjEwNzRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMjkuNTA5OCA4MS43OTNDNDguODgwOSA4MS43OTMgNTcuMDkzOCA2MS40MDIzIDU3LjA5MzggNDEuMTgxNkM1Ny4wOTM4IDIwLjczNDQgNDguNzEwOSAwLjA2MDU0NjkgMjguNzE2OCAwLjA2MDU0NjlDNi42ODM1OSAwLjA2MDU0NjkgMC45NjI4OTEgMjMuMjgzMiAwLjk2Mjg5MSA0MC45NTUxQzAuOTYyODkxIDU4LjQ1NyA2Ljg1MzUyIDgxLjc5MyAyOS41MDk4IDgxLjc5M1pNMjkuMzk2NSA3Ni40Njg4QzExLjIxNDggNzYuNDY4OCA2LjQ1NzAzIDU2LjkyNzcgNi40NTcwMyA0MC45NTUxQzYuNDU3MDMgMjQuODY5MSAxMS4xNTgyIDUuNDQxNDEgMjguNzE2OCA1LjQ0MTQxQzQ1LjA4NTkgNS40NDE0MSA1MS4zNzMgMjMuMTY5OSA1MS4zNzMgNDEuMDY4NEM1MS4zNzMgNTguNzQwMiA0NS4xOTkyIDc2LjQ2ODggMjkuMzk2NSA3Ni40Njg4WiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iNzAuNSIgY3k9Ijc3LjUiIHI9IjMuNSIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=="
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+CjxwYXRoIGQ9Ik0yMC41MjQ0IDUuNTAwNzhDMTcuNDg3MyAwLjI0MDQ5IDEwLjc2MDcgLTEuNTYxOTMgNS41MDA4NCAxLjQ3NTY2QzAuMjQwNTQyIDQuNTEyMjYgLTEuNTYxOTUgMTEuMjM4NiAxLjQ3NTY0IDE2LjQ5ODdDNC41MTIyNCAyMS43NTkgMTEuMjM4NyAyMy41NjE3IDE2LjQ5ODYgMjAuNTI0NEMyMS43NTkgMTcuNDg2NyAyMy41NjIzIDEwLjc2MDcgMjAuNTI0NCA1LjUwMDc4Wk0xNS4zOTkgMTguNjE4OEMxMS4xOTE0IDIxLjA0OSA1LjgwOTgyIDE5LjYwNjkgMy4zODA0IDE1LjM5ODVDMC45NTA0MTQgMTEuMTkwOSAyLjM5MjkyIDUuODA5MzUgNi42MDA2NyAzLjM4MDQyQzEwLjgwODYgMC45NTA0MzIgMTYuMTg5OSAyLjM5MjMxIDE4LjYxOTUgNi42MDA2MkMyMS4wNDkxIDEwLjgwODkgMTkuNjA3IDE2LjE4OTMgMTUuMzk5IDE4LjYxODhaTTE0Ljk1OTIgMTAuNTUyOEw5LjIwMDI0IDcuMTk0MDdDOC42NzU0NCA2Ljg4NzY3IDguMjUyMTMgNy4xMzI2MyA4LjI1NTA4IDcuNzM5NjhMOC4yODQ1NyAxNC40MDY1QzguMjg3MjMgMTUuMDEzNCA4LjcxNTcxIDE1LjI2MDQgOS4yNDIwNiAxNC45NTY0TDE0Ljk1NyAxMS42NTY5QzE1LjQ4MjggMTEuMzUzNSAxNS40ODM5IDEwLjg1OTIgMTQuOTU5MiAxMC41NTI4WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMCI+CjxyZWN0IHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/37b0448a-unstoppable-org.svg";
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzE4cHgiIGhlaWdodD0iMjkycHgiIHZpZXdCb3g9IjAgMCAzMTggMjkyIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IHNrZXRjaHRvb2wgNTIuMiAoNjcxNDUpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPjE5Q0VBOTQ4LTdDMUUtNEUzNy1CNzk0LTgxOTY5MTc3MEVGNTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggc2tldGNodG9vbC48L2Rlc2M+CiAgICA8ZGVmcz4KICAgICAgICA8cmFkaWFsR3JhZGllbnQgY3g9IjUwJSIgY3k9IjkzLjk2OTY5MDglIiBmeD0iNTAlIiBmeT0iOTMuOTY5NjkwOCUiIHI9IjE3Ni4zMjEzNjMlIiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNTAwMDAwLDAuOTM5Njk3KSxzY2FsZSgwLjY2NDAzOCwxLjAwMDAwMCkscm90YXRlKC04OC45NzYxNDYpLHNjYWxlKDEuMDAwMDAwLDEuMTQxNDYwKSx0cmFuc2xhdGUoLTAuNTAwMDAwLC0wLjkzOTY5NykiIGlkPSJyYWRpYWxHcmFkaWVudC0xIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzEyMTMxNyIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMkQyRTM5IiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgICAgIDxwYXRoIGQ9Ik0zMDUuOTcwNjQyLDg1LjMzNDM5MjEgQzMwNC41ODUxNDUsODMuOTM4NTA2MiAyNzYuMDkxNzMsNDcuMTA0NTI2NyAxNjQuNDI0MzQzLDEuNjgyMzA0NTMgQzE2MC42NTAyNjYsMC4yMDA3MzEwMTUgMTU2Ljk5Nzc5OSwwLjA4OTMwODg1MTEgMTUzLjQ2NjkzOSwxLjM0ODAzODAzIEM1MS4xNTcwMDk2LDI3LjYzMjYwNjggMC45NjMyMzU1NTgsODEuODgwOTE1NiAwLjk2MzIzNTU1OCw4NS4zMzQzOTIxIEMwLjk2MzIzNTU1OCw4OC43ODc4Njg1IDE1LjYwOTkyNDgsMTQwLjY5MjQ2MiAyNS4xMTA0OCwxNjEuODMwMTYzIEMyNS45MDIxOTI5LDE2My42MjQ4NzQgMzguNTY5NTk5OCwxODYuMTU4NDYgNDcuOTcxMTkwOSwxOTguNDIyMzE1IEM0Mi40MjkyMDA0LDE4Ni4xNTg0NiAzNi4zOTIzODkyLDE3NS40ODk5MDQgMzYuMzkyMzg5MiwxNTcuMTQzOTc1IEMzNi4zOTIzODkyLDEwNS4zOTY0OTEgNzYuMTc1OTY0MSw2My4zMjA1MDE0IDEyNS45NTQ5MTUsNjEuNTI1NzkxIEMxMjcuMTQyNDg0LDYxLjUyNTc5MSAxMjguNDI5MDE4LDYxLjUyNTc5MSAxMjkuNjE2NTg3LDYxLjYyNTQ5NzEgTDExNy43NDA4OTMsNDkuNjYwNzYwOSBDMTE3Ljc0MDg5Myw0OS42NjA3NjA5IDE2NS41NDA1NjEsNDEuNTg0NTYzOSAyMjYuODk4MzEzLDc4Ljk3NDM2NDcgQzIyNi44OTgzMTMsNzguOTc0MzY0NyAyMjcuNzg4OTksODAuODY4NzgxMiAyMjYuODk4MzEzLDg2LjQ1MjMyNDggQzIyNi44OTgzMTMsODYuNDUyMzI0OCAyNTUuNzk1ODM1LDk5LjAxNTI5NzkgMjU4LjI2OTkzOCwxMjMuNDQzMzAxIEMyNjAuNzQ0MDQxLDE0Ny44NzEzMDQgMjQ1LjQwNDYwMywxNjEuODMwMTYzIDIzMy4wMzQwODksMTYzLjgyNDI4NiBDMjMzLjAzNDA4OSwxNjMuODI0Mjg2IDIzOS40NjY3NTYsMTUzLjc1Mzk2NiAyMjkuNTcwMzQ1LDE0OC4zNjk4MzUgQzIyNy40OTIwOTgsMTQ3LjE3MzM2MSAyMjUuMDE3OTk1LDE0Ni42NzQ4MzEgMjIyLjU0Mzg5MiwxNDYuNzc0NTM3IEMyMDMuNjQxNzQ2LDE0Ni43NzQ1MzcgMjAxLjQ2NDUzNSwxNjguNTEwNDc0IDIwMS40NjQ1MzUsMTY4LjUxMDQ3NCBDMjAxLjI2NjYwNywxNjkuNjA3MjQyIDIwMS4yNjY2MDcsMTcwLjcwNDAwOSAyMDEuMjY2NjA3LDE3MS44MDA3NzcgQzIwMS4yNjY2MDcsMTcxLjgwMDc3NyAxOTguMDk5NzU2LDIwMy42MDcwMzQgMjU0LjMxMTM3NCwyMDMuMDA4Nzk3IEMyNTQuMzExMzc0LDIwMy4wMDg3OTcgMjgyLjgxMzAzOSwxNzAuNTA0NTk3IDI5MC4zMzQzMTIsMTQxLjI5MDY5OSBDMjkzLjEwNTMwNywxMzAuNTIyNDM3IDI5NS4wODQ1OSwxMjIuNDQ2MjQgMjk2LjM3MTEyMywxMTYuNDYzODcyIEMyOTkuNTM3OTc1LDEwNy45ODg4NSAzMDIuNjA1ODYzLDk1LjUwNDQxNzkgMzA1LjU3NDc4Niw4Ni40MzExNTk2IEwzMDUuOTcwNjQyLDg1LjMzNDM5MjEgWiIgaWQ9InBhdGgtMiI+PC9wYXRoPgogICAgICAgIDxmaWx0ZXIgeD0iLTQuMyUiIHk9Ii0zLjklIiB3aWR0aD0iMTA4LjUlIiBoZWlnaHQ9IjExMi44JSIgZmlsdGVyVW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiBpZD0iZmlsdGVyLTQiPgogICAgICAgICAgICA8ZmVPZmZzZXQgZHg9IjAiIGR5PSI1IiBpbj0iU291cmNlQWxwaGEiIHJlc3VsdD0ic2hhZG93T2Zmc2V0T3V0ZXIxIj48L2ZlT2Zmc2V0PgogICAgICAgICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzLjUiIGluPSJzaGFkb3dPZmZzZXRPdXRlcjEiIHJlc3VsdD0ic2hhZG93Qmx1ck91dGVyMSI+PC9mZUdhdXNzaWFuQmx1cj4KICAgICAgICAgICAgPGZlQ29sb3JNYXRyaXggdmFsdWVzPSIwIDAgMCAwIDAgICAwIDAgMCAwIDAgICAwIDAgMCAwIDAgIDAgMCAwIDAuMDcyNjA1Mjk4OSAwIiB0eXBlPSJtYXRyaXgiIGluPSJzaGFkb3dCbHVyT3V0ZXIxIj48L2ZlQ29sb3JNYXRyaXg+CiAgICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iUHJvamVjdEAyeCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI3Ny4wMDAwMDAsIC0yMzM2LjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNjIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4MC4wMDAwMDAsIDIzMzYuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNjEiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC02MCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC01OSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNTgiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zMSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbGxpcHNlIGlkPSJPdmFsIiBmaWxsPSIjNEY1MjYyIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGN4PSIxNjYuMjU5NzE2IiBjeT0iMTEzLjM5MzY3MSIgcng9Ijg5Ljc2MDQ1MzYiIHJ5PSI5MC40MzM0NjQ4Ij48L2VsbGlwc2U+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMjkuMjk5ODU4LDg2LjI3MzYwMjQgQzIzNS43MzI1MjUsOTUuMDQ3NzQyMyAyMzkuMDk3MzA1LDEwNS40MTcxOCAyMzkuMDk3MzA1LDExNi4xODU0NDMgQzIzOS4wOTczMDUsMTI5LjI0Njk0NyAyMzMuNzUzMjQzLDE0MS4zMTEzODkgMjI0LjY0ODU0NCwxNTEuMDgyNTkgTDIzMC4xOTA1MzUsMTcxLjkyMTE3MyBMMjQ3LjAxNDQzNSwxNzEuOTIxMTczIEwyNjQuNzI5MDEyLDE1MS42ODA4MjcgTDI2OS40NzkyODksMTIyLjA2ODEwNSBMMjcwLjQ2ODkzLDEwNC40MjAxMTkgTDI1Mi45NTIyODIsODQuNDc4ODkyIEwyMjkuMjk5ODU4LDg2LjI3MzYwMjQgWiIgaWQ9IlNoYXBlIiBmaWxsPSIjNUU2MTc1IiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTM0LjM0MDU0ODQsMTc0LjMxNDEyIEwzNy40MDg0MzYsMTg2LjU3Nzk3NSBDMzcuNDA4NDM2LDE4Ni41Nzc5NzUgNzMuNjI5MzAyNiwyNjEuNDU3MjgyIDE1NS4xNzU3MzUsMjg5LjI3NTI5NCBDMTU1LjE3NTczNSwyODkuMjc1Mjk0IDIyOS4zNjUxMzIsMjU3LjM2OTMzMSAyNjIuMzIwMTgzLDIwMy4yMjg4OTkgTDIxNi44MzAzNzksMTYzLjI0NjczOSBDMjE2LjgzMDM3OSwxNjMuMjQ2NzM5IDE5NS4wNTgyNzQsMTgwLjY5NTMxMyAxNjIuNjk3MDA3LDE4MC42OTUzMTMgQzEzMC4zMzU3NDEsMTgwLjY5NTMxMyA4Ni4zOTU2NzM3LDE2MS4yNTI2MTYgODYuMzk1NjczNywxMjEuMTcwNzUgQzg2LjM5NTY3MzcsODEuMDg4ODgzNCAxMzEuOTE5MTY3LDY2LjQzMjA4MTUgMTMxLjkxOTE2Nyw2Ni40MzIwODE1IEwxMTIuNTIyMiw2MS42NDYxODcgTDYyLjk0MTE3ODEsNjEuNjQ2MTg3IEwzMS40NzA1ODksMTM4LjAyMTA4NyBMMzQuMzQwNTQ4NCwxNzQuMzE0MTIgWiIgaWQ9IlNoYXBlIiBmaWxsPSIjM0IzRDRCIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImNvbmNyZXRlLXdhbGwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuNDAxNTQ0LCA0LjgwNjU4NCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG1hc2sgaWQ9Im1hc2stMyIgZmlsbD0id2hpdGUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3BhdGgtMiI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L21hc2s+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iTWFzayI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHVzZSBmaWxsPSJibGFjayIgZmlsbC1vcGFjaXR5PSIxIiBmaWx0ZXI9InVybCgjZmlsdGVyLTQpIiB4bGluazpocmVmPSIjcGF0aC0yIj48L3VzZT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dXNlIGZpbGw9InVybCgjcmFkaWFsR3JhZGllbnQtMSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgeGxpbms6aHJlZj0iI3BhdGgtMiI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTIwNC44NTU3MjEsOTMuNDUyNDQ0MSBDMjA1LjY0NzQzNCw5My4wNTM2MTk2IDIwOC4yMjA1MDEsOTEuNzU3NDM5OCAyMTEuMTg5NDI1LDg4LjY2NjU0OTYgQzIxNy4xMjcyNzEsODkuNDY0MTk4NyAyMjIuOTY2MTU0LDkxLjM1ODYxNTMgMjIyLjk2NjE1NCw5MS4zNTg2MTUzIEMyMTIuMTc5MDY2LDg0Ljc3ODAxMDQgMTk3LjQzMzQxMiw4MC44ODk0NzExIDE4MS4xMDQzMzMsODAuOTg5MTc3MiBDMTgxLjEwNDMzMyw4MC45ODkxNzcyIDE4Ny4zMzkwNzIsODkuOTYyNzI5NCAyMDQuNjU3NzkzLDkzLjY1MTg1NjQgQzIwNC42NTc3OTMsOTMuNjUxODU2NCAyMDQuNzU2NzU3LDkzLjU1MjE1MDMgMjA0Ljg1NTcyMSw5My40NTI0NDQxIFoiIGlkPSJTaGFwZSIgZmlsbD0iIzE5MUEyMCIgZmlsbC1ydWxlPSJub256ZXJvIiBvcGFjaXR5PSIwLjg5NTQyNDEwNyI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMzA5LjQ2MDc5Miw4NS4yMjkyNTU4IEMyNDkuODg0Mzk0LDMzLjM3NTE0MDMgMTc0LjU3MjcwMSw2LjQzMTMzNTExIDE1OC45MzYzNzEsMS4yNDU5MjM1NSBMMTU3LjQ1MTkwOSwwLjczNzU0OTg3IEwxNTUuNDcyNjI3LDAuMTI3NTAxNDUyIEwxNTIuMDA4ODgzLDEuMjQ1OTIzNTUgQzEzNi4zNzI1NTIsNi40MzEzMzUxMSA2MS4wNjA4NTk5LDMzLjM3NTE0MDMgMS40ODQ0NjE3NSw4NS4yMjkyNTU4IEwwLjE5NzkyODIzMyw4Ni4zNDc2Nzc5IEwwLjQ5NDgyMDU4Miw4OC4wNzYxNDg1IEMwLjU5Mzc4NDY5OSw4OC40ODI4NDc0IDcuMDI2NDUyMjcsMTI3LjgzMDk3IDI4Ljk5NjQ4NjEsMTcyLjI2MjgzIEM0MS45NjA3ODU0LDE5OC4zOTMyMzcgNTcuNjk2MDc5OSwyMjEuMDY2NzA0IDc1LjcwNzU0OTEsMjM5Ljg3NjUzIEM5Ny43NzY1NDcxLDI2Mi44NTUwMiAxMjMuNTA3MjE3LDI3OS44MzQ3MDEgMTUyLjEwNzg0NywyOTAuNDA4ODc0IEwxNTMuNzkwMjM3LDI5MS4wMTg5MjIgTDE1NS40NzI2MjcsMjkxLjYyODk3MSBMMTU3LjI1Mzk4MSwyOTAuOTE3MjQ4IEwxNTguOTM2MzcxLDI5MC4zMDcxOTkgQzE4Ny41MzcwMDEsMjc5LjczMzAyNyAyMTMuMTY4NzA3LDI2Mi43NTMzNDYgMjM1LjMzNjY2OSwyMzkuNzc0ODU1IEMyNTMuMzQ4MTM4LDIyMS4wNjY3MDQgMjY5LjA4MzQzMywxOTguMjkxNTYzIDI4Mi4wNDc3MzIsMTcyLjE2MTE1NSBDMzA0LjAxNzc2NiwxMjcuODMwOTcgMzEwLjU0OTM5Nyw4OC4zODExNzI3IDMxMC41NDkzOTcsODcuOTc0NDczNyBMMzEwLjg0NjI5LDg2LjI0NjAwMzIgTDMwOS40NjA3OTIsODUuMjI5MjU1OCBaIE0yNzYuNjA0NzA1LDE2OS40MTU5MzggQzI2My45MzcyOTksMTk0LjkzNjI5NiAyNDguNTk3ODYxLDIxNy4yMDMwNjQgMjMwLjk4MjI0OCwyMzUuNTA0NTE2IEMyMDkuMTExMTc4LDI1OC4xNzc5ODIgMTgzLjc3NjM2NCwyNzQuODUyNjM5IDE1NS40NzI2MjcsMjg1LjEyMTc4OCBDMTI3LjE2ODg5LDI3NC44NTI2MzkgMTAxLjgzNDA3NiwyNTguMjc5NjU3IDc5Ljk2MzAwNjEsMjM1LjYwNjE5MSBDNjIuMzQ3MzkzNCwyMTcuMzA0NzM4IDQ3LjAwNzk1NTMsMTk1LjEzOTY0NiAzNC4zNDA1NDg0LDE2OS42MTkyODcgQzE1LjI0MDQ3MzksMTMxLjE4NjIzNyA4LjExNTA1NzU1LDk2LjcxODUwMTEgNi42MzA1OTU4LDg4Ljc4Nzg3MTYgQzY3LjY5MTQ1NTcsMzYuMjIyMDMyOSAxNDQuODgzNDY2LDkuOTg5OTUwODggMTU1LjQ3MjYyNyw2LjUzMzAwOTg1IEMxNjUuOTYyODIzLDkuOTg5OTUwODggMjQzLjI1Mzc5OCwzNi4yMjIwMzI5IDMwNC4zMTQ2NTgsODguNzg3ODcxNiBDMzAyLjgzMDE5Niw5Ni42MTY4MjYzIDI5NS42MDU4MTYsMTMxLjA4NDU2MiAyNzYuNjA0NzA1LDE2OS40MTU5MzggWiIgaWQ9IlNoYXBlIiBmaWxsPSIjNEY1MjYyIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/7d53b64f-history-mobile.svg";
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/0a2229e4-history.svg";
 
 /***/ }),
-/* 39 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc3IiBoZWlnaHQ9IjE0MSIgdmlld0JveD0iMCAwIDE3NyAxNDEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJzcGVlY2gtYnViYmxlcy1jb21tZW50LW9wdGlvbiAyIj4KPGcgaWQ9InNwZWVjaC1idWJibGVzLWNvbW1lbnQtb3B0aW9uIj4KPHBhdGggaWQ9IlBhdGgiIGQ9Ik0xMDQuMzc3IDk1LjcyNzhDMTE1LjA2OCA5MS4xNjYxIDEyMy41MDggODQuOTU2OCAxMjkuNjkzIDc3LjA5NzZDMTM1Ljg3NyA2OS4yNCAxMzguOTY5IDYwLjY4MzEgMTM4Ljk2OSA1MS40MjY1QzEzOC45NjkgNDIuMTY5NCAxMzUuODc3IDMzLjYxMTggMTI5LjY5MSAyNS43NTRDMTIzLjUwNyAxNy44OTYxIDExNS4wNjggMTEuNjg2MiAxMDQuMzc1IDcuMTIzNDJDOTMuNjgyOCAyLjU2MTM5IDgyLjA1MyAwLjI4MTI1IDY5LjQ4NDMgMC4yODEyNUM1Ni45MTY2IDAuMjgxMjUgNDUuMjg2OCAyLjU2Mjc5IDM0LjU5MzUgNy4xMjM0MkMyMy45MDEyIDExLjY4NTggMTUuNDYyMyAxNy44OTU4IDkuMjc3OTggMjUuNzU0QzMuMDkzMDEgMzMuNjEzMiAwIDQyLjE2OTQgMCA1MS40MjY4QzAgNTkuMzUwOCAyLjMzOTM3IDY2LjgxMjYgNy4wMTA4NiA3My44MDQ5QzExLjY4MiA4MC43OTU3IDE4LjA5NzkgODYuNjkwNSAyNi4yNTY1IDkxLjQ4NDVDMjUuNTk5IDkzLjA4NDEgMjQuOTI0NSA5NC41NDczIDI0LjIzMzQgOTUuODgxQzIzLjU0MiA5Ny4yMTI2IDIyLjcyMDMgOTguNDkzNSAyMS43NjU1IDk5LjcyNjVDMjAuODExMyAxMDAuOTYgMjAuMDcxOSAxMDEuOTI1IDE5LjU0NSAxMDIuNjIyQzE5LjAxODUgMTAzLjMyMSAxOC4xNjMyIDEwNC4zMDUgMTYuOTc4MiAxMDUuNTY4QzE1Ljc5MzQgMTA2LjgzNCAxNS4wMzY0IDEwNy42NjYgMTQuNzA3OSAxMDguMDY1QzE0LjcwNzkgMTA3Ljk5OCAxNC41NzYyIDEwOC4xNDkgMTQuMzEyOCAxMDguNTE1QzE0LjA0OSAxMDguODgxIDEzLjkwMTEgMTA5LjA0NyAxMy44Njg2IDEwOS4wMTZDMTMuODM1NCAxMDguOTggMTMuNzAzNyAxMDkuMTQ2IDEzLjQ3MzQgMTA5LjUxM0MxMy4yNDMyIDEwOS44NzkgMTMuMTI3NyAxMTAuMDYyIDEzLjEyNzcgMTEwLjA2MkwxMi44ODA2IDExMC41NkMxMi43ODMxIDExMC43NjEgMTIuNzE2IDExMC45NTggMTIuNjgzNSAxMTEuMTU5QzEyLjY1MDMgMTExLjM1NyAxMi42MzM3IDExMS41NzUgMTIuNjMzNyAxMTEuODA4QzEyLjYzMzcgMTEyLjA0IDEyLjY2NjIgMTEyLjI1NiAxMi43MzMzIDExMi40NTZDMTIuODY1IDExMy4zMjEgMTMuMjQzMiAxMTQuMDE5IDEzLjg2ODIgMTE0LjU1NEMxNC40OTI5IDExNS4wODYgMTUuMTY2NyAxMTUuMzUyIDE1Ljg5MTMgMTE1LjM1MkgxNi4xODc1QzE5LjQ3NjkgMTE0Ljg4NiAyMi4zMDY4IDExNC4zNTMgMjQuNjc1MyAxMTMuNzUzQzM0LjgwODUgMTExLjA5IDQzLjk1NTUgMTA2LjgyNyA1Mi4xMTQ0IDEwMC45NjdDNTguMDM1OSAxMDIuMDMzIDYzLjgyNjUgMTAyLjU2NSA2OS40ODQ5IDEwMi41NjVDODIuMDUzNyAxMDIuNTcgOTMuNjg0OSAxMDAuMjkgMTA0LjM3NyA5NS43Mjc4WiIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyKSIvPgo8cGF0aCBpZD0iUGF0aF8yIiBvcGFjaXR5PSIwLjU2MjAzNSIgZD0iTTE2OS44NjMgOTkuNDIyOUMxNzQuNTM2IDkyLjQ2NDIgMTc2Ljg3MSA4NC45OTE1IDE3Ni44NzEgNzYuOTk5M0MxNzYuODcxIDY4LjgwNzMgMTc0LjQgNjEuMTQ0NCAxNjkuNDY3IDU0LjAxOTVDMTY0LjUzMiA0Ni44OTUzIDE1Ny44MTkgNDAuOTY3NCAxNDkuMzMyIDM2LjIzOTFDMTUwLjg0NCA0MS4yMzMzIDE1MS42MDEgNDYuMjk0MiAxNTEuNjAxIDUxLjQyMzFDMTUxLjYwMSA2MC4zNDU5IDE0OS4zOTkgNjguODAzNSAxNDQuOTg4IDc2Ljc5NTdDMTQwLjU3OSA4NC43ODU1IDEzNC4yNjIgOTEuODQzOSAxMjYuMDM3IDk3Ljk3MTZDMTE4LjQwNCAxMDMuNTY1IDEwOS43MTkgMTA3Ljg1OSA5OS45Nzk0IDExMC44NTdDOTAuMjQzIDExMy44NTMgODAuMDc2MyAxMTUuMzUyIDY5LjQ4MjIgMTE1LjM1MkM2Ny41MDg5IDExNS4zNTIgNjQuNjEzMyAxMTUuMjIgNjAuNzk3NCAxMTQuOTU1Qzc0LjAyMjYgMTIzLjc0MyA4OS41NTIgMTI4LjE0IDEwNy4zODMgMTI4LjE0QzExMy4wNDMgMTI4LjE0IDExOC44MzIgMTI3LjYwNiAxMjQuNzU1IDEyNi41NEMxMzIuOTE0IDEzMi40MDMgMTQyLjA2MSAxMzYuNjYzIDE1Mi4xOTMgMTM5LjMyOEMxNTQuNTYyIDEzOS45MjkgMTU3LjM5MiAxNDAuNDYxIDE2MC42ODIgMTQwLjkyNkMxNjEuNDcxIDE0MC45OTMgMTYyLjE5NiAxNDAuNzYgMTYyLjg1NCAxNDAuMjI3QzE2My41MTIgMTM5LjY5NCAxNjMuOTQgMTM4Ljk2NCAxNjQuMTM2IDEzOC4wMzJDMTY0LjEwNiAxMzcuNjMyIDE2NC4xMzYgMTM3LjQxMyAxNjQuMjM2IDEzNy4zODFDMTY0LjMzMyAxMzcuMzUgMTY0LjMxNiAxMzcuMTMyIDE2NC4xODYgMTM2LjczM0MxNjQuMDU2IDEzNi4zMzMgMTYzLjk4OSAxMzYuMTMzIDE2My45ODkgMTM2LjEzM0wxNjMuNzQzIDEzNS42MzVDMTYzLjY3NSAxMzUuNTAzIDE2My41NjQgMTM1LjMxOSAxNjMuMzk4IDEzNS4wODdDMTYzLjIzMyAxMzQuODU2IDE2My4xMDIgMTM0LjY4NyAxNjMuMDAzIDEzNC41ODhDMTYyLjkwNiAxMzQuNDg4IDE2Mi43NTkgMTM0LjMyMSAxNjIuNTYgMTM0LjA4OUMxNjIuMzY0IDEzMy44NTggMTYyLjIzMiAxMzMuNzA3IDE2Mi4xNjUgMTMzLjY0QzE2MS44MzYgMTMzLjI0IDE2MS4wOCAxMzIuNDA4IDE1OS44OTYgMTMxLjE0M0MxNTguNzExIDEyOS44NzkgMTU3Ljg1NyAxMjguODk2IDE1Ny4zMyAxMjguMTk3QzE1Ni44MDQgMTI3LjQ5OCAxNTYuMDYzIDEyNi41MzMgMTU1LjEwOSAxMjUuM0MxNTQuMTU2IDEyNC4wNjkgMTUzLjMzMiAxMjIuNzg3IDE1Mi42NDEgMTIxLjQ1NEMxNTEuOTUxIDEyMC4xMjMgMTUxLjI3NiAxMTguNjU3IDE1MC42MTggMTE3LjA2QzE1OC43NzggMTEyLjI2MSAxNjUuMTkyIDEwNi4zODQgMTY5Ljg2MyA5OS40MjI5WiIgZmlsbD0idXJsKCNwYWludDFfbGluZWFyKSIvPgo8L2c+CjwvZz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9IjMwLjQ5IiB5MT0iNy42ODkwMyIgeDI9IjE2LjI4NTUiIHkyPSIxMDcuMzE3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM5OERFRUUiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNDRDOUU2Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQxX2xpbmVhciIgeDE9IjcxLjQyOTYiIHkxPSItMTUuNzAwOSIgeDI9IjQ1Ljc4MDUiIHkyPSIxMjcuNDM2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM5OERFRUUiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0RDMkUwIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg=="
-
-/***/ }),
 /* 40 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-reveal/Fade");
+module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc3IiBoZWlnaHQ9IjE0MSIgdmlld0JveD0iMCAwIDE3NyAxNDEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJzcGVlY2gtYnViYmxlcy1jb21tZW50LW9wdGlvbiAyIj4KPGcgaWQ9InNwZWVjaC1idWJibGVzLWNvbW1lbnQtb3B0aW9uIj4KPHBhdGggaWQ9IlBhdGgiIGQ9Ik0xMDQuMzc3IDk1LjcyNzhDMTE1LjA2OCA5MS4xNjYxIDEyMy41MDggODQuOTU2OCAxMjkuNjkzIDc3LjA5NzZDMTM1Ljg3NyA2OS4yNCAxMzguOTY5IDYwLjY4MzEgMTM4Ljk2OSA1MS40MjY1QzEzOC45NjkgNDIuMTY5NCAxMzUuODc3IDMzLjYxMTggMTI5LjY5MSAyNS43NTRDMTIzLjUwNyAxNy44OTYxIDExNS4wNjggMTEuNjg2MiAxMDQuMzc1IDcuMTIzNDJDOTMuNjgyOCAyLjU2MTM5IDgyLjA1MyAwLjI4MTI1IDY5LjQ4NDMgMC4yODEyNUM1Ni45MTY2IDAuMjgxMjUgNDUuMjg2OCAyLjU2Mjc5IDM0LjU5MzUgNy4xMjM0MkMyMy45MDEyIDExLjY4NTggMTUuNDYyMyAxNy44OTU4IDkuMjc3OTggMjUuNzU0QzMuMDkzMDEgMzMuNjEzMiAwIDQyLjE2OTQgMCA1MS40MjY4QzAgNTkuMzUwOCAyLjMzOTM3IDY2LjgxMjYgNy4wMTA4NiA3My44MDQ5QzExLjY4MiA4MC43OTU3IDE4LjA5NzkgODYuNjkwNSAyNi4yNTY1IDkxLjQ4NDVDMjUuNTk5IDkzLjA4NDEgMjQuOTI0NSA5NC41NDczIDI0LjIzMzQgOTUuODgxQzIzLjU0MiA5Ny4yMTI2IDIyLjcyMDMgOTguNDkzNSAyMS43NjU1IDk5LjcyNjVDMjAuODExMyAxMDAuOTYgMjAuMDcxOSAxMDEuOTI1IDE5LjU0NSAxMDIuNjIyQzE5LjAxODUgMTAzLjMyMSAxOC4xNjMyIDEwNC4zMDUgMTYuOTc4MiAxMDUuNTY4QzE1Ljc5MzQgMTA2LjgzNCAxNS4wMzY0IDEwNy42NjYgMTQuNzA3OSAxMDguMDY1QzE0LjcwNzkgMTA3Ljk5OCAxNC41NzYyIDEwOC4xNDkgMTQuMzEyOCAxMDguNTE1QzE0LjA0OSAxMDguODgxIDEzLjkwMTEgMTA5LjA0NyAxMy44Njg2IDEwOS4wMTZDMTMuODM1NCAxMDguOTggMTMuNzAzNyAxMDkuMTQ2IDEzLjQ3MzQgMTA5LjUxM0MxMy4yNDMyIDEwOS44NzkgMTMuMTI3NyAxMTAuMDYyIDEzLjEyNzcgMTEwLjA2MkwxMi44ODA2IDExMC41NkMxMi43ODMxIDExMC43NjEgMTIuNzE2IDExMC45NTggMTIuNjgzNSAxMTEuMTU5QzEyLjY1MDMgMTExLjM1NyAxMi42MzM3IDExMS41NzUgMTIuNjMzNyAxMTEuODA4QzEyLjYzMzcgMTEyLjA0IDEyLjY2NjIgMTEyLjI1NiAxMi43MzMzIDExMi40NTZDMTIuODY1IDExMy4zMjEgMTMuMjQzMiAxMTQuMDE5IDEzLjg2ODIgMTE0LjU1NEMxNC40OTI5IDExNS4wODYgMTUuMTY2NyAxMTUuMzUyIDE1Ljg5MTMgMTE1LjM1MkgxNi4xODc1QzE5LjQ3NjkgMTE0Ljg4NiAyMi4zMDY4IDExNC4zNTMgMjQuNjc1MyAxMTMuNzUzQzM0LjgwODUgMTExLjA5IDQzLjk1NTUgMTA2LjgyNyA1Mi4xMTQ0IDEwMC45NjdDNTguMDM1OSAxMDIuMDMzIDYzLjgyNjUgMTAyLjU2NSA2OS40ODQ5IDEwMi41NjVDODIuMDUzNyAxMDIuNTcgOTMuNjg0OSAxMDAuMjkgMTA0LjM3NyA5NS43Mjc4WiIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyKSIvPgo8cGF0aCBpZD0iUGF0aF8yIiBvcGFjaXR5PSIwLjU2MjAzNSIgZD0iTTE2OS44NjMgOTkuNDIyOUMxNzQuNTM2IDkyLjQ2NDIgMTc2Ljg3MSA4NC45OTE1IDE3Ni44NzEgNzYuOTk5M0MxNzYuODcxIDY4LjgwNzMgMTc0LjQgNjEuMTQ0NCAxNjkuNDY3IDU0LjAxOTVDMTY0LjUzMiA0Ni44OTUzIDE1Ny44MTkgNDAuOTY3NCAxNDkuMzMyIDM2LjIzOTFDMTUwLjg0NCA0MS4yMzMzIDE1MS42MDEgNDYuMjk0MiAxNTEuNjAxIDUxLjQyMzFDMTUxLjYwMSA2MC4zNDU5IDE0OS4zOTkgNjguODAzNSAxNDQuOTg4IDc2Ljc5NTdDMTQwLjU3OSA4NC43ODU1IDEzNC4yNjIgOTEuODQzOSAxMjYuMDM3IDk3Ljk3MTZDMTE4LjQwNCAxMDMuNTY1IDEwOS43MTkgMTA3Ljg1OSA5OS45Nzk0IDExMC44NTdDOTAuMjQzIDExMy44NTMgODAuMDc2MyAxMTUuMzUyIDY5LjQ4MjIgMTE1LjM1MkM2Ny41MDg5IDExNS4zNTIgNjQuNjEzMyAxMTUuMjIgNjAuNzk3NCAxMTQuOTU1Qzc0LjAyMjYgMTIzLjc0MyA4OS41NTIgMTI4LjE0IDEwNy4zODMgMTI4LjE0QzExMy4wNDMgMTI4LjE0IDExOC44MzIgMTI3LjYwNiAxMjQuNzU1IDEyNi41NEMxMzIuOTE0IDEzMi40MDMgMTQyLjA2MSAxMzYuNjYzIDE1Mi4xOTMgMTM5LjMyOEMxNTQuNTYyIDEzOS45MjkgMTU3LjM5MiAxNDAuNDYxIDE2MC42ODIgMTQwLjkyNkMxNjEuNDcxIDE0MC45OTMgMTYyLjE5NiAxNDAuNzYgMTYyLjg1NCAxNDAuMjI3QzE2My41MTIgMTM5LjY5NCAxNjMuOTQgMTM4Ljk2NCAxNjQuMTM2IDEzOC4wMzJDMTY0LjEwNiAxMzcuNjMyIDE2NC4xMzYgMTM3LjQxMyAxNjQuMjM2IDEzNy4zODFDMTY0LjMzMyAxMzcuMzUgMTY0LjMxNiAxMzcuMTMyIDE2NC4xODYgMTM2LjczM0MxNjQuMDU2IDEzNi4zMzMgMTYzLjk4OSAxMzYuMTMzIDE2My45ODkgMTM2LjEzM0wxNjMuNzQzIDEzNS42MzVDMTYzLjY3NSAxMzUuNTAzIDE2My41NjQgMTM1LjMxOSAxNjMuMzk4IDEzNS4wODdDMTYzLjIzMyAxMzQuODU2IDE2My4xMDIgMTM0LjY4NyAxNjMuMDAzIDEzNC41ODhDMTYyLjkwNiAxMzQuNDg4IDE2Mi43NTkgMTM0LjMyMSAxNjIuNTYgMTM0LjA4OUMxNjIuMzY0IDEzMy44NTggMTYyLjIzMiAxMzMuNzA3IDE2Mi4xNjUgMTMzLjY0QzE2MS44MzYgMTMzLjI0IDE2MS4wOCAxMzIuNDA4IDE1OS44OTYgMTMxLjE0M0MxNTguNzExIDEyOS44NzkgMTU3Ljg1NyAxMjguODk2IDE1Ny4zMyAxMjguMTk3QzE1Ni44MDQgMTI3LjQ5OCAxNTYuMDYzIDEyNi41MzMgMTU1LjEwOSAxMjUuM0MxNTQuMTU2IDEyNC4wNjkgMTUzLjMzMiAxMjIuNzg3IDE1Mi42NDEgMTIxLjQ1NEMxNTEuOTUxIDEyMC4xMjMgMTUxLjI3NiAxMTguNjU3IDE1MC42MTggMTE3LjA2QzE1OC43NzggMTEyLjI2MSAxNjUuMTkyIDEwNi4zODQgMTY5Ljg2MyA5OS40MjI5WiIgZmlsbD0idXJsKCNwYWludDFfbGluZWFyKSIvPgo8L2c+CjwvZz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9IjMwLjQ5IiB5MT0iNy42ODkwMyIgeDI9IjE2LjI4NTUiIHkyPSIxMDcuMzE3IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM5OERFRUUiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNDRDOUU2Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQxX2xpbmVhciIgeDE9IjcxLjQyOTYiIHkxPSItMTUuNzAwOSIgeDI9IjQ1Ljc4MDUiIHkyPSIxMjcuNDM2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM5OERFRUUiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjM0RDMkUwIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg=="
 
 /***/ }),
 /* 41 */
@@ -2547,8 +2527,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  grid-column-start: 1;\n  grid-column-end: 3;\n  grid-column-start: 1;\n  ', ';\n  height: auto;\n'], ['\n  grid-column-start: 1;\n  grid-column-end: 3;\n  grid-column-start: 1;\n  ', ';\n  height: auto;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .label {\n    display: flex\n    p{\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8FB5C8;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .label {\n    display: flex\n    p{\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8FB5C8;\n    }\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2572,7 +2551,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Fade = __webpack_require__(40);
+var _Fade = __webpack_require__(11);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -2630,39 +2609,24 @@ var Features = function Features() {
     _react2.default.createElement(
       Container,
       null,
-      _react2.default.createElement(
-        LongFade,
-        null,
-        _react2.default.createElement(
-          _Fade2.default,
-          null,
-          _react2.default.createElement(_LongCard2.default, {
-            gradient: 'linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)',
-            image: 'Bella/assets/4.svg',
-            textAlign: 'right',
-            label: 'new',
-            title: 'Aragon goes mobile',
-            content: feature1,
-            className: 'first-feature'
-          })
-        )
-      ),
-      _react2.default.createElement(
-        LongFade,
-        null,
-        _react2.default.createElement(
-          _Fade2.default,
-          null,
-          _react2.default.createElement(_LongCard2.default, {
-            gradient: 'linear-gradient(24.28deg, #C3E4DF 0%, #EDFAF2 100.94%)',
-            image: 'Bella/assets/5.svg',
-            textAlign: 'right',
-            label: 'new',
-            title: 'Always evolving, constantly improving',
-            content: feature2
-          })
-        )
-      ),
+      _react2.default.createElement(_LongCard2.default, {
+        gradient: 'linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)',
+        image: 'Bella/assets/4.svg',
+        textAlign: 'right',
+        label: 'new',
+        bottom: true,
+        title: 'Aragon goes mobile',
+        content: feature1,
+        className: 'first-feature'
+      }),
+      _react2.default.createElement(_LongCard2.default, {
+        gradient: 'linear-gradient(24.28deg, #C3E4DF 0%, #EDFAF2 100.94%)',
+        image: 'Bella/assets/5.svg',
+        textAlign: 'right',
+        label: 'new',
+        title: 'Always evolving, constantly improving',
+        content: feature2
+      }),
       _react2.default.createElement(
         _Fade2.default,
         { delay: 100 },
@@ -2672,6 +2636,7 @@ var Features = function Features() {
           imageBig: 'true',
           label: 'new',
           textAlign: 'left',
+          height: '700px',
           title: 'Export your finances in one click',
           content: feature3
         })
@@ -2686,6 +2651,7 @@ var Features = function Features() {
           textAlign: 'left',
           title: 'Private and secure',
           colorWhite: 'true',
+          height: '700px',
           content: feature4
         })
       )
@@ -2693,8 +2659,7 @@ var Features = function Features() {
   );
 };
 
-var LongFade = _styledComponents2.default.div(_templateObject, medium('height: 500px '));
-var Container = _styledComponents2.default.div(_templateObject2, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px 700px'), medium('margin-bottom: 2px !important;'));
+var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px 700px'), medium('margin-bottom: 2px !important;'));
 
 exports.default = Features;
 
@@ -2728,7 +2693,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _hello = __webpack_require__(32);
+var _hello = __webpack_require__(33);
 
 var _hello2 = _interopRequireDefault(_hello);
 
@@ -2808,7 +2773,7 @@ var _templateObject = _taggedTemplateLiteral(['\n  background-color: #1c1d23;\n 
     _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  text-align: center;\n  margin: auto;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 1.2;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 15px;\n  }\n  h4 {\n    font-size: 22px;\n    line-height: 44px;\n    text-align: center;\n    color: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    img {\n      padding-right: 7px;\n    }\n  }\n'], ['\n  width: 100%;\n  text-align: center;\n  margin: auto;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 1.2;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 15px;\n  }\n  h4 {\n    font-size: 22px;\n    line-height: 44px;\n    text-align: center;\n    color: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    img {\n      padding-right: 7px;\n    }\n  }\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n  max-width: 100%;\n'], ['\n  max-width: 100%;\n']),
-    _templateObject5 = _taggedTemplateLiteral(['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  background-color: rgb(0, 0, 0);\n  background-color: rgba(0, 0, 0, 0.4);\n\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    90% {\n      transform: scale(0.1, 0.1);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 0.3s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n'], ['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  background-color: rgb(0, 0, 0);\n  background-color: rgba(0, 0, 0, 0.4);\n\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    90% {\n      transform: scale(0.1, 0.1);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 0.3s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n']);
+    _templateObject5 = _taggedTemplateLiteral(['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  display: none;\n\n  &.display-block {\n    display: block;\n  }\n  @keyframes backgroundblack {\n    0% {\n      background-color: rgba(0, 0, 0, 0);\n    }\n    50% {\n      background-color: rgba(0, 0, 0, 0.4);\n    }\n    100% {\n      background-color: rgba(0, 0, 0, 0.8);\n    }\n  }\n  &.opacity-in {\n    animation: backgroundblack 0.3s linear;\n    background-color: rgba(0, 0, 0, 0.8);\n  }\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    90% {\n      transform: scale(0.1, 0.1);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 0.48s linear;\n  }\n  &.opacity-out {\n    background-color: rgba(0, 0, 0, 0);\n    transition: background-color 0.48s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n'], ['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  display: none;\n\n  &.display-block {\n    display: block;\n  }\n  @keyframes backgroundblack {\n    0% {\n      background-color: rgba(0, 0, 0, 0);\n    }\n    50% {\n      background-color: rgba(0, 0, 0, 0.4);\n    }\n    100% {\n      background-color: rgba(0, 0, 0, 0.8);\n    }\n  }\n  &.opacity-in {\n    animation: backgroundblack 0.3s linear;\n    background-color: rgba(0, 0, 0, 0.8);\n  }\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    90% {\n      transform: scale(0.1, 0.1);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 0.48s linear;\n  }\n  &.opacity-out {\n    background-color: rgba(0, 0, 0, 0);\n    transition: background-color 0.48s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2828,7 +2793,7 @@ var _videoBackground = __webpack_require__(102);
 
 var _videoBackground2 = _interopRequireDefault(_videoBackground);
 
-var _play = __webpack_require__(34);
+var _play = __webpack_require__(35);
 
 var _play2 = _interopRequireDefault(_play);
 
@@ -2873,16 +2838,20 @@ var Video = function (_React$Component) {
     value: function handleClose() {
       var show = this.state.modal;
       var self = this;
-      var element = document.getElementById("modalContent");
+      var element = document.getElementById('modalContent');
+      var modalBackground = document.getElementById('videoModal');
+      modalBackground.classList.add('opacity-out');
       element.style.removeProperty('animation-name');
-      element.classList.add("zoom-out");
+      element.classList.add('zoom-out');
       setTimeout(function () {
         self.setState({ modal: !show });
-      }, 310);
+      }, 500);
     }
   }, {
     key: 'handleOpen',
     value: function handleOpen() {
+      var modalBackground = document.getElementById('videoModal');
+      modalBackground.classList.add('display-block');
       var show = this.state.modal;
       this.setState({ modal: !show });
     }
@@ -2911,18 +2880,26 @@ var Video = function (_React$Component) {
             )
           )
         ),
-        this.state.modal && _react2.default.createElement(
+        _react2.default.createElement(
           Modal,
-          { onClick: this.handleClose },
+          {
+            id: 'videoModal',
+            className: this.state.modal ? 'display-block opacity-in' : 'opacity-out',
+            onClick: this.handleClose },
           _react2.default.createElement(
             _Zoom2.default,
-            { duration: 300 },
+            { duration: 400 },
             _react2.default.createElement(
               'div',
               {
                 id: 'modalContent',
                 className: this.state.modal ? 'modal-content' : 'modal-content zoom-out' },
-              _react2.default.createElement('iframe', { src: 'https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&ecver=2', frameBorder: '0', allow: 'autoplay; encrypted-media', allowFullScreen: true })
+              _react2.default.createElement('iframe', {
+                src: 'https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&ecver=2',
+                frameBorder: '0',
+                allow: 'autoplay; encrypted-media',
+                allowFullScreen: true
+              })
             )
           )
         )
@@ -3260,7 +3237,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Quote = __webpack_require__(15);
+var _Quote = __webpack_require__(16);
 
 var _Quote2 = _interopRequireDefault(_Quote);
 
@@ -3299,7 +3276,7 @@ var Quotes = function Quotes() {
           'span',
           null,
           'Check an example Aragon organization ',
-          _react2.default.createElement('img', { src: __webpack_require__(14) })
+          _react2.default.createElement('img', { src: __webpack_require__(15) })
         )
       )
     )
@@ -3345,7 +3322,7 @@ var _unstoppableOrgBackground = __webpack_require__(104);
 
 var _unstoppableOrgBackground2 = _interopRequireDefault(_unstoppableOrgBackground);
 
-var _unstoppableOrg = __webpack_require__(35);
+var _unstoppableOrg = __webpack_require__(36);
 
 var _unstoppableOrg2 = _interopRequireDefault(_unstoppableOrg);
 
@@ -3393,7 +3370,7 @@ var UnstoppableOrganizations = function UnstoppableOrganizations() {
             'span',
             null,
             'About the project ',
-            _react2.default.createElement('img', { src: __webpack_require__(14) })
+            _react2.default.createElement('img', { src: __webpack_require__(15) })
           )
         )
       )
@@ -3563,11 +3540,11 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _history = __webpack_require__(38);
+var _history = __webpack_require__(39);
 
 var _history2 = _interopRequireDefault(_history);
 
-var _historyMobile = __webpack_require__(37);
+var _historyMobile = __webpack_require__(38);
 
 var _historyMobile2 = _interopRequireDefault(_historyMobile);
 
@@ -3757,7 +3734,7 @@ var _Section = __webpack_require__(3);
 
 var _Section2 = _interopRequireDefault(_Section);
 
-var _Entry = __webpack_require__(16);
+var _Entry = __webpack_require__(17);
 
 var _Entry2 = _interopRequireDefault(_Entry);
 
@@ -4779,7 +4756,7 @@ var _Section = __webpack_require__(3);
 
 var _Section2 = _interopRequireDefault(_Section);
 
-var _Entry = __webpack_require__(16);
+var _Entry = __webpack_require__(17);
 
 var _Entry2 = _interopRequireDefault(_Entry);
 
@@ -5050,7 +5027,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _association = __webpack_require__(36);
+var _association = __webpack_require__(37);
 
 var _association2 = _interopRequireDefault(_association);
 
@@ -5311,7 +5288,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _ui = __webpack_require__(2);
 
-var _speech = __webpack_require__(39);
+var _speech = __webpack_require__(40);
 
 var _speech2 = _interopRequireDefault(_speech);
 
@@ -5732,7 +5709,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Quote = __webpack_require__(15);
+var _Quote = __webpack_require__(16);
 
 var _Quote2 = _interopRequireDefault(_Quote);
 
@@ -6203,11 +6180,11 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _components = __webpack_require__(7);
 
-var _Hero = __webpack_require__(29);
+var _Hero = __webpack_require__(30);
 
 var _Hero2 = _interopRequireDefault(_Hero);
 
-var _About = __webpack_require__(30);
+var _About = __webpack_require__(31);
 
 var _About2 = _interopRequireDefault(_About);
 
@@ -6215,7 +6192,7 @@ var _Section = __webpack_require__(3);
 
 var _Section2 = _interopRequireDefault(_Section);
 
-var _homeVideo = __webpack_require__(13);
+var _homeVideo = __webpack_require__(14);
 
 var _homeVideo2 = _interopRequireDefault(_homeVideo);
 
@@ -6561,7 +6538,7 @@ var _UnstoppableOranizations = __webpack_require__(48);
 
 var _UnstoppableOranizations2 = _interopRequireDefault(_UnstoppableOranizations);
 
-var _homeVideo = __webpack_require__(13);
+var _homeVideo = __webpack_require__(14);
 
 var _homeVideo2 = _interopRequireDefault(_homeVideo);
 
@@ -7270,11 +7247,11 @@ var _heroBackground = __webpack_require__(103);
 
 var _heroBackground2 = _interopRequireDefault(_heroBackground);
 
-var _heroTitle = __webpack_require__(33);
+var _heroTitle = __webpack_require__(34);
 
 var _heroTitle2 = _interopRequireDefault(_heroTitle);
 
-var _Features = __webpack_require__(31);
+var _Features = __webpack_require__(32);
 
 var _Features2 = _interopRequireDefault(_Features);
 
@@ -7290,7 +7267,7 @@ var _TryBella = __webpack_require__(42);
 
 var _TryBella2 = _interopRequireDefault(_TryBella);
 
-var _Fade = __webpack_require__(40);
+var _Fade = __webpack_require__(11);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -8484,18 +8461,18 @@ var map = {
 	"./Bella/assets/6.svg": 76,
 	"./Bella/assets/7.svg": 77,
 	"./Bella/assets/8.svg": 78,
-	"./Bella/assets/hello.svg": 32,
-	"./Bella/assets/hero-title.svg": 33,
-	"./Bella/assets/play.svg": 34,
+	"./Bella/assets/hello.svg": 33,
+	"./Bella/assets/hero-title.svg": 34,
+	"./Bella/assets/play.svg": 35,
 	"./Discover/assets/discover1.svg": 79,
 	"./Discover/assets/discover2.svg": 80,
 	"./Discover/assets/discover3.svg": 81,
 	"./Discover/assets/discover4.svg": 82,
 	"./Discover/assets/discover5.svg": 83,
 	"./Discover/assets/discover6.svg": 84,
-	"./Discover/assets/unstoppable-org.svg": 35,
+	"./Discover/assets/unstoppable-org.svg": 36,
 	"./General/assets/arrow.svg": 5,
-	"./General/assets/hero-arrow.svg": 14,
+	"./General/assets/hero-arrow.svg": 15,
 	"./Home/home-assets/fight-background.svg": 85,
 	"./Home/home-assets/home1.svg": 86,
 	"./Home/home-assets/home2.svg": 87,
@@ -8505,25 +8482,25 @@ var map = {
 	"./Network/assets/network2.svg": 91,
 	"./Network/assets/network3.svg": 92,
 	"./Network/assets/network4.svg": 93,
-	"./Page/assets/ghost.svg": 26,
-	"./Page/assets/logo-footer.svg": 24,
-	"./Page/assets/logo.svg": 12,
-	"./Page/assets/menu.svg": 22,
-	"./Page/assets/rocket.svg": 27,
-	"./Page/assets/twitter.svg": 25,
-	"./Page/assets/youtube.svg": 28,
-	"./Project/assets/association.svg": 36,
+	"./Page/assets/ghost.svg": 27,
+	"./Page/assets/logo-footer.svg": 25,
+	"./Page/assets/logo.svg": 13,
+	"./Page/assets/menu.svg": 23,
+	"./Page/assets/rocket.svg": 28,
+	"./Page/assets/twitter.svg": 26,
+	"./Page/assets/youtube.svg": 29,
+	"./Project/assets/association.svg": 37,
 	"./Project/assets/contribute1.svg": 94,
 	"./Project/assets/contribute2.svg": 95,
 	"./Project/assets/contribute3.svg": 96,
 	"./Project/assets/governance1.svg": 97,
 	"./Project/assets/governance2.svg": 98,
 	"./Project/assets/grants1.svg": 99,
-	"./Project/assets/history-mobile.svg": 37,
-	"./Project/assets/history.svg": 38,
+	"./Project/assets/history-mobile.svg": 38,
+	"./Project/assets/history.svg": 39,
 	"./Project/assets/project1.svg": 100,
 	"./Project/assets/project2.svg": 101,
-	"./Project/assets/speech.svg": 39
+	"./Project/assets/speech.svg": 40
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8670,4 +8647,4 @@ module.exports = __webpack_require__.p + "static/3a1c4c1e-yalda.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.6db70f6b.js.map
+//# sourceMappingURL=static.0c0ef542.js.map
