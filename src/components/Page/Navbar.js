@@ -21,8 +21,7 @@ class Navbar extends React.Component {
   constructor(props) {
     super(props);
     let scroll = 1;
-    if (window.location.href.indexOf('bella') >= 0) {
-      console.log("if");
+    if (typeof window !== `undefined` && window.location.href.indexOf('bella') >= 0) {
       scroll = 0
     }
     this.state = {
