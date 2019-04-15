@@ -90,6 +90,7 @@ const Container = styled.div`
     line-height: 1.2;
     text-align: center;
     color: #ffffff;
+    margin-bottom: 15px;
   }
   h4 {
     font-size: 22px;

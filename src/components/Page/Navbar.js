@@ -26,6 +26,8 @@ class Navbar extends React.Component {
     }
     this.state = {
       scroll: scroll,
+      height: 64,
+      image: 44,
     };
   }
 
@@ -44,15 +46,27 @@ class Navbar extends React.Component {
       scroll = 0.8;
     }
     if (window.location.href.indexOf('bella') >= 0 && document.scrollingElement.scrollTop == 0) {
-      console.log("if");
       scroll = 0;
     }
-    this.setState({ scroll: scroll})
+    let height = 1 - ((document.scrollingElement.scrollTop * 2) / 1000);
+
+    if (height < 0.68) {
+      height = 0.68;
+    }
+    if (window.location.href.indexOf('bella') >= 0 && document.scrollingElement.scrollTop == 0) {
+      scroll = 0;
+      height = 0;
+    }
+    this.setState({
+      scroll: scroll,
+      height: height * 64,
+      image: scroll * 44,
+    })
   }
-  renderIn = ({ x, menuItems, path }) => {
+  renderIn = ({ x, h, i, menuItems, path }) => {
     return (
       <AragonNavbar
-        style={{ background: x.interpolate(v => `rgba(28, 29, 35, ${v})`) }}
+        style={{ background: x.interpolate(v => `rgba(28, 29, 35, ${v})`), height: h.interpolate(v => `${v}px`) }}
       >
         <Center>
           <BreakPoint from="medium">
@@ -75,7 +89,7 @@ class Navbar extends React.Component {
               </li>
               <li className="logo">
                 <LogoLink to="/">
-                  <img src={logo} />
+                  <img src={logo} style={{ height: this.state.image + 'px' }}/>
                 </LogoLink>
               </li>
               <li>
@@ -115,8 +129,8 @@ class Navbar extends React.Component {
     const { menuItems, path } = this.props
     return (
       <Spring
-        from={{ x: 0 }}
-        to={{ x: this.state.scroll }}
+        from={{ x: 0, h:64, i: 44 }}
+        to={{ x: this.state.scroll, h: this.state.height, i: this.state.image }}
         menuItems={menuItems}
         path={path}
         native

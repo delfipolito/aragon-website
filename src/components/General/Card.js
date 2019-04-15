@@ -20,6 +20,7 @@ class Card extends React.Component {
       imageUrl,
       linkTo,
       gradient,
+      textAlign,
       background,
       imageBig,
       colorWhite,
@@ -29,6 +30,7 @@ class Card extends React.Component {
       <SmallCard
         target="_blank"
         colorWhite={colorWhite}
+        textAlign={textAlign}
         background={background ? require(`../${background}`) : ''}
         gradient={gradient ? gradient : ''}
         imageBig={imageBig ? imageBig : ''}>
@@ -52,7 +54,7 @@ const SmallCard = styled.div`
   background-size: 108% 108%;
   background-position: center;
   display: flex;
-  align-items: center;
+  align-items: ${props => (props.textAlign='left' ? 'flex-start' : 'center')};
   flex-direction: column;
   justify-content: center;
   padding: 30px;
@@ -66,8 +68,8 @@ const SmallCard = styled.div`
       props.imageBig && 'width: 100%;'};
   }
   p {
-    text-align: center;
     color: ${props => (props.colorWhite ? '#b4b5cc' : '#7f8198')};
+    text-align: ${props => (props.textAlign ? props.textAlign : 'center')};
   }
   h1 {
     font-family: 'FontLight', sans-serif;
@@ -77,7 +79,7 @@ const SmallCard = styled.div`
     ${large('width: inherit; font-size: 46px;')};
     font-weight: 300;
     line-height: 1.35;
-    text-align: center;
+    text-align: ${props => (props.textAlign ? props.textAlign : 'center')};
     color: #2d4051;
     margin: 15px 0 0 0;
     color: ${props => (props.colorWhite ? 'white' : '#2d4051')};

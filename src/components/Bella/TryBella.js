@@ -13,7 +13,7 @@ const Video = () => (
     <Box>
       <Container>
       <BreakPoint to="medium"><img src={image} /></BreakPoint>
-      <h2>Try Aragon 0.7 Bella now</h2>
+      <h2>Try Aragon 0.7 <br/>Bella now</h2>
       <h4>Aragon empowers you to freely organize and collaborate. Create global, bureaucracy-free organizations, companies, and communities.</h4>
       <Button.Anchor className="hero-link" mode="strong" href="https://mainnet.aragon.org/">Try Bella now</Button.Anchor>
       </Container>
@@ -26,7 +26,7 @@ const VideoeSection = styled(Section)`
   background-color: #95BBCE;
   background: linear-gradient(334.64deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%);
   background-size: cover;
-  min-height: 500px;
+  min-height: 675px;
   display: flex;
   align-items: center;
   justify-content: center;

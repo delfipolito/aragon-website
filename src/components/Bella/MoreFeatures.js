@@ -66,6 +66,7 @@ const Features = () => (
         gradient="linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)"
         imageUrl={'Bella/assets/6'}
         imageBig="true"
+        textAlign="left"
         title="Export your finances in one click"
         content={feature3}
       />
@@ -73,6 +74,7 @@ const Features = () => (
         background={'Bella/assets/bg_2.png'}
         imageUrl={'Bella/assets/8'}
         imageBig="true"
+        textAlign="left"
         title="Private and secure"
         colorWhite="true"
         content={feature4}
@@ -92,9 +94,12 @@ const Container = styled.div`
   grid-row-gap: 30px;
   .first-feature .image-container {
     ${medium(
-      'margin-bottom: -70px !important;'
+      'margin-bottom: 2px !important;'
     )};
-
+    img {
+      height: 502px;
+      width: 502px;
+    }
   }
 `;
 
