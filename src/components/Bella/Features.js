@@ -45,6 +45,7 @@ const Features = () => (
             background={'Bella/assets/background-1.png'}
             image={'Bella/assets/1.svg'}
             textAlign="right"
+            label="new"
             title="Call people by their name"
             content={feature1}
           />
@@ -55,8 +56,9 @@ const Features = () => (
           <LongCard
             background={'Bella/assets/background-2.png'}
             image={'Bella/assets/2.svg'}
+            label="new"
             textAlign="left"
-            title="Get activity notifications"
+            title={<span>Get activity<br/> notifications</span>}
             content={feature2}
           />
         </Fade>
@@ -67,6 +69,7 @@ const Features = () => (
             background={'Bella/assets/background-3.png'}
             image={'Bella/assets/3.svg'}
             textAlign="right"
+            label="invite-only"
             title="The easiest payroll ever made"
             content={feature3}
           />
@@ -85,6 +88,19 @@ const Container = styled.div`
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  .label {
+    display: flex
+    p{
+      background: #ffffff80;
+      mix-blend-mode: normal;
+      border-radius: 100px;
+      padding: 0 15px;
+      text-transform: uppercase;
+      font-family: 'FontBold';
+      font-size: 10px;
+      color: #8FB5C8;
+    }
+  }
 `;
 const LongFade = styled.div`
   grid-column-start: 1;

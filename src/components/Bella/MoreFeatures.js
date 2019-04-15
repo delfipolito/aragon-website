@@ -54,6 +54,7 @@ const Features = () => (
             gradient="linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)"
             image={'Bella/assets/4.svg'}
             textAlign="right"
+            label="new"
             title="Aragon goes mobile"
             content={feature1}
             className="first-feature"
@@ -66,6 +67,7 @@ const Features = () => (
             gradient="linear-gradient(24.28deg, #C3E4DF 0%, #EDFAF2 100.94%)"
             image={'Bella/assets/5.svg'}
             textAlign="right"
+            label="new"
             title="Always evolving, constantly improving"
             content={feature2}
           />
@@ -76,6 +78,7 @@ const Features = () => (
           gradient="linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)"
           imageUrl={'Bella/assets/6'}
           imageBig="true"
+          label="new"
           textAlign="left"
           title="Export your finances in one click"
           content={feature3}
@@ -117,6 +120,19 @@ const Container = styled.div`
     img {
       height: 502px;
       width: 502px;
+    }
+  }
+  .label {
+    display: flex
+    p{
+      background: #ffffff80;
+      mix-blend-mode: normal;
+      border-radius: 100px;
+      padding: 0 15px;
+      text-transform: uppercase;
+      font-family: 'FontBold';
+      font-size: 10px;
+      color: #8FB5C8;
     }
   }
 `;

@@ -23,6 +23,7 @@ class Card extends React.Component {
       textAlign,
       background,
       imageBig,
+      label,
       colorWhite,
       children,
     } = this.props;
@@ -35,6 +36,11 @@ class Card extends React.Component {
         gradient={gradient ? gradient : ''}
         imageBig={imageBig ? imageBig : ''}>
         <img src={require(`../${imageUrl}.svg`)} />
+        {label && (
+          <div className="label">
+            <p>{label}</p>
+          </div>
+        )}
         <h1>{title}</h1>
         <h1>{content}</h1>
       </SmallCard>

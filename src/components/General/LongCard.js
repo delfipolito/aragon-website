@@ -19,6 +19,7 @@ class Card extends React.Component {
       colorWhite,
       textAlign,
       linkTo,
+      label,
       children,
     } = this.props;
     return (
@@ -35,6 +36,11 @@ class Card extends React.Component {
             </ImageContainer>
           )}
         <div className={textAlign + '-box'}>
+          {label && (
+            <div className="label">
+              <p>{label}</p>
+            </div>
+          )}
           {title && <h1>{title}</h1>}
           {content && <h1>{content}</h1>}
           {children}
