@@ -409,7 +409,7 @@ var SCard = function SCard(_ref) {
       background: props.background ? __webpack_require__(12)("./" + props.background) : '',
       gradient: props.gradient ? props.gradient : '',
       imageBig: props.imageBig ? props.imageBig : '',
-      cardHeight: props.cardHeight ? props.cardHeight : ''
+      cardHeight: props.cardHeight ? props.cardHeight : false
     },
     _react2.default.createElement('img', { src: __webpack_require__(133)("./" + props.imageUrl + '.svg') }),
     props.label && _react2.default.createElement(
@@ -8648,4 +8648,4 @@ module.exports = __webpack_require__.p + "static/3a1c4c1e-yalda.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.cbe5a1ef.js.map
+//# sourceMappingURL=static.88daa0cd.js.map
