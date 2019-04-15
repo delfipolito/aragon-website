@@ -27,23 +27,6 @@ const feature2 = (
     </p>
   </span>
 );
-const feature3 = (
-  <span>
-    <p>
-      Keep your accountants happy with regular exports using a standard data
-      format.
-    </p>
-  </span>
-);
-const feature4 = (
-  <span>
-    <p>
-      All your saved names stay only on your device. App upgrades are always
-      opt-in. Aragon organizations are sovereign, and we want them to stay that
-      way.
-    </p>
-  </span>
-);
 
 const Features = () => (
   <Section>
@@ -66,30 +49,6 @@ const Features = () => (
         title="Always evolving, constantly improving"
         content={feature2}
       />
-      <Fade delay={100}>
-        <Card
-          gradient="linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)"
-          imageUrl={'Bella/assets/6'}
-          imageBig="true"
-          label="new"
-          textAlign="left"
-          cardHeight="700px"
-          title="Export your finances in one click"
-          content={feature3}
-        />
-      </Fade>
-      <Fade delay={200}>
-        <Card
-          background={'Bella/assets/bg_2.png'}
-          imageUrl={'Bella/assets/8'}
-          imageBig="true"
-          textAlign="left"
-          title="Private and secure"
-          colorWhite="true"
-          cardHeight="700px"
-          content={feature4}
-        />
-      </Fade>
     </Container>
   </Section>
 );
@@ -97,7 +56,7 @@ const Features = () => (
 const Container = styled.div`
   display: grid;
   ${medium(
-    'grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px 700px'
+    'grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px'
   )};
   grid-template-columns: 100%;
   grid-template-rows: auto;

@@ -7,6 +7,7 @@ import title from '../components/Bella/assets/hero-title.svg';
 
 import Features from '../components/Bella/Features'
 import MoreFeatures from '../components/Bella/MoreFeatures'
+import LastFeatures from '../components/Bella/LastFeatures'
 import Video from '../components/Bella/Video'
 import TryBella from '../components/Bella/TryBella'
 import Zoom from 'react-reveal/Fade';
@@ -26,6 +27,7 @@ class Bella extends React.Component {
         <Features />
         <Video />
         <MoreFeatures />
+        <LastFeatures />
         <TryBella />
       </Page>
     );
