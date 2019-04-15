@@ -237,7 +237,7 @@ var LCard = function LCard(_ref) {
       { className: 'image-container' },
       _react2.default.createElement(
         _Fade2.default,
-        { left: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: props.bottom ? 800 : 400, distance: '50px' },
+        { left: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: 400, distance: '50px' },
         ' ',
         _react2.default.createElement('img', { src: __webpack_require__(12)("./" + props.image) })
       )
@@ -271,7 +271,7 @@ var LCard = function LCard(_ref) {
       { className: 'image-container' },
       _react2.default.createElement(
         _Fade2.default,
-        { right: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: props.bottom ? 800 : 400, distance: '50px' },
+        { right: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: 400, distance: '50px' },
         ' ',
         _react2.default.createElement('img', { src: __webpack_require__(12)("./" + props.image) })
       )
@@ -357,7 +357,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  transition: all 0.25s ease-in-out;\n  ', ';\n  height: auto;\n  min-height: ', ';\n  img {\n    height: 130px;\n    width: 130px;\n    ', ';\n    ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  transition: all 0.25s ease-in-out;\n  ', ';\n  height: auto;\n  min-height: ', ';\n  img {\n    height: 130px;\n    width: 130px;\n    ', ';\n    ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  transition: all 0.25s ease-in-out;\n  ', ';\n\n  height: ', ';\n\n  img {\n    height: 130px;\n    width: 130px;\n    ', ';\n    ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  ', ' ', '\n  background-size: 108% 108%;\n  background-position: center;\n  display: flex;\n  align-items: ', ';\n  flex-direction: column;\n  justify-content: center;\n  padding: 30px;\n  transition: all 0.25s ease-in-out;\n  ', ';\n\n  height: ', ';\n\n  img {\n    height: 130px;\n    width: 130px;\n    ', ';\n    ', ';\n  }\n  p {\n    color: ', ';\n    text-align: ', ';\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: ', ';\n    color: #2d4051;\n    margin: 15px 0 0 0;\n    color: ', ';\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -409,7 +409,8 @@ var SCard = function SCard(_ref) {
       background: props.background ? __webpack_require__(12)("./" + props.background) : '',
       gradient: props.gradient ? props.gradient : '',
       imageBig: props.imageBig ? props.imageBig : '',
-      height: props.height ? props.height : '' },
+      cardHeight: props.cardHeight ? props.cardHeight : ''
+    },
     _react2.default.createElement('img', { src: __webpack_require__(133)("./" + props.imageUrl + '.svg') }),
     props.label && _react2.default.createElement(
       'div',
@@ -463,7 +464,7 @@ var SmallCard = _styledComponents2.default.div(_templateObject, function (props)
 }, function (props) {
   return props.textAlign == 'left' ? 'flex-start' : 'center';
 }, medium('padding: 30px 60px;'), function (props) {
-  return props.height ? props.height : '500px';
+  return props.cardHeight ? props.cardHeight : '500px';
 }, function (props) {
   return props.imageBig && 'height: auto;';
 }, function (props) {
@@ -2636,7 +2637,7 @@ var Features = function Features() {
           imageBig: 'true',
           label: 'new',
           textAlign: 'left',
-          height: '700px',
+          cardHeight: '700px',
           title: 'Export your finances in one click',
           content: feature3
         })
@@ -2651,7 +2652,7 @@ var Features = function Features() {
           textAlign: 'left',
           title: 'Private and secure',
           colorWhite: 'true',
-          height: '700px',
+          cardHeight: '700px',
           content: feature4
         })
       )
@@ -2773,7 +2774,7 @@ var _templateObject = _taggedTemplateLiteral(['\n  background-color: #1c1d23;\n 
     _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  text-align: center;\n  margin: auto;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 1.2;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 15px;\n  }\n  h4 {\n    font-size: 22px;\n    line-height: 44px;\n    text-align: center;\n    color: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    img {\n      padding-right: 7px;\n    }\n  }\n'], ['\n  width: 100%;\n  text-align: center;\n  margin: auto;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 1.2;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 15px;\n  }\n  h4 {\n    font-size: 22px;\n    line-height: 44px;\n    text-align: center;\n    color: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    img {\n      padding-right: 7px;\n    }\n  }\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n  max-width: 100%;\n'], ['\n  max-width: 100%;\n']),
-    _templateObject5 = _taggedTemplateLiteral(['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  display: none;\n\n  &.display-block {\n    display: block;\n  }\n  @keyframes backgroundblack {\n    0% {\n      background-color: rgba(0, 0, 0, 0);\n    }\n    50% {\n      background-color: rgba(0, 0, 0, 0.4);\n    }\n    100% {\n      background-color: rgba(0, 0, 0, 0.8);\n    }\n  }\n  &.opacity-in {\n    animation: backgroundblack 0.3s linear;\n    background-color: rgba(0, 0, 0, 0.8);\n  }\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    90% {\n      transform: scale(0.1, 0.1);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 0.48s linear;\n  }\n  &.opacity-out {\n    background-color: rgba(0, 0, 0, 0);\n    transition: background-color 0.48s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n'], ['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  display: none;\n\n  &.display-block {\n    display: block;\n  }\n  @keyframes backgroundblack {\n    0% {\n      background-color: rgba(0, 0, 0, 0);\n    }\n    50% {\n      background-color: rgba(0, 0, 0, 0.4);\n    }\n    100% {\n      background-color: rgba(0, 0, 0, 0.8);\n    }\n  }\n  &.opacity-in {\n    animation: backgroundblack 0.3s linear;\n    background-color: rgba(0, 0, 0, 0.8);\n  }\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    90% {\n      transform: scale(0.1, 0.1);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 0.48s linear;\n  }\n  &.opacity-out {\n    background-color: rgba(0, 0, 0, 0);\n    transition: background-color 0.48s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n']);
+    _templateObject5 = _taggedTemplateLiteral(['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  display: none;\n\n  &.display-block {\n    display: block;\n  }\n  @keyframes backgroundblack {\n    0% {\n      background-color: rgba(0, 0, 0, 0);\n    }\n    50% {\n      background-color: rgba(0, 0, 0, 0.4);\n    }\n    100% {\n      background-color: rgba(0, 0, 0, 0.8);\n    }\n  }\n  &.opacity-in {\n    animation: backgroundblack 0.5s linear;\n    background-color: rgba(0, 0, 0, 0.8);\n  }\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 7s linear;\n  }\n  &.opacity-out {\n    background-color: rgba(0, 0, 0, 0);\n    opacity: 0;\n    transition: all 7s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n'], ['\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  overflow: hidden;\n  display: none;\n\n  &.display-block {\n    display: block;\n  }\n  @keyframes backgroundblack {\n    0% {\n      background-color: rgba(0, 0, 0, 0);\n    }\n    50% {\n      background-color: rgba(0, 0, 0, 0.4);\n    }\n    100% {\n      background-color: rgba(0, 0, 0, 0.8);\n    }\n  }\n  &.opacity-in {\n    animation: backgroundblack 0.5s linear;\n    background-color: rgba(0, 0, 0, 0.8);\n  }\n  @keyframes videoout {\n    0% {\n      transform: scale(1, 1);\n    }\n    50% {\n      transform: scale(0.5, 0.5);\n    }\n    100% {\n      transform: scale(0, 0);\n    }\n  }\n  .zoom-out {\n    animation: videoout 7s linear;\n  }\n  &.opacity-out {\n    background-color: rgba(0, 0, 0, 0);\n    opacity: 0;\n    transition: all 7s linear;\n  }\n  .modal-content {\n    background-color: black;\n    margin: 15% auto;\n    border: 1px solid black;\n    width: 60%;\n    height: auto;\n    iframe {\n      width: 100%;\n      height: 30vw;\n    }\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -8647,4 +8648,4 @@ module.exports = __webpack_require__.p + "static/3a1c4c1e-yalda.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.0c0ef542.js.map
+//# sourceMappingURL=static.cbe5a1ef.js.map
