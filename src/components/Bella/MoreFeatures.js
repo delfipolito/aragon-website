@@ -48,31 +48,24 @@ const feature4 = (
 const Features = () => (
   <Section>
     <Container>
-      <LongFade>
-        <Fade>
-          <LongCard
-            gradient="linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)"
-            image={'Bella/assets/4.svg'}
-            textAlign="right"
-            label="new"
-            title="Aragon goes mobile"
-            content={feature1}
-            className="first-feature"
-          />
-        </Fade>
-      </LongFade>
-      <LongFade>
-        <Fade>
-          <LongCard
-            gradient="linear-gradient(24.28deg, #C3E4DF 0%, #EDFAF2 100.94%)"
-            image={'Bella/assets/5.svg'}
-            textAlign="right"
-            label="new"
-            title="Always evolving, constantly improving"
-            content={feature2}
-          />
-        </Fade>
-      </LongFade>
+      <LongCard
+        gradient="linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)"
+        image={'Bella/assets/4.svg'}
+        textAlign="right"
+        label="new"
+        bottom={true}
+        title="Aragon goes mobile"
+        content={feature1}
+        className="first-feature"
+      />
+      <LongCard
+        gradient="linear-gradient(24.28deg, #C3E4DF 0%, #EDFAF2 100.94%)"
+        image={'Bella/assets/5.svg'}
+        textAlign="right"
+        label="new"
+        title="Always evolving, constantly improving"
+        content={feature2}
+      />
       <Fade delay={100}>
         <Card
           gradient="linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)"
@@ -80,6 +73,7 @@ const Features = () => (
           imageBig="true"
           label="new"
           textAlign="left"
+          height="700px"
           title="Export your finances in one click"
           content={feature3}
         />
@@ -92,6 +86,7 @@ const Features = () => (
           textAlign="left"
           title="Private and secure"
           colorWhite="true"
+          height="700px"
           content={feature4}
         />
       </Fade>
@@ -99,13 +94,6 @@ const Features = () => (
   </Section>
 );
 
-const LongFade = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-column-start: 1;
-  ${medium('height: 500px ')};
-  height: auto;
-`;
 const Container = styled.div`
   display: grid;
   ${medium(
@@ -123,8 +111,8 @@ const Container = styled.div`
     }
   }
   .label {
-    display: flex
-    p{
+    display: flex;
+    p {
       background: #ffffff80;
       mix-blend-mode: normal;
       border-radius: 100px;
@@ -132,7 +120,7 @@ const Container = styled.div`
       text-transform: uppercase;
       font-family: 'FontBold';
       font-size: 10px;
-      color: #8FB5C8;
+      color: #8fb5c8;
     }
   }
 `;

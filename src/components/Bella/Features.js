@@ -39,42 +39,37 @@ const feature3 = (
 const Features = () => (
   <Section>
     <Container>
-      <LongFade>
-        <Fade>
-          <LongCard
-            background={'Bella/assets/background-1.png'}
-            image={'Bella/assets/1.svg'}
-            textAlign="right"
-            label="new"
-            title="Call people by their name"
-            content={feature1}
-          />
-        </Fade>
-      </LongFade>
-      <LongFade>
-        <Fade>
-          <LongCard
-            background={'Bella/assets/background-2.png'}
-            image={'Bella/assets/2.svg'}
-            label="new"
-            textAlign="left"
-            title={<span>Get activity<br/> notifications</span>}
-            content={feature2}
-          />
-        </Fade>
-      </LongFade>
-      <LongFade>
-        <Fade>
-          <LongCard
-            background={'Bella/assets/background-3.png'}
-            image={'Bella/assets/3.svg'}
-            textAlign="right"
-            label="invite-only"
-            title="The easiest payroll ever made"
-            content={feature3}
-          />
-        </Fade>
-      </LongFade>
+      <LongCard
+        background={'Bella/assets/background-1.png'}
+        image={'Bella/assets/1.svg'}
+        textAlign="right"
+        label="new"
+        title="Call people by their name"
+        content={feature1}
+      />
+
+      <LongCard
+        background={'Bella/assets/background-2.png'}
+        image={'Bella/assets/2.svg'}
+        label="new"
+        textAlign="left"
+        title={
+          <span>
+            Get activity
+            <br /> notifications
+          </span>
+        }
+        content={feature2}
+      />
+
+      <LongCard
+        background={'Bella/assets/background-3.png'}
+        image={'Bella/assets/3.svg'}
+        textAlign="right"
+        label="invite-only"
+        title="The easiest payroll ever made"
+        content={feature3}
+      />
     </Container>
   </Section>
 );
@@ -89,8 +84,8 @@ const Container = styled.div`
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   .label {
-    display: flex
-    p{
+    display: flex;
+    p {
       background: #ffffff80;
       mix-blend-mode: normal;
       border-radius: 100px;
@@ -98,16 +93,9 @@ const Container = styled.div`
       text-transform: uppercase;
       font-family: 'FontBold';
       font-size: 10px;
-      color: #8FB5C8;
+      color: #8fb5c8;
     }
   }
-`;
-const LongFade = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-column-start: 1;
-  ${medium('height: 500px ')};
-  height: auto;
 `;
 
 export default Features;

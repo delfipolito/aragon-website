@@ -22,15 +22,19 @@ class Video extends React.Component {
   handleClose() {
     let show = this.state.modal;
     let self = this;
-    var element = document.getElementById("modalContent");
+    var element = document.getElementById('modalContent');
+    var modalBackground = document.getElementById('videoModal');
+    modalBackground.classList.add('opacity-out');
     element.style.removeProperty('animation-name');
-    element.classList.add("zoom-out");
+    element.classList.add('zoom-out');
     setTimeout(function() {
       self.setState({modal: !show});
-    }, 310);
+    }, 500);
   }
 
   handleOpen() {
+    var modalBackground = document.getElementById('videoModal');
+    modalBackground.classList.add('display-block');
     let show = this.state.modal;
     this.setState({modal: !show});
   }
@@ -47,19 +51,26 @@ class Video extends React.Component {
             </h4>
           </Container>
         </Box>
-        {this.state.modal && (
-          <Modal onClick={this.handleClose}>
-            <Zoom duration={300}>
-              <div
-                id="modalContent"
-                className={
-                  this.state.modal ? 'modal-content' : 'modal-content zoom-out'
-                }>
-                <iframe src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&amp;ecver=2" frameBorder="0" allow="autoplay; encrypted-media"  allowFullScreen></iframe>
-              </div>
-            </Zoom>
-          </Modal>
-        )}
+
+        <Modal
+          id="videoModal"
+          className={this.state.modal ? 'display-block opacity-in' : 'opacity-out'}
+          onClick={this.handleClose}>
+          <Zoom duration={400}>
+            <div
+              id="modalContent"
+              className={
+                this.state.modal ? 'modal-content' : 'modal-content zoom-out'
+              }>
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&amp;ecver=2"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+          </Zoom>
+        </Modal>
       </VideoeSection>
     );
   }
@@ -118,9 +129,26 @@ const Modal = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
 
+  &.display-block {
+    display: block;
+  }
+  @keyframes backgroundblack {
+    0% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    50% {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    100% {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+  &.opacity-in {
+    animation: backgroundblack 0.3s linear;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
   @keyframes videoout {
     0% {
       transform: scale(1, 1);
@@ -136,7 +164,11 @@ const Modal = styled.div`
     }
   }
   .zoom-out {
-    animation: videoout 0.3s linear;
+    animation: videoout 0.48s linear;
+  }
+  &.opacity-out {
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.48s linear;
   }
   .modal-content {
     background-color: black;

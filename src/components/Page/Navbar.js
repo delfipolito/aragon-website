@@ -88,7 +88,7 @@ class Navbar extends React.Component {
               </li>
               <li className="logo">
                 <LogoLink to="/">
-                  <img src={logo} style={{ height: this.state.image + 'px' }}/>
+                  <img src={logo} />
                 </LogoLink>
               </li>
               <li>
@@ -211,7 +211,7 @@ const LogoLink = styled(Link)`
   width: 148px;
   height: 100%;
   img {
-    height: 44px;
+    height: 62%;
   }
 `
 
