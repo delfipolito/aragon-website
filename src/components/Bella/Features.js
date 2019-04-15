@@ -4,6 +4,7 @@ import LongCard from '../General/LongCard';
 import Card from '../General/Card';
 import styled from 'styled-components';
 import {Link} from 'react-static';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -38,27 +39,39 @@ const feature3 = (
 const Features = () => (
   <Section>
     <Container>
-      <LongCard
-        background={'Bella/assets/background-1.png'}
-        image={'Bella/assets/1.svg'}
-        textAlign="right"
-        title="Call people by their name"
-        content={feature1}
-      />
-      <LongCard
-        background={'Bella/assets/background-2.png'}
-        image={'Bella/assets/2.svg'}
-        textAlign="left"
-        title="Get activity notifications"
-        content={feature2}
-      />
-      <LongCard
-        background={'Bella/assets/background-3.png'}
-        image={'Bella/assets/3.svg'}
-        textAlign="right"
-        title="The easiest payroll ever made"
-        content={feature3}
-      />
+      <LongFade>
+        <Fade>
+          <LongCard
+            background={'Bella/assets/background-1.png'}
+            image={'Bella/assets/1.svg'}
+            textAlign="right"
+            title="Call people by their name"
+            content={feature1}
+          />
+        </Fade>
+      </LongFade>
+      <LongFade>
+        <Fade>
+          <LongCard
+            background={'Bella/assets/background-2.png'}
+            image={'Bella/assets/2.svg'}
+            textAlign="left"
+            title="Get activity notifications"
+            content={feature2}
+          />
+        </Fade>
+      </LongFade>
+      <LongFade>
+        <Fade>
+          <LongCard
+            background={'Bella/assets/background-3.png'}
+            image={'Bella/assets/3.svg'}
+            textAlign="right"
+            title="The easiest payroll ever made"
+            content={feature3}
+          />
+        </Fade>
+      </LongFade>
     </Container>
   </Section>
 );
@@ -72,6 +85,13 @@ const Container = styled.div`
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+`;
+const LongFade = styled.div`
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  ${medium('height: 500px ')};
+  height: auto;
 `;
 
 export default Features;

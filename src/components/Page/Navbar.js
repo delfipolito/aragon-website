@@ -41,9 +41,11 @@ class Navbar extends React.Component {
 
   onScroll = event => {
     let scroll = 1 - ((document.scrollingElement.scrollTop * 2) / 1000);
+    let image = 1 - ((document.scrollingElement.scrollTop * 2) / 1000);
 
     if (scroll < 0.8) {
       scroll = 0.8;
+      image = 0.8;
     }
     if (window.location.href.indexOf('bella') >= 0 && document.scrollingElement.scrollTop == 0) {
       scroll = 0;
@@ -53,14 +55,11 @@ class Navbar extends React.Component {
     if (height < 0.68) {
       height = 0.68;
     }
-    if (window.location.href.indexOf('bella') >= 0 && document.scrollingElement.scrollTop == 0) {
-      scroll = 0;
-      height = 0;
-    }
+
     this.setState({
       scroll: scroll,
       height: height * 64,
-      image: scroll * 44,
+      image: image * 44,
     })
   }
   renderIn = ({ x, h, i, menuItems, path }) => {

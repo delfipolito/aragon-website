@@ -4,6 +4,7 @@ import LongCard from '../General/LongCard';
 import Card from '../General/Card';
 import styled from 'styled-components';
 import {Link} from 'react-static';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -47,42 +48,61 @@ const feature4 = (
 const Features = () => (
   <Section>
     <Container>
-      <LongCard
-        gradient="linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)"
-        image={'Bella/assets/4.svg'}
-        textAlign="right"
-        title="Aragon goes mobile"
-        content={feature1}
-        className="first-feature"
-      />
-      <LongCard
-        gradient="linear-gradient(24.28deg, #C3E4DF 0%, #EDFAF2 100.94%)"
-        image={'Bella/assets/5.svg'}
-        textAlign="right"
-        title="Always evolving, constantly improving"
-        content={feature2}
-      />
-      <Card
-        gradient="linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)"
-        imageUrl={'Bella/assets/6'}
-        imageBig="true"
-        textAlign="left"
-        title="Export your finances in one click"
-        content={feature3}
-      />
-      <Card
-        background={'Bella/assets/bg_2.png'}
-        imageUrl={'Bella/assets/8'}
-        imageBig="true"
-        textAlign="left"
-        title="Private and secure"
-        colorWhite="true"
-        content={feature4}
-      />
+      <LongFade>
+        <Fade>
+          <LongCard
+            gradient="linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)"
+            image={'Bella/assets/4.svg'}
+            textAlign="right"
+            title="Aragon goes mobile"
+            content={feature1}
+            className="first-feature"
+          />
+        </Fade>
+      </LongFade>
+      <LongFade>
+        <Fade>
+          <LongCard
+            gradient="linear-gradient(24.28deg, #C3E4DF 0%, #EDFAF2 100.94%)"
+            image={'Bella/assets/5.svg'}
+            textAlign="right"
+            title="Always evolving, constantly improving"
+            content={feature2}
+          />
+        </Fade>
+      </LongFade>
+      <Fade delay={100}>
+        <Card
+          gradient="linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)"
+          imageUrl={'Bella/assets/6'}
+          imageBig="true"
+          textAlign="left"
+          title="Export your finances in one click"
+          content={feature3}
+        />
+      </Fade>
+      <Fade delay={200}>
+        <Card
+          background={'Bella/assets/bg_2.png'}
+          imageUrl={'Bella/assets/8'}
+          imageBig="true"
+          textAlign="left"
+          title="Private and secure"
+          colorWhite="true"
+          content={feature4}
+        />
+      </Fade>
     </Container>
   </Section>
 );
 
+const LongFade = styled.div`
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  ${medium('height: 500px ')};
+  height: auto;
+`;
 const Container = styled.div`
   display: grid;
   ${medium(
@@ -93,9 +113,7 @@ const Container = styled.div`
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   .first-feature .image-container {
-    ${medium(
-      'margin-bottom: 2px !important;'
-    )};
+    ${medium('margin-bottom: 2px !important;')};
     img {
       height: 502px;
       width: 502px;

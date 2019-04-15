@@ -27,7 +27,7 @@ class Video extends React.Component {
     element.classList.add("zoom-out");
     setTimeout(function() {
       self.setState({modal: !show});
-    }, 730);
+    }, 310);
   }
 
   handleOpen() {
@@ -49,7 +49,7 @@ class Video extends React.Component {
         </Box>
         {this.state.modal && (
           <Modal onClick={this.handleClose}>
-            <Zoom>
+            <Zoom duration={300}>
               <div
                 id="modalContent"
                 className={
@@ -121,7 +121,7 @@ const Modal = styled.div`
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
 
-  @keyframes zoomout {
+  @keyframes videoout {
     0% {
       transform: scale(1, 1);
     }
@@ -136,7 +136,7 @@ const Modal = styled.div`
     }
   }
   .zoom-out {
-    animation: zoomout 0.7s linear;
+    animation: videoout 0.3s linear;
   }
   .modal-content {
     background-color: black;

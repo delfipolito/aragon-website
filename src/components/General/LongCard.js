@@ -69,6 +69,8 @@ const LongCard = styled('div')`
   flex-direction: column;
   ${medium('flex-direction: row;')};
   height: 100%;
+  ${medium('max-height: 500px ')};
+  max-height: auto;
   grid-column-start: 1;
   ${medium('grid-column-end: 3;')};
   grid-column-end: 2;
