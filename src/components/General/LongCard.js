@@ -18,7 +18,7 @@ const LCard = ({...props}) => (
     {props.image &&
       props.textAlign == 'right' && (
         <ImageContainer className="image-container">
-          <Fade left={props.bottom ? false : true} bottom={props.bottom ? true : false}  delay={props.bottom ? 800 : 400} distance="50px">
+          <Fade left={props.bottom ? false : true} bottom={props.bottom ? true : false}  delay={400} distance="50px">
             {' '}
             <img src={require(`../${props.image}`)} />
           </Fade>
@@ -37,7 +37,7 @@ const LCard = ({...props}) => (
     {props.image &&
       props.textAlign == 'left' && (
         <ImageContainer className="image-container">
-          <Fade right={props.bottom ? false : true} bottom={props.bottom ? true : false} delay={props.bottom ? 800 : 400} distance="50px">
+          <Fade right={props.bottom ? false : true} bottom={props.bottom ? true : false} delay={400} distance="50px">
             {' '}
             <img src={require(`../${props.image}`)} />
           </Fade>

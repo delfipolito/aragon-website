@@ -73,7 +73,7 @@ const Features = () => (
           imageBig="true"
           label="new"
           textAlign="left"
-          height="700px"
+          cardHeight="700px"
           title="Export your finances in one click"
           content={feature3}
         />
@@ -86,7 +86,7 @@ const Features = () => (
           textAlign="left"
           title="Private and secure"
           colorWhite="true"
-          height="700px"
+          cardHeight="700px"
           content={feature4}
         />
       </Fade>

@@ -146,7 +146,7 @@ const Modal = styled.div`
     }
   }
   &.opacity-in {
-    animation: backgroundblack 0.3s linear;
+    animation: backgroundblack 0.5s linear;
     background-color: rgba(0, 0, 0, 0.8);
   }
   @keyframes videoout {
@@ -156,19 +156,17 @@ const Modal = styled.div`
     50% {
       transform: scale(0.5, 0.5);
     }
-    90% {
-      transform: scale(0.1, 0.1);
-    }
     100% {
       transform: scale(0, 0);
     }
   }
   .zoom-out {
-    animation: videoout 0.48s linear;
+    animation: videoout 7s linear;
   }
   &.opacity-out {
     background-color: rgba(0, 0, 0, 0);
-    transition: background-color 0.48s linear;
+    opacity: 0;
+    transition: all 7s linear;
   }
   .modal-content {
     background-color: black;

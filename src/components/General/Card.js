@@ -16,7 +16,8 @@ const SCard = ({...props}) => (
     background={props.background ? require(`../${props.background}`) : ''}
     gradient={props.gradient ? props.gradient : ''}
     imageBig={props.imageBig ? props.imageBig : ''}
-    height={props.height ? props.height : ''}>
+    cardHeight={props.cardHeight ? props.cardHeight : ''}
+    >
     <img src={require(`../${props.imageUrl}.svg`)} />
     {props.label && (
       <div className="label">
@@ -60,8 +61,9 @@ const SmallCard = styled.div`
   padding: 30px;
   transition: all 0.25s ease-in-out;
   ${medium('padding: 30px 60px;')};
-  height: auto;
-  min-height: ${props => (props.height ? props.height : '500px')};
+
+  height: ${props => (props.cardHeight ? props.cardHeight : '500px')};
+
   img {
     height: 130px;
     width: 130px;
