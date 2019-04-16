@@ -125,7 +125,7 @@ const Box = styled.div`
 `;
 const TextContainer = styled.div`
   width: 100%;
-  min-width: 453px;
+  ${medium('min-width: 453px;')};
   h2 {
     font-size: 56px;
     line-height: 75px;
