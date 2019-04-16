@@ -14,16 +14,16 @@ const Hero = () => (
     <Box>
       <BreakPoint to="medium">
         <div className="mobile-container">
-          <video className="video-mobile" playsInline autoPlay muted loop>
+          <VideoMobile playsInline autoPlay muted loop>
             <source src={videoMobile} type="video/mp4" />
-          </video>
+          </VideoMobile>
         </div>
       </BreakPoint>
       <BreakPoint from="medium">
         <VideoContainer>
-          <video className="desktop" playsInline autoPlay muted loop>
+          <VideoDesktop  playsInline autoPlay muted loop>
             <source src={video} type="video/mp4" />
-          </video>
+          </VideoDesktop>
         </VideoContainer>
       </BreakPoint>
       <TextContainer>
@@ -45,44 +45,57 @@ const Hero = () => (
     </Box>
   </HeroSection>
 );
+
 const VideoContainer = styled.div`
   width: 100%;
-  video.desktop {
-    width: 90%;
-    max-width: 312px;
-    margin-top: 30px;
-    ${medium(
-      'width: auto; margin-right: 28px; max-width: inherit; margin-top: 0;'
-    )};
-    z-index: 2;
-    position: relative;
-    border-radius: 8px;
-
-    @media (min-width: 10px) and (max-width: 960px) {
-      display: none;
-    }
-    @media (min-width: 960px) and (max-width: 1120px) {
-      display: block;
-      height: 300px;
-      margin-left: -10px;
-    }
-    @media (min-width: 1120px) and (max-width: 1260px) {
-      display: block;
-      height: 350px;
-      margin-left: -30px;
-    }
-    @media (min-width: 1260px) and (max-width: 1330px) {
-      display: block;
-      height: 400px !important;
-      margin-left: -50px;
-    }
-    @media (min-width: 1330px) {
-      display: block;
-      height: 450px;
-      margin-left: -70px;
-    }
-  }
 `;
+
+const VideoMobile = styled.video`
+  width: 90%;
+  max-width: 312px;
+  margin-top: 30px;
+  z-index: 3;
+  position: relative;
+  border-radius: 8px;
+`;
+
+const VideoDesktop = styled.video`
+  height: 450px;
+  max-width: 312px;
+  margin-top: 30px;
+  ${medium(
+    'width: auto; margin-right: 70px; max-width: inherit; margin-top: 0;'
+  )};
+  z-index: 2;
+  position: relative;
+  border-radius: 8px;
+
+  @media (min-width: 10px) and (max-width: 960px) {
+    display: none;
+  }
+  @media (min-width: 960px) and (max-width: 1120px) {
+    display: block;
+    height: 300px;
+    margin-left: -10px;
+    margin-right: 30px;
+  }
+  @media (min-width: 1120px) and (max-width: 1260px) {
+    display: block;
+    height: 350px;
+    margin-left: -30px;
+    margin-right: 50px;
+  }
+  @media (min-width: 1260px) and (max-width: 1330px) {
+    display: block;
+    height: 400px !important;
+    margin-left: -50px;
+  }
+  @media (min-width: 1330px) {
+    display: block;
+    height: 450px;
+    margin-left: -70px;
+  }
+`
 
 const HeroSection = styled(Section)`
   background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);
@@ -96,14 +109,6 @@ const HeroSection = styled(Section)`
   .mobile-container {
     width: 100%;
     text-align: center;
-  }
-  video.video-mobile {
-    width: 90%;
-    max-width: 312px;
-    margin-top: 30px;
-    z-index: 3;
-    position: relative;
-    border-radius: 8px;
   }
 `;
 const Box = styled.div`

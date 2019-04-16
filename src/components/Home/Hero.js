@@ -39,10 +39,10 @@ const Hero = () => (
       </TextContainer>
       <BreakPoint from="medium">
         <VideoContainer>
-          <img src={blur} />
-          <video className="desktop" playsInline autoPlay muted loop>
+          <Blur src={blur} />
+          <VideoDesktop playsInline autoPlay muted loop>
             <source src={video} type="video/mp4" />
-          </video>
+          </VideoDesktop>
         </VideoContainer>
       </BreakPoint>
     </Box>
@@ -50,69 +50,70 @@ const Hero = () => (
 );
 const VideoContainer = styled.div`
   width: 100%;
-  video.desktop {
-    width: 90%;
-    max-width: 312px;
-    margin-top: 30px;
-    ${medium('width: auto; margin-left: 28px; max-width: inherit; margin-top: 0;')};
-    z-index: 2;
-    position: relative;
-    border-radius: 8px;
-
-    @media (min-width: 10px) and (max-width: 960px) {
-      display: none;
-    }
-    @media (min-width: 960px) and (max-width: 1120px) {
-      display: block;
-      height: 300px;
-      margin-right: -10px;
-    }
-    @media (min-width: 1120px) and (max-width: 1260px) {
-      display: block;
-      height: 350px;
-      margin-right: -30px;
-    }
-    @media (min-width: 1260px) and (max-width: 1330px) {
-      display: block;
-      height: 400px !important;
-      margin-right: -50px;
-    }
-    @media (min-width: 1330px) {
-      display: block;
-      height: 450px;
-      margin-right: -70px;
-    }
-  }
-
-  img {
-    position: absolute;
-    z-index: 1;
-    height: auto;
-    @media (min-width: 768px) and (max-width: 960px) {
-      display: none;
-    }
-    @media (min-width: 960px) and (max-width: 1120px) {
-      width: 720px;
-      bottom: 45px;
-      left: calc(50% - 122px);
-    }
-    @media (min-width: 1120px) and (max-width: 1260px) {
-      width: 840px;
-      bottom: -10px;
-      left: calc(50% - 153px);
-    }
-    @media (min-width: 1260px) and (max-width: 1330px) {
-      width: 960px;
-      bottom: -43px;
-      left: calc(50% - 205px);
-    }
-    @media (min-width: 1330px) {
-      width: 1080px;
-      bottom: -71px;
-      left: calc(50% - 277px);
-    }
-  }
 `;
+
+const Blur = styled.img`
+  position: absolute;
+  z-index: 1;
+  height: auto;
+  @media (min-width: 768px) and (max-width: 960px) {
+    display: none;
+  }
+  @media (min-width: 960px) and (max-width: 1120px) {
+    width: 720px;
+    bottom: 45px;
+    left: calc(50% - 122px);
+  }
+  @media (min-width: 1120px) and (max-width: 1260px) {
+    width: 840px;
+    bottom: -10px;
+    left: calc(50% - 153px);
+  }
+  @media (min-width: 1260px) and (max-width: 1330px) {
+    width: 960px;
+    bottom: -43px;
+    left: calc(50% - 205px);
+  }
+  @media (min-width: 1330px) {
+    width: 1080px;
+    bottom: -71px;
+    left: calc(50% - 277px);
+  }
+`
+const VideoDesktop = styled.video`
+  width: 90%;
+  max-width: 312px;
+  margin-top: 30px;
+  ${medium('width: auto; margin-left: 28px; max-width: inherit; margin-top: 0;')};
+  z-index: 2;
+  position: relative;
+  border-radius: 8px;
+
+  @media (min-width: 10px) and (max-width: 960px) {
+    display: none;
+  }
+  @media (min-width: 960px) and (max-width: 1120px) {
+    display: block;
+    height: 300px;
+    margin-right: -10px;
+  }
+  @media (min-width: 1120px) and (max-width: 1260px) {
+    display: block;
+    height: 350px;
+    margin-right: -30px;
+  }
+  @media (min-width: 1260px) and (max-width: 1330px) {
+    display: block;
+    height: 400px !important;
+    margin-right: -50px;
+  }
+  @media (min-width: 1330px) {
+    display: block;
+    height: 450px;
+    margin-right: -70px;
+  }
+`
+
 
 const HeroSection = styled(Section)`
   background-color: #1c1d23;
