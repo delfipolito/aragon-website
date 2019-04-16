@@ -5,6 +5,16 @@ import {Link} from 'react-static';
 import backgroundImage from './assets/video-background.png';
 import play from './assets/play.svg';
 import Zoom from 'react-reveal/Zoom';
+import YouTube from 'react-youtube';
+
+//
+// <iframe
+//   id="youtubeVideo"
+//   src="https://www.youtube-nocookie.com/embed/?rel=0&amp;ecver=2"
+//   frameBorder="0"
+//   allow="autoplay; encrypted-media"
+//   allowFullScreen
+// />
 
 import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -14,9 +24,11 @@ class Video extends React.Component {
     super(props);
     this.state = {
       modal: false,
+      player: null,
     };
     this.handleOpen = this.handleOpen.bind(this);
     this.handleClose = this.handleClose.bind(this);
+    this.onReady = this.onReady.bind(this);
   }
 
   handleClose() {
@@ -27,6 +39,7 @@ class Video extends React.Component {
     modalBackground.classList.add('background-out');
     element.style.removeProperty('animation-name');
     element.classList.add('content-out');
+    this.state.player.pauseVideo();
     setTimeout(function() {
       self.setState({modal: !show});
     }, 500);
@@ -37,6 +50,12 @@ class Video extends React.Component {
     modalBackground.classList.add('display-block');
     let show = this.state.modal;
     this.setState({modal: !show});
+  }
+
+  onReady(event) {
+    this.setState({
+      player: event.target,
+    });
   }
 
   render() {
@@ -72,12 +91,9 @@ class Video extends React.Component {
                 className={
                   this.state.modal ? 'modal-content' : 'modal-content content-out'
                 }>
-                <iframe
-                  id="youtubeVideo"
-                  src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&amp;ecver=2"
-                  frameBorder="0"
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
+                <YouTube
+                  videoId="AqjIWmiAidw"
+                  onReady={this.onReady}
                 />
               </div>
             </Zoom>
