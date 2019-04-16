@@ -12,14 +12,14 @@ const Video = () => (
   <VideoeSection>
     <Box>
       <Container>
-      <BreakPoint to="medium">
-        <video playsInline autoPlay muted loop>
-          <source src={video} type="video/mp4" />
-        </video>
-      </BreakPoint>
-      <h2>Try Aragon 0.7 <br/>Bella now</h2>
-      <h4>Aragon empowers you to freely organize and collaborate. Create global, bureaucracy-free organizations, companies, and communities.</h4>
-      <Button.Anchor className="hero-link" mode="strong" href="https://mainnet.aragon.org/">Try Bella now</Button.Anchor>
+        <BreakPoint to="medium">
+          <video playsInline autoPlay muted loop>
+            <source src={video} type="video/mp4" />
+          </video>
+        </BreakPoint>
+        <h2>Try Aragon 0.7 <br/>Bella now</h2>
+        <h4>Aragon empowers you to freely organize and collaborate. Create global, bureaucracy-free organizations, companies, and communities.</h4>
+        <Button.Anchor className="hero-link" mode="strong" href="https://mainnet.aragon.org/">Try Bella now</Button.Anchor>
       </Container>
       <BreakPoint from="medium">
         <video playsInline autoPlay muted loop>
