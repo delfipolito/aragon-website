@@ -409,7 +409,8 @@ var SCard = function SCard(_ref) {
       background: props.background ? __webpack_require__(12)("./" + props.background) : '',
       gradient: props.gradient ? props.gradient : '',
       imageBig: props.imageBig ? props.imageBig : '',
-      cardHeight: props.cardHeight ? props.cardHeight : false
+      cardHeight: props.cardHeight ? props.cardHeight : false,
+      className: props.className
     },
     _react2.default.createElement('img', { src: __webpack_require__(135)("./" + props.imageUrl + '.svg') }),
     props.label && _react2.default.createElement(
@@ -1127,10 +1128,10 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  height: 64px;\n  display: flex;\n  justify-content: flex-start;\n  ', ';\n  align-items: center;\n  padding: 0 20px;\n  position: fixed;\n  z-index: 5;\n  .brand {\n    display: flex;\n  }\n  a {\n    position: relative;\n    &:focus {\n      outline: 0;\n      &:after {\n        content: \'\';\n        position: absolute;\n        top: 2px;\n        left: -5px;\n        right: -5px;\n        bottom: 0;\n        outline: 2px solid #22e0ff;\n      }\n    }\n    &:active:after {\n      display: none;\n    }\n  }\n  ', ';\n'], ['\n  width: 100%;\n  height: 64px;\n  display: flex;\n  justify-content: flex-start;\n  ', ';\n  align-items: center;\n  padding: 0 20px;\n  position: fixed;\n  z-index: 5;\n  .brand {\n    display: flex;\n  }\n  a {\n    position: relative;\n    &:focus {\n      outline: 0;\n      &:after {\n        content: \'\';\n        position: absolute;\n        top: 2px;\n        left: -5px;\n        right: -5px;\n        bottom: 0;\n        outline: 2px solid #22e0ff;\n      }\n    }\n    &:active:after {\n      display: none;\n    }\n  }\n  ', ';\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  ul {\n    display: flex;\n    height: 100%;\n  }\n  li {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 185px;\n  }\n  li.logo {\n    width: 100px;\n  }\n  button {\n    margin: 0 0 0 10px;\n  }\n  height: 64px;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  ', ';\n'], ['\n  ul {\n    display: flex;\n    height: 100%;\n  }\n  li {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 185px;\n  }\n  li.logo {\n    width: 100px;\n  }\n  button {\n    margin: 0 0 0 10px;\n  }\n  height: 64px;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  ', ';\n']),
+var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  height: 64px;\n  display: flex;\n  justify-content: flex-start;\n  ', ';\n  align-items: center;\n  padding: 0 20px;\n  position: fixed;\n  z-index: 5;\n  .brand {\n    display: flex;\n  }\n  a {\n    position: relative;\n    height: 100%;\n    &:focus {\n      outline: 0;\n      &:after {\n        content: \'\';\n        position: absolute;\n        top: 2px;\n        left: -5px;\n        right: -5px;\n        bottom: 0;\n        outline: 2px solid #22e0ff;\n      }\n    }\n    &:active:after {\n      display: none;\n    }\n  }\n  ', ';\n'], ['\n  width: 100%;\n  height: 64px;\n  display: flex;\n  justify-content: flex-start;\n  ', ';\n  align-items: center;\n  padding: 0 20px;\n  position: fixed;\n  z-index: 5;\n  .brand {\n    display: flex;\n  }\n  a {\n    position: relative;\n    height: 100%;\n    &:focus {\n      outline: 0;\n      &:after {\n        content: \'\';\n        position: absolute;\n        top: 2px;\n        left: -5px;\n        right: -5px;\n        bottom: 0;\n        outline: 2px solid #22e0ff;\n      }\n    }\n    &:active:after {\n      display: none;\n    }\n  }\n  ', ';\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  ul {\n    display: flex;\n    height: 100%;\n  }\n  li {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 185px;\n  }\n  li.logo {\n    width: 100px;\n  }\n  button {\n    margin: 0 0 0 10px;\n  }\n  height: 100%;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  ', ';\n'], ['\n  ul {\n    display: flex;\n    height: 100%;\n  }\n  li {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 185px;\n  }\n  li.logo {\n    width: 100px;\n  }\n  button {\n    margin: 0 0 0 10px;\n  }\n  height: 100%;\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  ', ';\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 148px;\n  height: 100%;\n  img {\n    height: 62%;\n  }\n'], ['\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 148px;\n  height: 100%;\n  img {\n    height: 62%;\n  }\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  margin: 0 !important;\n  position: relative;\n  top: 4px;\n  height: 44px;\n'], ['\n  margin: 0 !important;\n  position: relative;\n  top: 4px;\n  height: 44px;\n']);
+    _templateObject4 = _taggedTemplateLiteral(['\n  margin: 0 !important;\n  position: relative;\n  top: 19%;\n  height: 62%;\n'], ['\n  margin: 0 !important;\n  position: relative;\n  top: 19%;\n  height: 62%;\n']);
 
 var _react = __webpack_require__(0);
 
@@ -1465,7 +1466,7 @@ Object.defineProperty(exports, "__esModule", {
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  a {\n    padding: 10px 0;\n    text-decoration: none;\n    color: white;\n  }\n  a:hover {\n    color: #22e0ff;\n  }\n'], ['\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  a {\n    padding: 10px 0;\n    text-decoration: none;\n    color: white;\n  }\n  a:hover {\n    color: #22e0ff;\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  button {\n    padding: 0;\n    margin: 0!important;\n  }\n  button img, div img {\n    padding: 0;\n    margin: 0;\n  }\n'], ['\n  button {\n    padding: 0;\n    margin: 0!important;\n  }\n  button img, div img {\n    padding: 0;\n    margin: 0;\n  }\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n  button {\n    padding: 0;\n    margin: 0!important;\n  }\n  img {\n    top: 3px;\n    position: relative;\n  }\n  button img, div img {\n    padding: 0;\n    margin: 0;\n  }\n'], ['\n  button {\n    padding: 0;\n    margin: 0!important;\n  }\n  img {\n    top: 3px;\n    position: relative;\n  }\n  button img, div img {\n    padding: 0;\n    margin: 0;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2182,7 +2183,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 35px;\n    color: #FFFFFF;\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 35px;\n    color: #FFFFFF;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 35px;\n    color: #FFFFFF;\n  }\n  img.bella-img {\n    max-width: 90%;\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 35px;\n    color: #FFFFFF;\n  }\n  img.bella-img {\n    max-width: 90%;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2343,7 +2344,7 @@ var bellaContent = _react2.default.createElement(
     { className: 'discover' },
     'Discover what\'s new'
   ),
-  _react2.default.createElement('img', { src: __webpack_require__(15) })
+  _react2.default.createElement('img', { className: 'bella-img', src: __webpack_require__(15) })
 );
 
 var About = function About() {
@@ -2486,7 +2487,7 @@ var feature3 = _react2.default.createElement(
 var Features = function Features() {
   return _react2.default.createElement(
     _Section2.default,
-    null,
+    { id: 'features' },
     _react2.default.createElement(
       Container,
       null,
@@ -2587,7 +2588,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .export {\n    img {\n      width: calc(100% + 80px);\n      margin: 0px -40px 40px -40px;\n    }\n  }\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .export {\n    img {\n      width: calc(100% + 80px);\n      margin: 0px -40px 40px -40px;\n    }\n  }\n  .label {\n    display: flex;\n    p {\n      background: #ffffff80;\n      mix-blend-mode: normal;\n      border-radius: 100px;\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n    }\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2658,6 +2659,7 @@ var LastFeatures = function LastFeatures() {
           gradient: 'linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)',
           imageUrl: 'Bella/assets/6',
           imageBig: 'true',
+          className: 'export',
           label: 'new',
           textAlign: 'left',
           cardHeight: '700px',
@@ -3000,33 +3002,56 @@ var Video = function (_React$Component) {
               'Learn about the story behind Aragon Bella'
             ),
             _react2.default.createElement(
-              'h4',
-              { onClick: this.handleOpen },
-              _react2.default.createElement('img', { src: _play2.default }),
-              'Watch the video now'
+              _ui.BreakPoint,
+              { to: 'medium' },
+              _react2.default.createElement(
+                'a',
+                { target: 'blank', href: 'https://www.youtube.com/watch?v=AqjIWmiAidw' },
+                _react2.default.createElement(
+                  'h4',
+                  null,
+                  _react2.default.createElement('img', { src: _play2.default }),
+                  'Watch the video now'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              _ui.BreakPoint,
+              { from: 'medium' },
+              _react2.default.createElement(
+                'h4',
+                { onClick: this.handleOpen },
+                _react2.default.createElement('img', { src: _play2.default }),
+                'Watch the video now'
+              )
             )
           )
         ),
         _react2.default.createElement(
-          Modal,
-          {
-            id: 'videoModal',
-            className: this.state.modal ? 'display-block background-in' : 'background-out',
-            onClick: this.handleClose },
+          _ui.BreakPoint,
+          { from: 'medium' },
           _react2.default.createElement(
-            _Zoom2.default,
-            { duration: 500, spy: this.state.modal },
+            Modal,
+            {
+              id: 'videoModal',
+              className: this.state.modal ? 'display-block background-in' : 'background-out',
+              onClick: this.handleClose },
             _react2.default.createElement(
-              'div',
-              {
-                id: 'modalContent',
-                className: this.state.modal ? 'modal-content' : 'modal-content content-out' },
-              _react2.default.createElement('iframe', {
-                src: 'https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&ecver=2',
-                frameBorder: '0',
-                allow: 'autoplay; encrypted-media',
-                allowFullScreen: true
-              })
+              _Zoom2.default,
+              { duration: 500, spy: this.state.modal },
+              _react2.default.createElement(
+                'div',
+                {
+                  id: 'modalContent',
+                  className: this.state.modal ? 'modal-content' : 'modal-content content-out' },
+                _react2.default.createElement('iframe', {
+                  id: 'youtubeVideo',
+                  src: 'https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&ecver=2',
+                  frameBorder: '0',
+                  allow: 'autoplay; encrypted-media',
+                  allowFullScreen: true
+                })
+              )
             )
           )
         )
@@ -6404,19 +6429,19 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABx
 /* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/5d1fb5ad-1.svg";
+module.exports = __webpack_require__.p + "static/c122fb87-1.svg";
 
 /***/ }),
 /* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/d50537f7-2.svg";
+module.exports = __webpack_require__.p + "static/df17f38f-2.svg";
 
 /***/ }),
 /* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/fef62541-3.svg";
+module.exports = __webpack_require__.p + "static/e1533a91-3.svg";
 
 /***/ }),
 /* 76 */
@@ -6428,13 +6453,13 @@ module.exports = __webpack_require__.p + "static/e02c6f37-4.svg";
 /* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/8180a8fa-5.svg";
+module.exports = __webpack_require__.p + "static/6b4cb464-5.svg";
 
 /***/ }),
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/41749521-6.svg";
+module.exports = __webpack_require__.p + "static/71843bc2-6.svg";
 
 /***/ }),
 /* 79 */
@@ -7374,7 +7399,7 @@ Object.defineProperty(exports, "__esModule", {
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _templateObject = _taggedTemplateLiteral(['\n  height: 685px;\n  background-color: #0d5c76;\n  background-image: url(', ');\n  background-size: cover;\n  background-position: center\n  display: flex;\n  align-items: center;\n  position: relative;\n  justify-content: center;\n  overflow: hidden;\n  img {\n    max-width: 90%;\n  }\n'], ['\n  height: 685px;\n  background-color: #0d5c76;\n  background-image: url(', ');\n  background-size: cover;\n  background-position: center\n  display: flex;\n  align-items: center;\n  position: relative;\n  justify-content: center;\n  overflow: hidden;\n  img {\n    max-width: 90%;\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  position: absolute;\n  bottom: 30px;\n  left: 0;\n  width: 100%;\n  p {\n    width: 100%;\n    font-size: 18px;\n    line-height: 18px;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 10px;\n  }\n  div {\n    width: 100%;\n    text-align: center;\n  }\n'], ['\n  position: absolute;\n  bottom: 30px;\n  left: 0;\n  width: 100%;\n  p {\n    width: 100%;\n    font-size: 18px;\n    line-height: 18px;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 10px;\n  }\n  div {\n    width: 100%;\n    text-align: center;\n  }\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  position: absolute;\n  bottom: 30px;\n  left: 0;\n  width: 100%;\n  cursor: pointer;\n  p {\n    width: 100%;\n    font-size: 18px;\n    line-height: 18px;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 10px;\n  }\n  div {\n    width: 100%;\n    text-align: center;\n  }\n\n'], ['\n  position: absolute;\n  bottom: 30px;\n  left: 0;\n  width: 100%;\n  cursor: pointer;\n  p {\n    width: 100%;\n    font-size: 18px;\n    line-height: 18px;\n    text-align: center;\n    color: #ffffff;\n    margin-bottom: 10px;\n  }\n  div {\n    width: 100%;\n    text-align: center;\n  }\n\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  height: 100%;\n  width: 100%;\n  background-size: cover;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n'], ['\n  height: 100%;\n  width: 100%;\n  background-size: cover;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n']);
 
 var _react = __webpack_require__(0);
@@ -7433,6 +7458,8 @@ var _Pulse2 = _interopRequireDefault(_Pulse);
 
 var _ui = __webpack_require__(2);
 
+var _reactStatic = __webpack_require__(4);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
@@ -7471,46 +7498,29 @@ var Bella = function (_React$Component) {
             )
           ),
           _react2.default.createElement(
-            _ui.BreakPoint,
-            { to: 'medium' },
+            Discover,
+            { href: '#features' },
             _react2.default.createElement(
-              Discover,
+              'p',
+              null,
+              'Discover what\'s new'
+            ),
+            _react2.default.createElement(
+              'div',
               null,
               _react2.default.createElement(
-                'p',
-                null,
-                'Discover what\'s new'
-              ),
-              _react2.default.createElement(
-                'div',
-                null,
-                _react2.default.createElement('img', { src: _arrow2.default })
-              )
-            )
-          ),
-          _react2.default.createElement(
-            _ui.BreakPoint,
-            { from: 'medium' },
-            _react2.default.createElement(
-              Discover,
-              null,
-              _react2.default.createElement(
-                _Pulse2.default,
-                { forever: true },
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Discover what\'s new'
-                )
-              ),
-              _react2.default.createElement(
-                'div',
-                null,
+                _ui.BreakPoint,
+                { from: 'medium' },
                 _react2.default.createElement(
                   _Pulse2.default,
                   { forever: true },
                   _react2.default.createElement('img', { src: _arrow2.default })
                 )
+              ),
+              _react2.default.createElement(
+                _ui.BreakPoint,
+                { to: 'medium' },
+                _react2.default.createElement('img', { src: _arrow2.default })
               )
             )
           )
@@ -7528,7 +7538,7 @@ var Bella = function (_React$Component) {
 }(_react2.default.Component);
 
 var Hero = (0, _styledComponents2.default)(_Section2.default)(_templateObject, _heroBackground2.default);
-var Discover = _styledComponents2.default.div(_templateObject2);
+var Discover = _styledComponents2.default.a(_templateObject2);
 
 var Container = _styledComponents2.default.div(_templateObject3);
 
@@ -8862,4 +8872,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.90652a2b.js.map
+//# sourceMappingURL=static.84248802.js.map
