@@ -45,32 +45,44 @@ class Video extends React.Component {
         <Box>
           <Container>
             <h2>Learn about the story behind Aragon Bella</h2>
-            <h4 onClick={this.handleOpen}>
-              <img src={play} />
-              Watch the video now
-            </h4>
+            <BreakPoint to="medium">
+            <a target="blank" href="https://www.youtube.com/watch?v=AqjIWmiAidw">
+              <h4>
+                <img src={play} />
+                Watch the video now
+              </h4>
+            </a>
+            </BreakPoint>
+            <BreakPoint from="medium">
+              <h4 onClick={this.handleOpen}>
+                <img src={play} />
+                Watch the video now
+              </h4>
+            </BreakPoint>
           </Container>
         </Box>
-
-        <Modal
-          id="videoModal"
-          className={this.state.modal ? 'display-block background-in' : 'background-out'}
-          onClick={this.handleClose}>
-          <Zoom duration={500} spy={this.state.modal}>
-            <div
-              id="modalContent"
-              className={
-                this.state.modal ? 'modal-content' : 'modal-content content-out'
-              }>
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&amp;ecver=2"
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              />
-            </div>
-          </Zoom>
-        </Modal>
+        <BreakPoint from="medium">
+          <Modal
+            id="videoModal"
+            className={this.state.modal ? 'display-block background-in' : 'background-out'}
+            onClick={this.handleClose}>
+            <Zoom duration={500} spy={this.state.modal}>
+              <div
+                id="modalContent"
+                className={
+                  this.state.modal ? 'modal-content' : 'modal-content content-out'
+                }>
+                <iframe
+                  id="youtubeVideo"
+                  src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&amp;ecver=2"
+                  frameBorder="0"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                />
+              </div>
+            </Zoom>
+          </Modal>
+        </BreakPoint>
       </VideoeSection>
     );
   }

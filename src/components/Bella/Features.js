@@ -37,7 +37,7 @@ const feature3 = (
 );
 
 const Features = () => (
-  <Section>
+  <Section id="features">
     <Container>
       <LongCard
         background={'Bella/assets/background-1.png'}

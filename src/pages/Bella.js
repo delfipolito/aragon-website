@@ -14,6 +14,7 @@ import TryBella from '../components/Bella/TryBella';
 import Zoom from 'react-reveal/Fade';
 import Pulse from 'react-reveal/Pulse';
 import { BreakPoint } from '@aragon/ui'
+import { Link } from 'react-static'
 
 class Bella extends React.Component {
   render() {
@@ -25,26 +26,19 @@ class Bella extends React.Component {
               <img src={title} />
             </Zoom>
           </Container>
-          <BreakPoint to="medium">
-            <Discover>
-              <p>Discover what's new</p>
-              <div>
-                <img src={arrow} />
-              </div>
-            </Discover>
-          </BreakPoint>
-          <BreakPoint from="medium">
-            <Discover>
-              <Pulse forever={true}>
-                <p>Discover what's new</p>
-              </Pulse>
-              <div>
+          <Discover href="#features">
+            <p>Discover what's new</p>
+            <div>
+              <BreakPoint from="medium">
                 <Pulse forever={true}>
                   <img src={arrow} />
                 </Pulse>
-              </div>
-            </Discover>
-          </BreakPoint>
+              </BreakPoint>
+              <BreakPoint to="medium">
+                <img src={arrow} />
+              </BreakPoint>
+            </div>
+          </Discover>
         </Hero>
         <Features />
         <Video />
@@ -71,11 +65,12 @@ const Hero = styled(Section)`
     max-width: 90%;
   }
 `;
-const Discover = styled.div`
+const Discover = styled.a`
   position: absolute;
   bottom: 30px;
   left: 0;
   width: 100%;
+  cursor: pointer;
   p {
     width: 100%;
     font-size: 18px;
@@ -88,6 +83,7 @@ const Discover = styled.div`
     width: 100%;
     text-align: center;
   }
+
 `;
 
 const Container = styled.div`

@@ -95,7 +95,7 @@ const bellaContent = (
     <p className="discover">
       Discover what's new
     </p>
-    <img src={require(`../Bella/assets/hero-title.svg`)} />
+    <img className="bella-img" src={require(`../Bella/assets/hero-title.svg`)} />
   </Link>
 );
 
@@ -165,6 +165,9 @@ const Container = styled.div`
     text-align: center;
     margin-bottom: 35px;
     color: #FFFFFF;
+  }
+  img.bella-img {
+    max-width: 90%;
   }
 `;
 

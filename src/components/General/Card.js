@@ -17,6 +17,7 @@ const SCard = ({...props}) => (
     gradient={props.gradient ? props.gradient : ''}
     imageBig={props.imageBig ? props.imageBig : ''}
     cardHeight={props.cardHeight ? props.cardHeight : false}
+    className={props.className}
     >
     <img src={require(`../${props.imageUrl}.svg`)} />
     {props.label && (

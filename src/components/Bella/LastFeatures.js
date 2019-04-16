@@ -35,6 +35,7 @@ const LastFeatures = () => (
           gradient="linear-gradient(261.3deg, #FBF2E8 0%, #FFEDD9 99.84%)"
           imageUrl={'Bella/assets/6'}
           imageBig="true"
+          className="export"
           label="new"
           textAlign="left"
           cardHeight="700px"
@@ -72,6 +73,12 @@ const Container = styled.div`
     img {
       height: 502px;
       width: 502px;
+    }
+  }
+  .export {
+    img {
+      width: calc(100% + 80px);
+      margin: 0px -40px 40px -40px;
     }
   }
   .label {

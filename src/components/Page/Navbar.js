@@ -155,6 +155,7 @@ const AragonNavbar = styled(animated.div)`
   }
   a {
     position: relative;
+    height: 100%;
     &:focus {
       outline: 0;
       &:after {
@@ -196,7 +197,7 @@ const Center = styled.div`
   button {
     margin: 0 0 0 10px;
   }
-  height: 64px;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -218,8 +219,8 @@ const LogoLink = styled(Link)`
 const MobileLogo = styled.img`
   margin: 0 !important;
   position: relative;
-  top: 4px;
-  height: 44px;
+  top: 19%;
+  height: 62%;
 `
 
 export default Navbar
