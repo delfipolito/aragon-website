@@ -38,12 +38,12 @@ const Hero = () => (
         </Button.Anchor>
       </TextContainer>
       <BreakPoint from="medium">
-      <VideoContainer>
-        <img src={blur} />
-        <video playsInline autoPlay muted loop>
-          <source src={video} type="video/mp4" />
-        </video>
-      </VideoContainer>
+        <VideoContainer>
+          <img src={blur} />
+          <video playsInline autoPlay muted loop>
+            <source src={video} type="video/mp4" />
+          </video>
+        </VideoContainer>
       </BreakPoint>
     </Box>
   </HeroSection>
@@ -51,11 +51,6 @@ const Hero = () => (
 const VideoContainer = styled.div`
   width: 100%;
   text-align: center;
-  video.mobile {
-    width: 90%;
-    max-width: 312px;
-    margin-top: 30px;
-  }
   video {
     width: 90%;
     max-width: 312px;
@@ -129,6 +124,14 @@ const HeroSection = styled(Section)`
   justify-content: center;
   position: relative;
   overflow: hidden;
+  video.video-mobile {
+    width: 90%;
+    max-width: 312px;
+    margin-top: 30px;
+    z-index: 3;
+    position: relative;
+    border-radius: 8px;
+  }
 `;
 const Box = styled.div`
   display: flex;
