@@ -74,15 +74,19 @@ const Container = styled.div`
   }
   .label {
     display: flex;
+    background: #ffffff80;
+    border-radius: 100px;
+    height: 18px;
+    align-items: center;
     p {
-      background: #ffffff80;
-      mix-blend-mode: normal;
-      border-radius: 100px;
       padding: 0 15px;
       text-transform: uppercase;
       font-family: 'FontBold';
       font-size: 10px;
       color: #8fb5c8;
+      height: auto;
+      line-height: 1;
+      margin-top: 2px;
     }
   }
 `;

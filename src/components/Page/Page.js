@@ -94,6 +94,13 @@ const Content = styled.div`
     letter-spacing: 0.5px;
     font-size: 15px;
   }
+  .principal-hero-link {
+    font-family: 'FontRegular', sans-serif;
+    margin-top: 25px!important;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
   a {
     text-decoration: none;
   }
