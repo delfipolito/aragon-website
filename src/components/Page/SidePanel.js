@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { Spring, animated } from "react-spring";
 import { Text, SafeLink } from "@aragon/ui";
 import logo from "./assets/logo.svg";
+import close from "./assets/close.svg";
 import { Link } from 'react-static'
 
 class SidePanel extends React.PureComponent {
@@ -59,7 +60,7 @@ class SidePanel extends React.PureComponent {
                   </Link>
                 </h1>
                 <PanelCloseButton type="button" onClick={this.handleClose}>
-                  X
+                  <img src={close} />
                 </PanelCloseButton>
               </PanelHeader>
               <PanelScrollView>
@@ -144,6 +145,9 @@ const PanelContent = styled.div`
 `;
 
 const PanelCloseButton = styled.button`
+  img {
+    width: 12px;
+  }
   ${PanelHeader} & {
     position: absolute;
     color: white;

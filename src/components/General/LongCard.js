@@ -106,6 +106,9 @@ const LongCard = styled('div')`
     flex-direction: column;
     align-items: flex-start;
   }
+  .center-box.text-box {
+    display: block;
+  }
   &.center {
     justify-content: center;
     p,
