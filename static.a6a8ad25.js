@@ -1602,9 +1602,9 @@ var _templateObject = _taggedTemplateLiteral(["\n  position: fixed;\n  z-index: 
     _templateObject3 = _taggedTemplateLiteral(["\n  position: absolute;\n  background: #1c1c23;\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  width: 280px;\n  height: 100vh;\n  padding-left: 10px;\n  box-shadow: -2px 0 36px rgba(0, 0, 0, 0.2);\n"], ["\n  position: absolute;\n  background: #1c1c23;\n  top: 0;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  width: 280px;\n  height: 100vh;\n  padding-left: 10px;\n  box-shadow: -2px 0 36px rgba(0, 0, 0, 0.2);\n"]),
     _templateObject4 = _taggedTemplateLiteral(["\n  position: relative;\n  padding-top: 15px;\n  padding-left: 26px;\n  padding-right: 20px;\n  padding-bottom: 15px;\n  flex-shrink: 0;\n"], ["\n  position: relative;\n  padding-top: 15px;\n  padding-left: 26px;\n  padding-right: 20px;\n  padding-bottom: 15px;\n  flex-shrink: 0;\n"]),
     _templateObject5 = _taggedTemplateLiteral(["\n  overflow-y: auto;\n  height: 100%;\n"], ["\n  overflow-y: auto;\n  height: 100%;\n"]),
-    _templateObject6 = _taggedTemplateLiteral(["\n  padding: 0 26px 26px;\n"], ["\n  padding: 0 26px 26px;\n"]),
+    _templateObject6 = _taggedTemplateLiteral(["\n  padding: 0 26px 26px;\n  a {\n    padding: 15px 0;\n    font-size: 20px;\n  }\n"], ["\n  padding: 0 26px 26px;\n  a {\n    padding: 15px 0;\n    font-size: 20px;\n  }\n"]),
     _templateObject7 = _taggedTemplateLiteral(["\n  ", " & {\n    position: absolute;\n    color: white;\n    padding: 20px;\n    top: 0;\n    right: 0;\n    cursor: pointer;\n    background: none;\n    border: 0;\n    outline: 0;\n    &::-moz-focus-inner {\n      border: 0;\n    }\n  }\n"], ["\n  ", " & {\n    position: absolute;\n    color: white;\n    padding: 20px;\n    top: 0;\n    right: 0;\n    cursor: pointer;\n    background: none;\n    border: 0;\n    outline: 0;\n    &::-moz-focus-inner {\n      border: 0;\n    }\n  }\n"]),
-    _templateObject8 = _taggedTemplateLiteral(["\n  margin: 0 0 20px 0;\n"], ["\n  margin: 0 0 20px 0;\n"]);
+    _templateObject8 = _taggedTemplateLiteral(["\n  margin: 0 0 20px 0!important;\n  width: 50px;\n"], ["\n  margin: 0 0 20px 0!important;\n  width: 50px;\n"]);
 
 var _propTypes = __webpack_require__(9);
 
@@ -8951,4 +8951,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.6f6ad771.js.map
+//# sourceMappingURL=static.a6a8ad25.js.map
