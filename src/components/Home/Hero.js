@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Section from '../General/Section';
 import video from './home-assets/home-video.mp4';
-import blur from './home-assets/blur.png';
+import videoMobile from './home-assets/video-mobile.mp4';
+import blur from './home-assets/blur2.png';
 import {Link} from 'react-static';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -12,6 +13,13 @@ const large = css => breakpoint('large', css);
 const Hero = () => (
   <HeroSection>
     <Box>
+      <BreakPoint to="medium">
+        <VideoContainer>
+          <video playsInline autoPlay muted loop>
+            <source src={videoMobile} type="video/mp4" />
+          </video>
+        </VideoContainer>
+      </BreakPoint>
       <TextContainer>
         <h2>
           Freedom to <br />
@@ -29,25 +37,30 @@ const Hero = () => (
           Discover the product
         </Button.Anchor>
       </TextContainer>
+      <BreakPoint from="medium">
       <VideoContainer>
         <img src={blur} />
         <video playsInline autoPlay muted loop>
           <source src={video} type="video/mp4" />
         </video>
       </VideoContainer>
+      </BreakPoint>
     </Box>
   </HeroSection>
 );
 const VideoContainer = styled.div`
   width: 100%;
+  text-align: center;
   video {
-    width: auto;
+    width: 90%;
+    max-width: 312px;
+    margin-top: 30px;
+    ${medium('width: auto; margin-left: 28px; max-width: inherit; margin-top: 0;')};
     z-index: 2;
     position: relative;
-    display: none;
     border-radius: 8px;
-    margin-left: 28px;
-    @media (min-width: 690px) and (max-width: 960px) {
+
+    @media (min-width: 10px) and (max-width: 960px) {
       display: none;
     }
     @media (min-width: 960px) and (max-width: 1120px) {
@@ -76,8 +89,7 @@ const VideoContainer = styled.div`
     position: absolute;
     z-index: 1;
     height: auto;
-
-    @media (min-width: 690px) and (max-width: 960px) {
+    @media (min-width: 768px) and (max-width: 960px) {
       display: none;
     }
     @media (min-width: 960px) and (max-width: 1120px) {
