@@ -3069,6 +3069,7 @@ var Video = function (_React$Component) {
                   className: this.state.modal ? 'modal-content' : 'modal-content content-out' },
                 _react2.default.createElement(_reactYoutube2.default, {
                   videoId: 'AqjIWmiAidw',
+                  opts: { 'origin': 'https://delfipolito.github.io/aragon-website' },
                   onReady: this.onReady
                 })
               )
@@ -8898,4 +8899,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.c3744898.js.map
+//# sourceMappingURL=static.d7d60727.js.map
