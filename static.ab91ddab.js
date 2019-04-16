@@ -2238,10 +2238,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  video.desktop {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    ', ';\n    z-index: 2;\n    position: relative;\n    border-radius: 8px;\n\n    @media (min-width: 10px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      display: block;\n      height: 300px;\n      margin-right: -10px;\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      display: block;\n      height: 350px;\n      margin-right: -30px;\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      display: block;\n      height: 400px !important;\n      margin-right: -50px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 450px;\n      margin-right: -70px;\n    }\n  }\n\n  img {\n    position: absolute;\n    z-index: 1;\n    height: auto;\n    @media (min-width: 768px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      width: 720px;\n      bottom: 45px;\n      left: calc(50% - 122px);\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      width: 840px;\n      bottom: -10px;\n      left: calc(50% - 153px);\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      width: 960px;\n      bottom: -43px;\n      left: calc(50% - 205px);\n    }\n    @media (min-width: 1330px) {\n      width: 1080px;\n      bottom: -71px;\n      left: calc(50% - 277px);\n    }\n  }\n'], ['\n  width: 100%;\n  video.desktop {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    ', ';\n    z-index: 2;\n    position: relative;\n    border-radius: 8px;\n\n    @media (min-width: 10px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      display: block;\n      height: 300px;\n      margin-right: -10px;\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      display: block;\n      height: 350px;\n      margin-right: -30px;\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      display: block;\n      height: 400px !important;\n      margin-right: -50px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 450px;\n      margin-right: -70px;\n    }\n  }\n\n  img {\n    position: absolute;\n    z-index: 1;\n    height: auto;\n    @media (min-width: 768px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      width: 720px;\n      bottom: 45px;\n      left: calc(50% - 122px);\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      width: 840px;\n      bottom: -10px;\n      left: calc(50% - 153px);\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      width: 960px;\n      bottom: -43px;\n      left: calc(50% - 205px);\n    }\n    @media (min-width: 1330px) {\n      width: 1080px;\n      bottom: -71px;\n      left: calc(50% - 277px);\n    }\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  background-color: #1c1d23;\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n  video.video-mobile {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    z-index: 3;\n    position: relative;\n    border-radius: 8px;\n  }\n'], ['\n  background-color: #1c1d23;\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n  video.video-mobile {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    z-index: 3;\n    position: relative;\n    border-radius: 8px;\n  }\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n'], ['\n  width: 100%;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  position: absolute;\n  z-index: 1;\n  height: auto;\n  @media (min-width: 768px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    width: 720px;\n    bottom: 45px;\n    left: calc(50% - 122px);\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    width: 840px;\n    bottom: -10px;\n    left: calc(50% - 153px);\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    width: 960px;\n    bottom: -43px;\n    left: calc(50% - 205px);\n  }\n  @media (min-width: 1330px) {\n    width: 1080px;\n    bottom: -71px;\n    left: calc(50% - 277px);\n  }\n'], ['\n  position: absolute;\n  z-index: 1;\n  height: auto;\n  @media (min-width: 768px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    width: 720px;\n    bottom: 45px;\n    left: calc(50% - 122px);\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    width: 840px;\n    bottom: -10px;\n    left: calc(50% - 153px);\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    width: 960px;\n    bottom: -43px;\n    left: calc(50% - 205px);\n  }\n  @media (min-width: 1330px) {\n    width: 1080px;\n    bottom: -71px;\n    left: calc(50% - 277px);\n  }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  width: 90%;\n  max-width: 312px;\n  margin-top: 30px;\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-right: -10px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-right: -30px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-right: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-right: -70px;\n  }\n'], ['\n  width: 90%;\n  max-width: 312px;\n  margin-top: 30px;\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-right: -10px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-right: -30px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-right: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-right: -70px;\n  }\n']),
+    _templateObject4 = _taggedTemplateLiteral(['\n  background-color: #1c1d23;\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n  video.video-mobile {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    z-index: 3;\n    position: relative;\n    border-radius: 8px;\n  }\n'], ['\n  background-color: #1c1d23;\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n  video.video-mobile {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    z-index: 3;\n    position: relative;\n    border-radius: 8px;\n  }\n']),
+    _templateObject5 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
+    _templateObject6 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2332,10 +2334,10 @@ var Hero = function Hero() {
         _react2.default.createElement(
           VideoContainer,
           null,
-          _react2.default.createElement('img', { src: _blur2.default }),
+          _react2.default.createElement(Blur, { src: _blur2.default }),
           _react2.default.createElement(
-            'video',
-            { className: 'desktop', playsInline: true, autoPlay: true, muted: true, loop: true },
+            VideoDesktop,
+            { playsInline: true, autoPlay: true, muted: true, loop: true },
             _react2.default.createElement('source', { src: _homeVideo2.default, type: 'video/mp4' })
           )
         )
@@ -2343,11 +2345,14 @@ var Hero = function Hero() {
     )
   );
 };
-var VideoContainer = _styledComponents2.default.div(_templateObject, medium('width: auto; margin-left: 28px; max-width: inherit; margin-top: 0;'));
+var VideoContainer = _styledComponents2.default.div(_templateObject);
 
-var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject2);
-var Box = _styledComponents2.default.div(_templateObject3, medium('flex-direction: row;'));
-var TextContainer = _styledComponents2.default.div(_templateObject4, medium('min-width: 453px;'));
+var Blur = _styledComponents2.default.img(_templateObject2);
+var VideoDesktop = _styledComponents2.default.video(_templateObject3, medium('width: auto; margin-left: 28px; max-width: inherit; margin-top: 0;'));
+
+var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject4);
+var Box = _styledComponents2.default.div(_templateObject5, medium('flex-direction: row;'));
+var TextContainer = _styledComponents2.default.div(_templateObject6, medium('min-width: 453px;'));
 exports.default = Hero;
 
 /***/ }),
@@ -3453,10 +3458,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  video.desktop {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    ', ';\n    z-index: 2;\n    position: relative;\n    border-radius: 8px;\n\n    @media (min-width: 10px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      display: block;\n      height: 300px;\n      margin-left: -10px;\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      display: block;\n      height: 350px;\n      margin-left: -30px;\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      display: block;\n      height: 400px !important;\n      margin-left: -50px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 450px;\n      margin-left: -70px;\n    }\n  }\n'], ['\n  width: 100%;\n  video.desktop {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    ', ';\n    z-index: 2;\n    position: relative;\n    border-radius: 8px;\n\n    @media (min-width: 10px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      display: block;\n      height: 300px;\n      margin-left: -10px;\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      display: block;\n      height: 350px;\n      margin-left: -30px;\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      display: block;\n      height: 400px !important;\n      margin-left: -50px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 450px;\n      margin-left: -70px;\n    }\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n  video.video-mobile {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    z-index: 3;\n    position: relative;\n    border-radius: 8px;\n  }\n'], ['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n  video.video-mobile {\n    width: 90%;\n    max-width: 312px;\n    margin-top: 30px;\n    z-index: 3;\n    position: relative;\n    border-radius: 8px;\n  }\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n'], ['\n  width: 100%;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  width: 90%;\n  max-width: 312px;\n  margin-top: 30px;\n  z-index: 3;\n  position: relative;\n  border-radius: 8px;\n'], ['\n  width: 90%;\n  max-width: 312px;\n  margin-top: 30px;\n  z-index: 3;\n  position: relative;\n  border-radius: 8px;\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  height: 450px;\n  max-width: 312px;\n  margin-top: 30px;\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-left: -70px;\n  }\n'], ['\n  height: 450px;\n  max-width: 312px;\n  margin-top: 30px;\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-left: -70px;\n  }\n']),
+    _templateObject4 = _taggedTemplateLiteral(['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n'], ['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n']),
+    _templateObject5 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
+    _templateObject6 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -3507,8 +3514,8 @@ var Hero = function Hero() {
           'div',
           { className: 'mobile-container' },
           _react2.default.createElement(
-            'video',
-            { className: 'video-mobile', playsInline: true, autoPlay: true, muted: true, loop: true },
+            VideoMobile,
+            { playsInline: true, autoPlay: true, muted: true, loop: true },
             _react2.default.createElement('source', { src: _videoMobile2.default, type: 'video/mp4' })
           )
         )
@@ -3520,8 +3527,8 @@ var Hero = function Hero() {
           VideoContainer,
           null,
           _react2.default.createElement(
-            'video',
-            { className: 'desktop', playsInline: true, autoPlay: true, muted: true, loop: true },
+            VideoDesktop,
+            { playsInline: true, autoPlay: true, muted: true, loop: true },
             _react2.default.createElement('source', { src: _discoverVideo2.default, type: 'video/mp4' })
           )
         )
@@ -3552,11 +3559,16 @@ var Hero = function Hero() {
     )
   );
 };
-var VideoContainer = _styledComponents2.default.div(_templateObject, medium('width: auto; margin-right: 28px; max-width: inherit; margin-top: 0;'));
 
-var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject2);
-var Box = _styledComponents2.default.div(_templateObject3, medium('flex-direction: row;'));
-var TextContainer = _styledComponents2.default.div(_templateObject4, medium('min-width: 453px;'));
+var VideoContainer = _styledComponents2.default.div(_templateObject);
+
+var VideoMobile = _styledComponents2.default.video(_templateObject2);
+
+var VideoDesktop = _styledComponents2.default.video(_templateObject3, medium('width: auto; margin-right: 70px; max-width: inherit; margin-top: 0;'));
+
+var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject4);
+var Box = _styledComponents2.default.div(_templateObject5, medium('flex-direction: row;'));
+var TextContainer = _styledComponents2.default.div(_templateObject6, medium('min-width: 453px;'));
 exports.default = Hero;
 
 /***/ }),
@@ -9206,4 +9218,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.1bde2d9d.js.map
+//# sourceMappingURL=static.ab91ddab.js.map
