@@ -14,11 +14,11 @@ const Hero = () => (
   <HeroSection>
     <Box>
       <BreakPoint to="medium">
-        <VideoContainer>
+        <div className="mobile-container">
           <video className="video-mobile" playsInline autoPlay muted loop>
             <source src={videoMobile} type="video/mp4" />
           </video>
-        </VideoContainer>
+        </div>
       </BreakPoint>
       <TextContainer>
         <h2>
@@ -40,7 +40,7 @@ const Hero = () => (
       <BreakPoint from="medium">
         <VideoContainer>
           <img src={blur} />
-          <video playsInline autoPlay muted loop>
+          <video className="desktop" playsInline autoPlay muted loop>
             <source src={video} type="video/mp4" />
           </video>
         </VideoContainer>
@@ -50,8 +50,7 @@ const Hero = () => (
 );
 const VideoContainer = styled.div`
   width: 100%;
-  text-align: center;
-  video {
+  video.desktop {
     width: 90%;
     max-width: 312px;
     margin-top: 30px;
@@ -124,6 +123,10 @@ const HeroSection = styled(Section)`
   justify-content: center;
   position: relative;
   overflow: hidden;
+  .mobile-container {
+    width: 100%;
+    text-align: center;
+  }
   video.video-mobile {
     width: 90%;
     max-width: 312px;
