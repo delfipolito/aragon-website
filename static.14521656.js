@@ -849,7 +849,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/4df3cfa2-home-video.mp4";
+module.exports = __webpack_require__.p + "static/bfa10ccc-home-video.mp4";
 
 /***/ }),
 /* 15 */
@@ -2095,7 +2095,7 @@ Object.defineProperty(exports, "__esModule", {
 var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  video {\n    width: auto;\n    z-index: 2;\n    position: relative;\n    display: none;\n    border-radius: 8px;\n    margin-left: 28px;\n    @media (min-width: 690px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      display: block;\n      height: 300px;\n      margin-right: -10px;\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      display: block;\n      height: 350px;\n      margin-right: -30px;\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      display: block;\n      height: 400px !important;\n      margin-right: -50px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 450px;\n      margin-right: -70px;\n    }\n  }\n\n  img {\n    position: absolute;\n    z-index: 1;\n    height: auto;\n\n    @media (min-width: 690px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      width: 720px;\n      bottom: 45px;\n      left: calc(50% - 122px);\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      width: 840px;\n      bottom: -10px;\n      left: calc(50% - 153px);\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      width: 960px;\n      bottom: -43px;\n      left: calc(50% - 205px);\n    }\n    @media (min-width: 1330px) {\n      width: 1080px;\n      bottom: -71px;\n      left: calc(50% - 277px);\n    }\n  }\n'], ['\n  width: 100%;\n  video {\n    width: auto;\n    z-index: 2;\n    position: relative;\n    display: none;\n    border-radius: 8px;\n    margin-left: 28px;\n    @media (min-width: 690px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      display: block;\n      height: 300px;\n      margin-right: -10px;\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      display: block;\n      height: 350px;\n      margin-right: -30px;\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      display: block;\n      height: 400px !important;\n      margin-right: -50px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 450px;\n      margin-right: -70px;\n    }\n  }\n\n  img {\n    position: absolute;\n    z-index: 1;\n    height: auto;\n\n    @media (min-width: 690px) and (max-width: 960px) {\n      display: none;\n    }\n    @media (min-width: 960px) and (max-width: 1120px) {\n      width: 720px;\n      bottom: 45px;\n      left: calc(50% - 122px);\n    }\n    @media (min-width: 1120px) and (max-width: 1260px) {\n      width: 840px;\n      bottom: -10px;\n      left: calc(50% - 153px);\n    }\n    @media (min-width: 1260px) and (max-width: 1330px) {\n      width: 960px;\n      bottom: -43px;\n      left: calc(50% - 205px);\n    }\n    @media (min-width: 1330px) {\n      width: 1080px;\n      bottom: -71px;\n      left: calc(50% - 277px);\n    }\n  }\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  background-color: #1c1d23;\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n'], ['\n  background-color: #1c1d23;\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n  width: 100%;\n  min-width: 453px;\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  min-width: 453px;\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n']);
+    _templateObject4 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    font-size: 56px;\n    line-height: 75px;\n    text-align: left;\n    color: white;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    color: white;\n    opacity: 0.8;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2180,7 +2180,7 @@ var VideoContainer = _styledComponents2.default.div(_templateObject);
 
 var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject2);
 var Box = _styledComponents2.default.div(_templateObject3, medium('flex-direction: row;'));
-var TextContainer = _styledComponents2.default.div(_templateObject4);
+var TextContainer = _styledComponents2.default.div(_templateObject4, medium('min-width: 453px;'));
 exports.default = Hero;
 
 /***/ }),
@@ -8916,4 +8916,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.869bc229.js.map
+//# sourceMappingURL=static.14521656.js.map
