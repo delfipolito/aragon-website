@@ -5,6 +5,7 @@ import { AppBar, BaseStyles, PublicUrl, breakpoint } from '@aragon/ui'
 import Navbar from './Navbar'
 import Footer from './Footer.js'
 const medium = css => breakpoint('medium', css);
+const large = css => breakpoint('large', css);
 
 const menuItems = [
   ['/discover', 'Discover'],
@@ -75,7 +76,8 @@ const Content = styled.div`
     font-weight: 400;
     letter-spacing: normal;
     color: #01c3e3;
-    margin-top: 30px;
+    margin-top: 20px;
+    ${large('margin-top: 30px;')};
     display: block;
     text-decoration: none;
   }
