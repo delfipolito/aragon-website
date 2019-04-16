@@ -93,6 +93,7 @@ class Video extends React.Component {
                 }>
                 <YouTube
                   videoId="AqjIWmiAidw"
+                  opts={{'origin': 'https://delfipolito.github.io/aragon-website'}}
                   onReady={this.onReady}
                 />
               </div>
