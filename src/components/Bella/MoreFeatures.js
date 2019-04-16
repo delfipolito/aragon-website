@@ -29,7 +29,7 @@ const feature2 = (
 );
 
 const Features = () => (
-  <Section>
+  <StyledSection>
     <Container>
       <LongCard
         gradient="linear-gradient(335.08deg, #95BBCE -0.56%, #C5D0E6 46.04%, #E7E4F6 100%)"
@@ -50,9 +50,12 @@ const Features = () => (
         content={feature2}
       />
     </Container>
-  </Section>
+  </StyledSection>
 );
 
+const StyledSection = styled(Section)`
+  padding: 30px 15px 0 15px;
+`
 const Container = styled.div`
   display: grid;
   ${medium(

@@ -24,9 +24,9 @@ class Video extends React.Component {
     let self = this;
     var element = document.getElementById('modalContent');
     var modalBackground = document.getElementById('videoModal');
-    modalBackground.classList.add('opacity-out');
+    modalBackground.classList.add('background-out');
     element.style.removeProperty('animation-name');
-    element.classList.add('zoom-out');
+    element.classList.add('content-out');
     setTimeout(function() {
       self.setState({modal: !show});
     }, 500);
@@ -54,13 +54,13 @@ class Video extends React.Component {
 
         <Modal
           id="videoModal"
-          className={this.state.modal ? 'display-block opacity-in' : 'opacity-out'}
+          className={this.state.modal ? 'display-block background-in' : 'background-out'}
           onClick={this.handleClose}>
-          <Zoom duration={400}>
+          <Zoom duration={500} spy={this.state.modal}>
             <div
               id="modalContent"
               className={
-                this.state.modal ? 'modal-content' : 'modal-content zoom-out'
+                this.state.modal ? 'modal-content' : 'modal-content content-out'
               }>
               <iframe
                 src="https://www.youtube-nocookie.com/embed/AqjIWmiAidw?rel=0&amp;ecver=2"
@@ -130,45 +130,56 @@ const Modal = styled.div`
   height: 100vh;
   overflow: hidden;
   display: none;
+  padding:44px;
 
   &.display-block {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  @keyframes backgroundblack {
+  @keyframes backgroundInAnimation {
     0% {
       background-color: rgba(0, 0, 0, 0);
+      opacity: 0;
     }
     50% {
       background-color: rgba(0, 0, 0, 0.4);
+      opacity: 0.5;
     }
     100% {
       background-color: rgba(0, 0, 0, 0.8);
+      opacity: 1;
     }
   }
-  &.opacity-in {
-    animation: backgroundblack 0.5s linear;
+  &.background-in {
+    animation: backgroundInAnimation 0.5s linear;
     background-color: rgba(0, 0, 0, 0.8);
   }
-  @keyframes videoout {
+  @keyframes contentOutAnimation {
     0% {
       transform: scale(1, 1);
+      opacity: 1;
     }
     50% {
       transform: scale(0.5, 0.5);
+      opacity: 0.5;
     }
     100% {
       transform: scale(0, 0);
+      opacity: 0;
     }
   }
-  .zoom-out {
-    animation: videoout 7s linear;
+  .content-out {
+    animation: contentOutAnimation 0.5s linear;
+    opacity: 1;
   }
-  &.opacity-out {
+  &.background-out {
     background-color: rgba(0, 0, 0, 0);
     opacity: 0;
-    transition: all 7s linear;
+    transition: all 0.5s linear;
   }
   .modal-content {
+    margin-top: 64px;
     background-color: black;
     margin: 15% auto;
     border: 1px solid black;

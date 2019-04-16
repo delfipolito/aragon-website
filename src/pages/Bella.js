@@ -4,16 +4,18 @@ import {Page} from '../components';
 import Section from '../components/General/Section';
 import backgroundImage from '../components/Bella/assets/hero-background.jpg';
 import title from '../components/Bella/assets/hero-title.svg';
+import arrow from '../components/Bella/assets/arrow.svg';
 
-import Features from '../components/Bella/Features'
-import MoreFeatures from '../components/Bella/MoreFeatures'
-import LastFeatures from '../components/Bella/LastFeatures'
-import Video from '../components/Bella/Video'
-import TryBella from '../components/Bella/TryBella'
+import Features from '../components/Bella/Features';
+import MoreFeatures from '../components/Bella/MoreFeatures';
+import LastFeatures from '../components/Bella/LastFeatures';
+import Video from '../components/Bella/Video';
+import TryBella from '../components/Bella/TryBella';
 import Zoom from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse';
+import { BreakPoint } from '@aragon/ui'
 
 class Bella extends React.Component {
-
   render() {
     return (
       <Page path="/bella">
@@ -23,6 +25,26 @@ class Bella extends React.Component {
               <img src={title} />
             </Zoom>
           </Container>
+          <BreakPoint to="medium">
+            <Discover>
+              <p>Discover what's new</p>
+              <div>
+                <img src={arrow} />
+              </div>
+            </Discover>
+          </BreakPoint>
+          <BreakPoint from="medium">
+            <Discover>
+              <Pulse forever={true}>
+                <p>Discover what's new</p>
+              </Pulse>
+              <div>
+                <Pulse forever={true}>
+                  <img src={arrow} />
+                </Pulse>
+              </div>
+            </Discover>
+          </BreakPoint>
         </Hero>
         <Features />
         <Video />
@@ -42,10 +64,29 @@ const Hero = styled(Section)`
   background-position: center
   display: flex;
   align-items: center;
+  position: relative;
   justify-content: center;
   overflow: hidden;
   img {
     max-width: 90%;
+  }
+`;
+const Discover = styled.div`
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  div {
+    width: 100%;
+    text-align: center;
   }
 `;
 
