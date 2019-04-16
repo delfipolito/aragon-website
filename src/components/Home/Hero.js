@@ -15,7 +15,7 @@ const Hero = () => (
     <Box>
       <BreakPoint to="medium">
         <VideoContainer>
-          <video playsInline autoPlay muted loop>
+          <video className="video-mobile" playsInline autoPlay muted loop>
             <source src={videoMobile} type="video/mp4" />
           </video>
         </VideoContainer>
@@ -51,6 +51,11 @@ const Hero = () => (
 const VideoContainer = styled.div`
   width: 100%;
   text-align: center;
+  video.mobile {
+    width: 90%;
+    max-width: 312px;
+    margin-top: 30px;
+  }
   video {
     width: 90%;
     max-width: 312px;
