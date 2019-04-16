@@ -137,6 +137,10 @@ const PanelScrollView = styled.div`
 
 const PanelContent = styled.div`
   padding: 0 26px 26px;
+  a {
+    padding: 15px 0;
+    font-size: 20px;
+  }
 `;
 
 const PanelCloseButton = styled.button`
@@ -157,7 +161,8 @@ const PanelCloseButton = styled.button`
 `;
 
 const LogoImg = styled.img`
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 0!important;
+  width: 50px;
 `;
 
 export default SidePanel;
