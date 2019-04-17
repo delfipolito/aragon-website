@@ -19,29 +19,43 @@ const Hero = () => (
             <source src={videoMobile} type="video/mp4" />
           </VideoMobile>
         </div>
+        <TextContainer>
+          <h2>Take back your freedom to organize</h2>
+          <h4>
+            Discover the unparalleled power to organize. Whether you want to
+            collaborate with your co-founder, open a non-profit, or just organize
+            an online community, Aragon is there for you.
+          </h4>
+          <Button.Anchor
+            className="principal-hero-link"
+            mode="strong"
+            href="https://mainnet.aragon.org "
+            target="_blank">
+            Try it out
+          </Button.Anchor>
+        </TextContainer>
       </BreakPoint>
-      <div>
-        <BreakPoint from="medium">
-          <VideoDesktop  playsInline autoPlay muted loop poster={poster}>
-            <source src={video} type="video/mp4" />
-          </VideoDesktop>
-        </BreakPoint>
-      </div>
-      <TextContainer>
-        <h2>Take back your freedom to organize</h2>
-        <h4>
-          Discover the unparalleled power to organize. Whether you want to
-          collaborate with your co-founder, open a non-profit, or just organize
-          an online community, Aragon is there for you.
-        </h4>
-        <Button.Anchor
-          className="principal-hero-link"
-          mode="strong"
-          href="https://mainnet.aragon.org "
-          target="_blank">
-          Try it out
-        </Button.Anchor>
-      </TextContainer>
+      <BreakPoint from="medium">
+        <VideoDesktop  playsInline autoPlay muted loop poster={poster}>
+          <source src={video} type="video/mp4" />
+        </VideoDesktop>
+        <TextContainer>
+          <h2>Take back your freedom to organize</h2>
+          <h4>
+            Discover the unparalleled power to organize. Whether you want to
+            collaborate with your co-founder, open a non-profit, or just organize
+            an online community, Aragon is there for you.
+          </h4>
+          <Button.Anchor
+            className="principal-hero-link"
+            mode="strong"
+            href="https://mainnet.aragon.org "
+            target="_blank">
+            Try it out
+          </Button.Anchor>
+        </TextContainer>
+      </BreakPoint>
+
 
     </Box>
   </HeroSection>
@@ -127,13 +141,19 @@ const Box = styled.div`
 const TextContainer = styled.div`
   width: 100%;
   ${medium('min-width: 453px; max-width: 453px;')};
+  text-align: center;
+  ${medium('text-align: left;')};
   h2 {
-    text-align: left;
-    opacity: 1;
+    text-align: center;
     margin: 15px 0;
+    margin-top: 50px;
+    ${medium('text-align: left; margin-top: 15px;')};
+    opacity: 1;
+
   }
   h4 {
-    text-align: left;
+    text-align: center;
+    ${medium('text-align: left;')};
     opacity: 0.8;
   }
 `;
