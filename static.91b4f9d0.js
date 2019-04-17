@@ -3179,6 +3179,11 @@ var Video = function (_React$Component) {
 
     _this.videoModal = _react2.default.createRef();
     _this.handleOpen = _this.handleOpen.bind(_this);
+    if (typeof window !== 'undefined') {
+      window.YTConfig = {
+        host: 'https://www.youtube.com'
+      };
+    }
     return _this;
   }
 
@@ -7177,6 +7182,11 @@ var Project = function (_React$Component) {
 
     _this.videoModal = _react2.default.createRef();
     _this.handleOpen = _this.handleOpen.bind(_this);
+    if (typeof window !== 'undefined') {
+      window.YTConfig = {
+        host: 'https://www.youtube.com'
+      };
+    }
     return _this;
   }
 
@@ -9237,4 +9247,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.fdde006c.js.map
+//# sourceMappingURL=static.91b4f9d0.js.map
