@@ -20,11 +20,13 @@ const Hero = () => (
           </VideoMobile>
         </div>
       </BreakPoint>
-      <BreakPoint from="medium">
-          <VideoDesktop  playsInline autoPlay muted loop poster={poster}>
-            <source src={video} type="video/mp4" />
-          </VideoDesktop>
-      </BreakPoint>
+      <div>
+        <BreakPoint from="medium">
+            <VideoDesktop  playsInline autoPlay muted loop poster={poster}>
+              <source src={video} type="video/mp4" />
+            </VideoDesktop>
+        </BreakPoint>
+      </div>
       <TextContainer>
         <h2>Take back your freedom to organize</h2>
         <h4>

@@ -38,6 +38,7 @@ const Hero = () => (
           Discover the product
         </Button.Anchor>
       </TextContainer>
+      <div>
       <BreakPoint from="medium">
         <VideoContainer>
           <Blur src={blur} />
@@ -46,6 +47,7 @@ const Hero = () => (
           </VideoDesktop>
         </VideoContainer>
       </BreakPoint>
+      </div>
     </Box>
   </HeroSection>
 );
