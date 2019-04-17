@@ -175,8 +175,8 @@ const TextContainer = styled.div`
     font-size: 56px;
     line-height: 75px;
     text-align: center;
-    margin-top: 50px;
     margin: 15px 0;
+    margin-top: 50px;
     opacity: 1;
     ${medium('text-align: left; margin-top: 15px;')};
     color: white;
