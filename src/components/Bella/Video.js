@@ -35,7 +35,7 @@ class Video extends React.Component {
           <Container>
             <h2>Learn about the story behind Aragon Bella</h2>
             <BreakPoint to="medium">
-            <a target="blank" href="https://www.youtube.com/watch?v=AqjIWmiAidw">
+            <a target="blank" href="https://www.youtube.com/watch?v=_F1LyWkIil4">
               <h4>
                 <img src={play} />
                 Watch the video now
@@ -51,7 +51,7 @@ class Video extends React.Component {
           </Container>
         </Box>
         <BreakPoint from="medium">
-          <VideoModal ref={this.videoModal} videoId="AqjIWmiAidw"/>
+          <VideoModal ref={this.videoModal} videoId="_F1LyWkIil4"/>
         </BreakPoint>
       </VideoeSection>
     );
