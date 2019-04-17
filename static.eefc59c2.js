@@ -3020,7 +3020,7 @@ var Features = function Features() {
 };
 
 var StyledSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject);
-var Container = _styledComponents2.default.div(_templateObject2, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px'), medium('margin-bottom: -100px !important;'), large('height: 400px; width: 400px;'));
+var Container = _styledComponents2.default.div(_templateObject2, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px'), medium('margin-bottom: -50px !important;'), large('height: 450px; width: 450px;'));
 
 exports.default = Features;
 
@@ -6814,7 +6814,7 @@ module.exports = __webpack_require__.p + "static/e1533a91-3.svg";
 /* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/3193c39c-4.svg";
+module.exports = __webpack_require__.p + "static/b0b82142-4.svg";
 
 /***/ }),
 /* 82 */
@@ -9298,4 +9298,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.11c69301.js.map
+//# sourceMappingURL=static.eefc59c2.js.map
