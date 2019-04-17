@@ -2308,47 +2308,67 @@ var Hero = function Hero() {
             { className: 'video-mobile', playsInline: true, autoPlay: true, muted: true, loop: true },
             _react2.default.createElement('source', { src: _videoMobile2.default, type: 'video/mp4' })
           )
-        )
-      ),
-      _react2.default.createElement(
-        TextContainer,
-        null,
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Freedom to ',
-          _react2.default.createElement('br', null),
-          'organize'
         ),
         _react2.default.createElement(
-          'h4',
+          TextContainer,
           null,
-          'Aragon lets you freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.'
-        ),
-        _react2.default.createElement(
-          _ui.Button.Anchor,
-          {
-            className: 'principal-hero-link',
-            mode: 'strong',
-            href: './discover' },
-          'Discover the product'
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          _ui.BreakPoint,
-          { from: 'medium' },
           _react2.default.createElement(
-            VideoContainer,
+            'h2',
             null,
-            _react2.default.createElement(Blur, { src: _blur2.default }),
-            _react2.default.createElement(
-              VideoDesktop,
-              { playsInline: true, autoPlay: true, muted: true, loop: true, poster: _poster2.default },
-              _react2.default.createElement('source', { src: _homeVideo2.default, type: 'video/mp4' })
-            )
+            'Freedom to ',
+            _react2.default.createElement('br', null),
+            'organize'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Aragon lets you freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.'
+          ),
+          _react2.default.createElement(
+            _ui.Button.Anchor,
+            {
+              className: 'principal-hero-link',
+              mode: 'strong',
+              href: './discover' },
+            'Discover the product'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        _ui.BreakPoint,
+        { from: 'medium' },
+        _react2.default.createElement(
+          TextContainer,
+          null,
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Freedom to ',
+            _react2.default.createElement('br', null),
+            'organize'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Aragon lets you freely organize and collaborate without borders or intermediaries. Create global, bureaucracy-free organizations, companies, and communities.'
+          ),
+          _react2.default.createElement(
+            _ui.Button.Anchor,
+            {
+              className: 'principal-hero-link',
+              mode: 'strong',
+              href: './discover' },
+            'Discover the product'
+          )
+        ),
+        _react2.default.createElement(
+          VideoContainer,
+          null,
+          _react2.default.createElement(Blur, { src: _blur2.default }),
+          _react2.default.createElement(
+            VideoDesktop,
+            { playsInline: true, autoPlay: true, muted: true, loop: true, poster: _poster2.default },
+            _react2.default.createElement('source', { src: _homeVideo2.default, type: 'video/mp4' })
           )
         )
       )
@@ -9275,4 +9295,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.099eeb5c.js.map
+//# sourceMappingURL=static.5d921f9e.js.map
