@@ -83,9 +83,8 @@ const Blur = styled.img`
 `
 const VideoDesktop = styled.video`
   width: 90%;
-  max-width: 312px;
   margin-top: 30px;
-  ${medium('width: 690px; margin-left: 28px; max-width: inherit; margin-top: 0;')};
+  ${medium('width: auto; margin-left: 28px; margin-top: 0;')};
   z-index: 2;
   position: relative;
   border-radius: 8px;
