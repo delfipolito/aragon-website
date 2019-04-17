@@ -3463,7 +3463,7 @@ var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n'], ['\n  width
     _templateObject3 = _taggedTemplateLiteral(['\n  height: 450px;\n  max-width: 312px;\n  margin-top: 30px;\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-left: -70px;\n  }\n'], ['\n  height: 450px;\n  max-width: 312px;\n  margin-top: 30px;\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-left: -70px;\n  }\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n'], ['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n']),
     _templateObject5 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
-    _templateObject6 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n']);
+    _templateObject6 = _taggedTemplateLiteral(['\n  width: 100%;\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -3568,7 +3568,7 @@ var VideoDesktop = _styledComponents2.default.video(_templateObject3, medium('wi
 
 var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject4);
 var Box = _styledComponents2.default.div(_templateObject5, medium('flex-direction: row;'));
-var TextContainer = _styledComponents2.default.div(_templateObject6, medium('min-width: 453px;'));
+var TextContainer = _styledComponents2.default.div(_templateObject6);
 exports.default = Hero;
 
 /***/ }),
@@ -7010,10 +7010,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  height: auto;\n  ', ';\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  overflow: hidden;\n  min-height: 550px;\n  padding-top: 64px;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  display: flex;\n  video {\n    max-width: 100%;\n    width: auto;\n    margin-left: 10px;\n    @media (min-width: 900px) and (max-width: 1071px) {\n      display: block;\n      height: 300px;\n      margin-left: 10px;\n\n    }\n    @media (min-width: 1071px) and (max-width: 1176px) {\n      display: block;\n      height: 430px;\n          margin-left: -20px;\n    }\n    @media (min-width: 1176px) and (max-width: 1330px) {\n      display: block;\n      height: 500px!important;\n      margin-left: -60px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 550px;\n      margin-left: -30px;\n    }\n  }\n'], ['\n  height: auto;\n  ', ';\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  overflow: hidden;\n  min-height: 550px;\n  padding-top: 64px;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  display: flex;\n  video {\n    max-width: 100%;\n    width: auto;\n    margin-left: 10px;\n    @media (min-width: 900px) and (max-width: 1071px) {\n      display: block;\n      height: 300px;\n      margin-left: 10px;\n\n    }\n    @media (min-width: 1071px) and (max-width: 1176px) {\n      display: block;\n      height: 430px;\n          margin-left: -20px;\n    }\n    @media (min-width: 1176px) and (max-width: 1330px) {\n      display: block;\n      height: 500px!important;\n      margin-left: -60px;\n    }\n    @media (min-width: 1330px) {\n      display: block;\n      height: 550px;\n      margin-left: -30px;\n    }\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  h2, h4, a {\n    text-align: left;\n    margin-left: 0px;\n    ', ';\n  }\n'], ['\n  width: 100%;\n  h2, h4, a {\n    text-align: left;\n    margin-left: 0px;\n    ', ';\n  }\n']);
-
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -7056,8 +7052,6 @@ var _ui = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
 var medium = function medium(css) {
   return (0, _ui.breakpoint)('medium', css);
 };
@@ -7076,10 +7070,6 @@ var Discover = function Discover() {
     _react2.default.createElement(_BlogPost2.default, null)
   );
 };
-
-var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject, medium('height: 600px;'));
-var Box = _styledComponents2.default.div(_templateObject2, medium('flex-direction: row;'));
-var Container = _styledComponents2.default.div(_templateObject3, medium('margin-left: 60px;'));
 
 exports.default = Discover;
 
@@ -9218,4 +9208,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ab91ddab.js.map
+//# sourceMappingURL=static.364e7772.js.map
