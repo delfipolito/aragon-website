@@ -3485,7 +3485,7 @@ var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n'], ['\n  width
     _templateObject3 = _taggedTemplateLiteral(['\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    min-width: 460px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    min-width: 537px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    min-width: 613px;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    min-width: 690px;\n    margin-left: -70px;\n  }\n'], ['\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    min-width: 460px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    min-width: 537px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    min-width: 613px;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    min-width: 690px;\n    margin-left: -70px;\n  }\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n'], ['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n']),
     _templateObject5 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
-    _templateObject6 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n']);
+    _templateObject6 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  text-align: center;\n  ', ';\n  h2 {\n    text-align: center;\n    margin: 15px 0;\n    margin-top: 50px;\n    ', ';\n    opacity: 1;\n\n  }\n  h4 {\n    text-align: center;\n    ', ';\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  text-align: center;\n  ', ';\n  h2 {\n    text-align: center;\n    margin: 15px 0;\n    margin-top: 50px;\n    ', ';\n    opacity: 1;\n\n  }\n  h4 {\n    text-align: center;\n    ', ';\n    opacity: 0.8;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -3544,42 +3544,61 @@ var Hero = function Hero() {
             { playsInline: true, autoPlay: true, muted: true, loop: true },
             _react2.default.createElement('source', { src: _videoMobile2.default, type: 'video/mp4' })
           )
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        null,
+        ),
         _react2.default.createElement(
-          _ui.BreakPoint,
-          { from: 'medium' },
+          TextContainer,
+          null,
           _react2.default.createElement(
-            VideoDesktop,
-            { playsInline: true, autoPlay: true, muted: true, loop: true, poster: _poster2.default },
-            _react2.default.createElement('source', { src: _discoverVideo2.default, type: 'video/mp4' })
+            'h2',
+            null,
+            'Take back your freedom to organize'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Discover the unparalleled power to organize. Whether you want to collaborate with your co-founder, open a non-profit, or just organize an online community, Aragon is there for you.'
+          ),
+          _react2.default.createElement(
+            _ui.Button.Anchor,
+            {
+              className: 'principal-hero-link',
+              mode: 'strong',
+              href: 'https://mainnet.aragon.org ',
+              target: '_blank' },
+            'Try it out'
           )
         )
       ),
       _react2.default.createElement(
-        TextContainer,
-        null,
+        _ui.BreakPoint,
+        { from: 'medium' },
         _react2.default.createElement(
-          'h2',
-          null,
-          'Take back your freedom to organize'
+          VideoDesktop,
+          { playsInline: true, autoPlay: true, muted: true, loop: true, poster: _poster2.default },
+          _react2.default.createElement('source', { src: _discoverVideo2.default, type: 'video/mp4' })
         ),
         _react2.default.createElement(
-          'h4',
+          TextContainer,
           null,
-          'Discover the unparalleled power to organize. Whether you want to collaborate with your co-founder, open a non-profit, or just organize an online community, Aragon is there for you.'
-        ),
-        _react2.default.createElement(
-          _ui.Button.Anchor,
-          {
-            className: 'principal-hero-link',
-            mode: 'strong',
-            href: 'https://mainnet.aragon.org ',
-            target: '_blank' },
-          'Try it out'
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Take back your freedom to organize'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Discover the unparalleled power to organize. Whether you want to collaborate with your co-founder, open a non-profit, or just organize an online community, Aragon is there for you.'
+          ),
+          _react2.default.createElement(
+            _ui.Button.Anchor,
+            {
+              className: 'principal-hero-link',
+              mode: 'strong',
+              href: 'https://mainnet.aragon.org ',
+              target: '_blank' },
+            'Try it out'
+          )
         )
       )
     )
@@ -3595,7 +3614,7 @@ var VideoDesktop = _styledComponents2.default.video(_templateObject3, medium('wi
 var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject4);
 var Box = _styledComponents2.default.div(_templateObject5, medium('flex-direction: row; justify-content: space-between;'));
 
-var TextContainer = _styledComponents2.default.div(_templateObject6, medium('min-width: 453px; max-width: 453px;'));
+var TextContainer = _styledComponents2.default.div(_templateObject6, medium('min-width: 453px; max-width: 453px;'), medium('text-align: left;'), medium('text-align: left; margin-top: 15px;'), medium('text-align: left;'));
 exports.default = Hero;
 
 /***/ }),
@@ -9256,4 +9275,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.a832b7f1.js.map
+//# sourceMappingURL=static.099eeb5c.js.map
