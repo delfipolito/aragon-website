@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Section from '../General/Section';
 import video from './assets/discover-video.mp4';
 import videoMobile from '../Home/home-assets/video-mobile.mp4';
-import poster from './assets/poster.png';
+import poster from './assets/poster.jpg';
 import {Link} from 'react-static';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -21,8 +21,8 @@ const Hero = () => (
         </div>
       </BreakPoint>
       <BreakPoint from="medium">
-          <VideoDesktop  playsInline autoPlay muted loop>
-            <source src={video} type="video/mp4" poster={poster}/>
+          <VideoDesktop  playsInline autoPlay muted loop poster={poster}>
+            <source src={video} type="video/mp4" />
           </VideoDesktop>
       </BreakPoint>
       <TextContainer>
