@@ -175,10 +175,13 @@ const TextContainer = styled.div`
     font-size: 56px;
     line-height: 75px;
     text-align: center;
-    ${medium('text-align: left;')};
-    color: white;
-    opacity: 1;
+    margin-top: 50px;
     margin: 15px 0;
+    opacity: 1;
+    ${medium('text-align: left; margin-top: 15px;')};
+    color: white;
+
+
   }
   h4 {
     text-align: center;
