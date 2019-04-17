@@ -55,8 +55,6 @@ const Hero = () => (
           </Button.Anchor>
         </TextContainer>
       </BreakPoint>
-
-
     </Box>
   </HeroSection>
 );

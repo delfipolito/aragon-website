@@ -20,26 +20,42 @@ const Hero = () => (
             <source src={videoMobile} type="video/mp4" />
           </video>
         </div>
+        <TextContainer>
+          <h2>
+            Freedom to <br />
+            organize
+          </h2>
+          <h4>
+            Aragon lets you freely organize and collaborate without borders or
+            intermediaries. Create global, bureaucracy-free organizations,
+            companies, and communities.
+          </h4>
+          <Button.Anchor
+            className="principal-hero-link"
+            mode="strong"
+            href="./discover">
+            Discover the product
+          </Button.Anchor>
+        </TextContainer>
       </BreakPoint>
-      <TextContainer>
-        <h2>
-          Freedom to <br />
-          organize
-        </h2>
-        <h4>
-          Aragon lets you freely organize and collaborate without borders or
-          intermediaries. Create global, bureaucracy-free organizations,
-          companies, and communities.
-        </h4>
-        <Button.Anchor
-          className="principal-hero-link"
-          mode="strong"
-          href="./discover">
-          Discover the product
-        </Button.Anchor>
-      </TextContainer>
-      <div>
       <BreakPoint from="medium">
+        <TextContainer>
+          <h2>
+            Freedom to <br />
+            organize
+          </h2>
+          <h4>
+            Aragon lets you freely organize and collaborate without borders or
+            intermediaries. Create global, bureaucracy-free organizations,
+            companies, and communities.
+          </h4>
+          <Button.Anchor
+            className="principal-hero-link"
+            mode="strong"
+            href="./discover">
+            Discover the product
+          </Button.Anchor>
+        </TextContainer>
         <VideoContainer>
           <Blur src={blur} />
           <VideoDesktop playsInline autoPlay muted loop poster={poster}>
@@ -47,7 +63,6 @@ const Hero = () => (
           </VideoDesktop>
         </VideoContainer>
       </BreakPoint>
-      </div>
     </Box>
   </HeroSection>
 );
