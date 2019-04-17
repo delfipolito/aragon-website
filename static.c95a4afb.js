@@ -2814,7 +2814,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .export {\n    img {\n      width: calc(90% + 80px);\n      margin: -40px -20px 20px -20px;\n    }\n  }\n  .label {\n    display: flex;\n    background: #ffffff80;\n    border-radius: 100px;\n    height: 18px;\n    align-items: center;\n    p {\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n      height: auto;\n      line-height: 1;\n      margin-top: 2px;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .export {\n    img {\n      width: calc(90% + 80px);\n      margin: -40px -20px 20px -20px;\n    }\n  }\n  .label {\n    display: flex;\n    background: #ffffff80;\n    border-radius: 100px;\n    height: 18px;\n    align-items: center;\n    p {\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n      height: auto;\n      line-height: 1;\n      margin-top: 2px;\n    }\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .export {\n    img {\n      margin: 10px 0;\n      width: 100%;\n      ', ';\n    }\n  }\n  .label {\n    display: flex;\n    background: #ffffff80;\n    border-radius: 100px;\n    height: 18px;\n    align-items: center;\n    p {\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n      height: auto;\n      line-height: 1;\n      margin-top: 2px;\n    }\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  .first-feature .image-container {\n    ', ';\n    img {\n      height: 502px;\n      width: 502px;\n    }\n  }\n  .export {\n    img {\n      margin: 10px 0;\n      width: 100%;\n      ', ';\n    }\n  }\n  .label {\n    display: flex;\n    background: #ffffff80;\n    border-radius: 100px;\n    height: 18px;\n    align-items: center;\n    p {\n      padding: 0 15px;\n      text-transform: uppercase;\n      font-family: \'FontBold\';\n      font-size: 10px;\n      color: #8fb5c8;\n      height: auto;\n      line-height: 1;\n      margin-top: 2px;\n    }\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2849,6 +2849,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var medium = function medium(css) {
+  return (0, _ui.breakpoint)('medium', css);
+};
+var large = function large(css) {
   return (0, _ui.breakpoint)('medium', css);
 };
 
@@ -2911,7 +2914,7 @@ var LastFeatures = function LastFeatures() {
   );
 };
 
-var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 700px'), medium('margin-bottom: 2px !important;'));
+var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 700px'), medium('margin-bottom: 2px !important;'), large('width: calc(90% + 80px); margin: -40px -20px 20px -20px;'));
 
 exports.default = LastFeatures;
 
@@ -3239,7 +3242,7 @@ var Video = function (_React$Component) {
               { to: 'medium' },
               _react2.default.createElement(
                 'a',
-                { target: 'blank', href: 'https://www.youtube.com/watch?v=AqjIWmiAidw' },
+                { target: 'blank', href: 'https://www.youtube.com/watch?v=_F1LyWkIil4' },
                 _react2.default.createElement(
                   'h4',
                   null,
@@ -3263,7 +3266,7 @@ var Video = function (_React$Component) {
         _react2.default.createElement(
           _ui.BreakPoint,
           { from: 'medium' },
-          _react2.default.createElement(_VideoModal2.default, { ref: this.videoModal, videoId: 'AqjIWmiAidw' })
+          _react2.default.createElement(_VideoModal2.default, { ref: this.videoModal, videoId: '_F1LyWkIil4' })
         )
       );
     }
@@ -9295,4 +9298,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.34272f9e.js.map
+//# sourceMappingURL=static.c95a4afb.js.map
