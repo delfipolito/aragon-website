@@ -130,7 +130,8 @@ const Box = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  ${medium('flex-direction: row; justify-content: space-between;')};
+  margin: 30px auto;
+  ${medium('flex-direction: row; margin: auto; justify-content: space-between;')};
   @media (min-width: 690px) and (max-width: 960px) {
     flex-direction: column;
   }
