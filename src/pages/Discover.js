@@ -23,4 +23,58 @@ const Discover = () => (
   </Page>
 )
 
+const HeroSection = styled(Section)`
+  height: auto;
+  ${medium('height: 600px;')};
+  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);
+  overflow: hidden;
+  min-height: 550px;
+  padding-top: 64px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  video {
+    max-width: 100%;
+    width: auto;
+    margin-left: 10px;
+    @media (min-width: 900px) and (max-width: 1071px) {
+      display: block;
+      height: 300px;
+      margin-left: 10px;
+
+    }
+    @media (min-width: 1071px) and (max-width: 1176px) {
+      display: block;
+      height: 430px;
+          margin-left: -20px;
+    }
+    @media (min-width: 1176px) and (max-width: 1330px) {
+      display: block;
+      height: 500px!important;
+      margin-left: -60px;
+    }
+    @media (min-width: 1330px) {
+      display: block;
+      height: 550px;
+      margin-left: -30px;
+    }
+  }
+`;
+const Box = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
+`;
+const Container = styled.div`
+  width: 100%;
+  h2, h4, a {
+    text-align: left;
+    margin-left: 0px;
+    ${medium('margin-left: 60px;')};
+  }
+`;
+
 export default Discover

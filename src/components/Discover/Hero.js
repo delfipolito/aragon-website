@@ -123,6 +123,7 @@ const Box = styled.div`
 `;
 const TextContainer = styled.div`
   width: 100%;
+  ${medium('min-width: 453px;')};
   h2 {
     text-align: left;
     opacity: 1;

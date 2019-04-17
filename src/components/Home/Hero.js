@@ -4,6 +4,7 @@ import Section from '../General/Section';
 import video from './home-assets/home-video.mp4';
 import videoMobile from './home-assets/video-mobile.mp4';
 import blur from './home-assets/blur2.png';
+import poster from './home-assets/poster.png';
 import {Link} from 'react-static';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
@@ -41,7 +42,7 @@ const Hero = () => (
         <VideoContainer>
           <Blur src={blur} />
           <VideoDesktop playsInline autoPlay muted loop>
-            <source src={video} type="video/mp4" />
+            <source src={video} type="video/mp4"/>
           </VideoDesktop>
         </VideoContainer>
       </BreakPoint>
@@ -84,7 +85,7 @@ const VideoDesktop = styled.video`
   width: 90%;
   max-width: 312px;
   margin-top: 30px;
-  ${medium('width: auto; margin-left: 28px; max-width: inherit; margin-top: 0;')};
+  ${medium('width: 690px; margin-left: 28px; max-width: inherit; margin-top: 0;')};
   z-index: 2;
   position: relative;
   border-radius: 8px;
