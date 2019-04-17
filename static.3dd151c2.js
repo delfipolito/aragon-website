@@ -2414,7 +2414,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 35px;\n    color: #FFFFFF;\n  }\n  img.bella-img {\n    max-width: 90%;\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 35px;\n    color: #FFFFFF;\n  }\n  img.bella-img {\n    max-width: 90%;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 15px;\n    ', ';\n    color: #FFFFFF;\n  }\n  img.bella-img {\n    max-width: 90%;\n  }\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n  p.discover {\n    font-size: 18px;\n    line-height: 19px;\n    text-align: center;\n    margin-bottom: 15px;\n    ', ';\n    color: #FFFFFF;\n  }\n  img.bella-img {\n    max-width: 90%;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -2634,7 +2634,7 @@ var About = function About() {
   );
 };
 
-var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px 500px 500px'));
+var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px 500px 500px'), medium('margin-bottom: 35px;'));
 
 exports.default = About;
 
@@ -9298,4 +9298,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.c95a4afb.js.map
+//# sourceMappingURL=static.3dd151c2.js.map
