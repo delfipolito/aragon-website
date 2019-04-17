@@ -169,16 +169,20 @@ const Box = styled.div`
 const TextContainer = styled.div`
   width: 100%;
   ${medium('min-width: 453px;')};
+  text-align: center;
+  ${medium('text-align: left;')};
   h2 {
     font-size: 56px;
     line-height: 75px;
-    text-align: left;
+    text-align: center;
+    ${medium('text-align: left;')};
     color: white;
     opacity: 1;
     margin: 15px 0;
   }
   h4 {
-    text-align: left;
+    text-align: center;
+    ${medium('text-align: left;')};
     color: white;
     opacity: 0.8;
   }
