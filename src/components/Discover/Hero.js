@@ -22,9 +22,9 @@ const Hero = () => (
       </BreakPoint>
       <div>
         <BreakPoint from="medium">
-            <VideoDesktop  playsInline autoPlay muted loop poster={poster}>
-              <source src={video} type="video/mp4" />
-            </VideoDesktop>
+          <VideoDesktop  playsInline autoPlay muted loop poster={poster}>
+            <source src={video} type="video/mp4" />
+          </VideoDesktop>
         </BreakPoint>
       </div>
       <TextContainer>
@@ -118,7 +118,7 @@ const Box = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  ${medium('flex-direction: row;')};
+  ${medium('flex-direction: row; justify-content: space-between;')};
   @media (min-width: 690px) and (max-width: 960px) {
     flex-direction: column;
   }
@@ -126,7 +126,7 @@ const Box = styled.div`
 
 const TextContainer = styled.div`
   width: 100%;
-  ${medium('min-width: 453px;')};
+  ${medium('min-width: 453px; max-width: 453px;')};
   h2 {
     text-align: left;
     opacity: 1;
