@@ -51,6 +51,10 @@ const Hero = () => (
 );
 const VideoContainer = styled.div`
   width: 100%;
+
+  @media (min-width: 1330px) {
+    min-width: 690px;
+  }
 `;
 
 const Blur = styled.img`
@@ -82,9 +86,7 @@ const Blur = styled.img`
   }
 `
 const VideoDesktop = styled.video`
-  width: 90%;
-  margin-top: 30px;
-  ${medium('width: auto; margin-left: 28px; margin-top: 0;')};
+  ${medium('width: auto; margin-left: 28px;')};
   z-index: 2;
   position: relative;
   border-radius: 8px;

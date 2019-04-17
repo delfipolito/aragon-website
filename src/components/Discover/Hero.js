@@ -48,6 +48,19 @@ const Hero = () => (
 
 const VideoContainer = styled.div`
   width: 100%;
+
+  @media (min-width: 960px) and (max-width: 1120px) {
+    min-width: 460px;
+  }
+  @media (min-width: 1120px) and (max-width: 1260px) {
+    min-width: 537px;
+  }
+  @media (min-width: 1260px) and (max-width: 1330px) {
+    min-width: 613px;
+  }
+  @media (min-width: 1330px) {
+    min-width: 690px;
+  }
 `;
 
 const VideoMobile = styled.video`
@@ -60,11 +73,8 @@ const VideoMobile = styled.video`
 `;
 
 const VideoDesktop = styled.video`
-  height: 450px;
-  max-width: 312px;
-  margin-top: 30px;
   ${medium(
-    'width: auto; margin-right: 70px; max-width: inherit; margin-top: 0;'
+    'width: auto; margin-right: 70px;'
   )};
   z-index: 2;
   position: relative;
@@ -121,6 +131,7 @@ const Box = styled.div`
     flex-direction: column;
   }
 `;
+
 const TextContainer = styled.div`
   width: 100%;
   ${medium('min-width: 453px;')};
