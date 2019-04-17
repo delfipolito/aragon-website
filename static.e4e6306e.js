@@ -3463,9 +3463,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n\n  @media (min-width: 960px) and (max-width: 1120px) {\n    min-width: 460px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    min-width: 537px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    min-width: 613px;\n  }\n  @media (min-width: 1330px) {\n    min-width: 690px;\n  }\n'], ['\n  width: 100%;\n\n  @media (min-width: 960px) and (max-width: 1120px) {\n    min-width: 460px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    min-width: 537px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    min-width: 613px;\n  }\n  @media (min-width: 1330px) {\n    min-width: 690px;\n  }\n']),
+var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n'], ['\n  width: 100%;\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  width: 90%;\n  max-width: 312px;\n  margin-top: 30px;\n  z-index: 3;\n  position: relative;\n  border-radius: 8px;\n'], ['\n  width: 90%;\n  max-width: 312px;\n  margin-top: 30px;\n  z-index: 3;\n  position: relative;\n  border-radius: 8px;\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-left: -70px;\n  }\n'], ['\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    margin-left: -70px;\n  }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    min-width: 460px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    min-width: 537px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    min-width: 613px;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    min-width: 690px;\n    margin-left: -70px;\n  }\n'], ['\n  ', ';\n  z-index: 2;\n  position: relative;\n  border-radius: 8px;\n\n  @media (min-width: 10px) and (max-width: 960px) {\n    display: none;\n  }\n  @media (min-width: 960px) and (max-width: 1120px) {\n    display: block;\n    height: 300px;\n    min-width: 460px;\n    margin-left: -10px;\n    margin-right: 30px;\n  }\n  @media (min-width: 1120px) and (max-width: 1260px) {\n    display: block;\n    height: 350px;\n    min-width: 537px;\n    margin-left: -30px;\n    margin-right: 50px;\n  }\n  @media (min-width: 1260px) and (max-width: 1330px) {\n    display: block;\n    height: 400px !important;\n    min-width: 613px;\n    margin-left: -50px;\n  }\n  @media (min-width: 1330px) {\n    display: block;\n    height: 450px;\n    min-width: 690px;\n    margin-left: -70px;\n  }\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n'], ['\n  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);\n  min-height: 650px;\n  padding-top: 64px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  overflow: hidden;\n  .mobile-container {\n    width: 100%;\n    text-align: center;\n  }\n']),
     _templateObject5 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  ', ';\n  @media (min-width: 690px) and (max-width: 960px) {\n    flex-direction: column;\n  }\n']),
     _templateObject6 = _taggedTemplateLiteral(['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n'], ['\n  width: 100%;\n  ', ';\n  h2 {\n    text-align: left;\n    opacity: 1;\n    margin: 15px 0;\n  }\n  h4 {\n    text-align: left;\n    opacity: 0.8;\n  }\n']);
@@ -3529,13 +3529,9 @@ var Hero = function Hero() {
         _ui.BreakPoint,
         { from: 'medium' },
         _react2.default.createElement(
-          VideoContainer,
-          null,
-          _react2.default.createElement(
-            VideoDesktop,
-            { playsInline: true, autoPlay: true, muted: true, loop: true },
-            _react2.default.createElement('source', { src: _discoverVideo2.default, type: 'video/mp4' })
-          )
+          VideoDesktop,
+          { playsInline: true, autoPlay: true, muted: true, loop: true },
+          _react2.default.createElement('source', { src: _discoverVideo2.default, type: 'video/mp4' })
         )
       ),
       _react2.default.createElement(
@@ -9230,4 +9226,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.52446773.js.map
+//# sourceMappingURL=static.e4e6306e.js.map
