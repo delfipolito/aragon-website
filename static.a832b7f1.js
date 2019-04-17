@@ -3593,9 +3593,9 @@ var VideoMobile = _styledComponents2.default.video(_templateObject2);
 var VideoDesktop = _styledComponents2.default.video(_templateObject3, medium('width: auto; margin-right: 70px;'));
 
 var HeroSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject4);
-var Box = _styledComponents2.default.div(_templateObject5, medium('flex-direction: row;'));
+var Box = _styledComponents2.default.div(_templateObject5, medium('flex-direction: row; justify-content: space-between;'));
 
-var TextContainer = _styledComponents2.default.div(_templateObject6, medium('min-width: 453px;'));
+var TextContainer = _styledComponents2.default.div(_templateObject6, medium('min-width: 453px; max-width: 453px;'));
 exports.default = Hero;
 
 /***/ }),
@@ -9256,4 +9256,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.5d7440ab.js.map
+//# sourceMappingURL=static.a832b7f1.js.map
