@@ -16,6 +16,11 @@ class Video extends React.Component {
     super(props);
     this.videoModal = React.createRef();
     this.handleOpen = this.handleOpen.bind(this);
+    if (typeof window !== `undefined`) {
+      window.YTConfig = {
+        host: 'https://www.youtube.com'
+      }
+    }
   }
 
   handleOpen() {
