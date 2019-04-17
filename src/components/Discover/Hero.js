@@ -20,11 +20,9 @@ const Hero = () => (
         </div>
       </BreakPoint>
       <BreakPoint from="medium">
-        <VideoContainer>
           <VideoDesktop  playsInline autoPlay muted loop>
             <source src={video} type="video/mp4" />
           </VideoDesktop>
-        </VideoContainer>
       </BreakPoint>
       <TextContainer>
         <h2>Take back your freedom to organize</h2>
@@ -48,19 +46,6 @@ const Hero = () => (
 
 const VideoContainer = styled.div`
   width: 100%;
-
-  @media (min-width: 960px) and (max-width: 1120px) {
-    min-width: 460px;
-  }
-  @media (min-width: 1120px) and (max-width: 1260px) {
-    min-width: 537px;
-  }
-  @media (min-width: 1260px) and (max-width: 1330px) {
-    min-width: 613px;
-  }
-  @media (min-width: 1330px) {
-    min-width: 690px;
-  }
 `;
 
 const VideoMobile = styled.video`
@@ -86,23 +71,27 @@ const VideoDesktop = styled.video`
   @media (min-width: 960px) and (max-width: 1120px) {
     display: block;
     height: 300px;
+    min-width: 460px;
     margin-left: -10px;
     margin-right: 30px;
   }
   @media (min-width: 1120px) and (max-width: 1260px) {
     display: block;
     height: 350px;
+    min-width: 537px;
     margin-left: -30px;
     margin-right: 50px;
   }
   @media (min-width: 1260px) and (max-width: 1330px) {
     display: block;
     height: 400px !important;
+    min-width: 613px;
     margin-left: -50px;
   }
   @media (min-width: 1330px) {
     display: block;
     height: 450px;
+    min-width: 690px;
     margin-left: -70px;
   }
 `
