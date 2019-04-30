@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from './assets/hero.svg';
+import background from './assets/hero-bg.svg';
 import backgroundMobile from './assets/hero-mobile.svg';
 import Navbar from './Navbar';
 
 import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
-console.log(breakpoint('medium'));
 
 const Hero = () => (
   <HeroSection>
@@ -25,7 +24,7 @@ const HeroSection = styled.section`
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-
+  background-position: 45% 100%;
   @media (max-width: 683px) {
     background-image: url(${backgroundMobile});
     background-size: contain;
@@ -33,7 +32,7 @@ const HeroSection = styled.section`
     height: 135vw;
   }
   height: auto;
-  ${medium('height: 80vw; background-size: contain;')};
+  ${medium('height: 47vw; background-size: contain;')};
   margin-bottom: -3px;
 `;
 

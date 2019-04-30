@@ -3,6 +3,7 @@ import Hero from '../components/Powered/Hero';
 import Transparency from '../components/Powered/Transparency';
 import Governance from '../components/Powered/Governance';
 import Security from '../components/Powered/Security';
+import Projects from '../components/Powered/Projects';
 import Footer from '../components/Powered/Footer';
 import PreFooter from '../components/Powered/PreFooter';
 import styled from 'styled-components';
@@ -19,6 +20,7 @@ class Home extends React.Component {
         <Transparency />
         <Governance />
         <Security />
+        <Projects />
         <PreFooter />
         <Footer />
       </HomeContainer>
