@@ -52,5 +52,10 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  flex-wrap: wrap;
+  img {
+    max-width: 80%!important;
+    ${medium('max-width: 90%!important;')};
+  }
 `;
 export default Projects;
