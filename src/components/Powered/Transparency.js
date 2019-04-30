@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import transparency from './assets/transparency.svg';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -9,20 +10,23 @@ const large = css => breakpoint('large', css);
 const Transparency = () => (
   <TransparencySection>
     <ImageContainer>
-      <img src={transparency} />
+      <Fade bottom distance="50px">
+        <img src={transparency} />
+      </Fade>
     </ImageContainer>
     <TextBox>
-      <div className="content">
-        <h3>Transparency</h3>
-        <h2>Your stakeholders always know what's going on</h2>
-      </div>
+      <Fade bottom distance="50px">
+        <div className="content">
+          <h3>Transparency</h3>
+          <h2>Your stakeholders always know what's going on</h2>
+        </div>
+      </Fade>
     </TextBox>
   </TransparencySection>
 );
 
-
 const ImageContainer = styled.div`
-  background: #F0C46F;
+  background: #f0c46f;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -57,8 +61,7 @@ const TextBox = styled.div`
     font-family: 'FontBold';
     font-size: 28px;
     line-height: 55px;
-    border-bottom: solid 4px #F0C46F;
-
+    border-bottom: solid 4px #f0c46f;
   }
   h2 {
     font-family: 'FontLight';

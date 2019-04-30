@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import governance from './assets/governance.svg';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -10,26 +11,34 @@ const Governance = () => (
   <GovernanceSection>
     <BreakPoint to="medium">
       <ImageContainer>
-        <img src={governance} />
+        <Fade bottom distance="50px">
+          <img src={governance} />
+        </Fade>
       </ImageContainer>
     </BreakPoint>
     <TextBox>
-      <div className="content">
-        <h3>Governance</h3>
-        <h2>Your stakeholders can participate in the future of the organization</h2>
-      </div>
+      <Fade bottom distance="50px">
+        <div className="content">
+          <h3>Governance</h3>
+          <h2>
+            Your stakeholders can participate in the future of the organization
+          </h2>
+        </div>
+      </Fade>
     </TextBox>
     <BreakPoint from="medium">
       <ImageContainer>
-        <img src={governance} />
+        <Fade bottom distance="50px">
+          {' '}
+          <img src={governance} />
+        </Fade>
       </ImageContainer>
     </BreakPoint>
   </GovernanceSection>
 );
 
-
 const ImageContainer = styled.div`
-  background: #019FE3;
+  background: #019fe3;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -64,10 +73,9 @@ const TextBox = styled.div`
     font-family: 'FontBold';
     font-size: 28px;
     line-height: 55px;
-    border-bottom: solid 4px #019FE3;
+    border-bottom: solid 4px #019fe3;
     text-align: left;
     ${medium('text-align: right;')};
-
   }
   h2 {
     font-family: 'FontLight';

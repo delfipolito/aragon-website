@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import background from './assets/pre-footer.svg';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint, BreakPoint} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -8,10 +9,12 @@ const large = css => breakpoint('large', css);
 
 const PreFooter = () => (
   <PreFooterSection>
+    <Fade bottom distance="50px">
     <Container>
       <h2>Accountability, transparency and security is what it means to be Powered by Aragon</h2>
       <a href="https://wiki.aragon.org" target="_blank">Aragon Wiki</a>
     </Container>
+    </Fade>
   </PreFooterSection>
 );
 

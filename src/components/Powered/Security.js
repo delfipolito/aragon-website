@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import security from './assets/security.svg';
+import Fade from 'react-reveal/Fade';
 
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
@@ -9,21 +10,29 @@ const large = css => breakpoint('large', css);
 const Security = () => (
   <SecuritySection>
     <ImageContainer>
-      <img src={security} />
+      <Fade bottom distance="50px">
+        <img src={security} />
+      </Fade>
     </ImageContainer>
     <TextBox>
-    <div className="content">
-      <h3>Security</h3>
-      <h2>aragonOS secures more than <b>$1m</b></h2>
-      <p>The smart contracts have been audited by the Whitehat group, Consensys Dilligence and Authio</p>
-    </div>
+      <Fade bottom distance="50px">
+        <div className="content">
+          <h3>Security</h3>
+          <h2>
+            aragonOS secures more than <b>$1m</b>
+          </h2>
+          <p>
+            The smart contracts have been audited by the Whitehat group,
+            Consensys Dilligence and Authio
+          </p>
+        </div>
+      </Fade>
     </TextBox>
   </SecuritySection>
 );
 
-
 const ImageContainer = styled.div`
-  background: #70D5BE;
+  background: #70d5be;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -58,8 +67,7 @@ const TextBox = styled.div`
     font-family: 'FontBold';
     font-size: 28px;
     line-height: 55px;
-    border-bottom: solid 4px #75C2AD;
-
+    border-bottom: solid 4px #75c2ad;
   }
   h2 {
     font-family: 'FontLight';
