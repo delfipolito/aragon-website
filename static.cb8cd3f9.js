@@ -5304,7 +5304,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _templateObject = _taggedTemplateLiteral(['\n  height: auto;\n  background-color: #019fe3;\n  padding: 100px 0 0 0;\n  margin-bottom: -3px;\n'], ['\n  height: auto;\n  background-color: #019fe3;\n  padding: 100px 0 0 0;\n  margin-bottom: -3px;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n'], ['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n  flex-wrap: wrap;\n  img {\n    max-width: 80%!important;\n    ', ';\n  }\n'], ['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n  flex-wrap: wrap;\n  img {\n    max-width: 80%!important;\n    ', ';\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -5396,7 +5396,7 @@ var Projects = function Projects() {
 
 var ProjectsSection = _styledComponents2.default.section(_templateObject);
 
-var Container = _styledComponents2.default.div(_templateObject2);
+var Container = _styledComponents2.default.div(_templateObject2, medium('max-width: 90%!important;'));
 exports.default = Projects;
 
 /***/ }),
@@ -10998,4 +10998,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.d8fe420c.js.map
+//# sourceMappingURL=static.cb8cd3f9.js.map
