@@ -203,7 +203,7 @@ var _ui = __webpack_require__(2);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Fade = __webpack_require__(12);
+var _Fade = __webpack_require__(10);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -230,7 +230,7 @@ var LCard = function LCard(_ref) {
       className: props.textAlign + ' ' + props.className,
       colorWhite: props.colorWhite,
       image: props.image || false,
-      background: props.background ? __webpack_require__(10)("./" + props.background) : '',
+      background: props.background ? __webpack_require__(11)("./" + props.background) : '',
       gradient: props.gradient ? props.gradient : '' },
     props.image && props.textAlign == 'right' && _react2.default.createElement(
       ImageContainer,
@@ -239,7 +239,7 @@ var LCard = function LCard(_ref) {
         _Fade2.default,
         { left: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: 400, distance: '50px' },
         ' ',
-        _react2.default.createElement('img', { src: __webpack_require__(10)("./" + props.image) })
+        _react2.default.createElement('img', { src: __webpack_require__(11)("./" + props.image) })
       )
     ),
     _react2.default.createElement(
@@ -273,7 +273,7 @@ var LCard = function LCard(_ref) {
         _Fade2.default,
         { right: props.bottom ? false : true, bottom: props.bottom ? true : false, delay: 400, distance: '50px' },
         ' ',
-        _react2.default.createElement('img', { src: __webpack_require__(10)("./" + props.image) })
+        _react2.default.createElement('img', { src: __webpack_require__(11)("./" + props.image) })
       )
     )
   );
@@ -379,7 +379,7 @@ var _ui = __webpack_require__(2);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Fade = __webpack_require__(12);
+var _Fade = __webpack_require__(10);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -406,7 +406,7 @@ var SCard = function SCard(_ref) {
       target: '_blank',
       colorWhite: props.colorWhite,
       textAlign: props.textAlign,
-      background: props.background ? __webpack_require__(10)("./" + props.background) : '',
+      background: props.background ? __webpack_require__(11)("./" + props.background) : '',
       gradient: props.gradient ? props.gradient : '',
       imageBig: props.imageBig ? props.imageBig : '',
       cardHeight: props.cardHeight ? props.cardHeight : false,
@@ -490,6 +490,12 @@ module.exports = require("prop-types");
 
 /***/ }),
 /* 10 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-reveal/Fade");
+
+/***/ }),
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -667,8 +673,8 @@ var map = {
 	"./Project/GrantsContent.js": 92,
 	"./Project/GrantsQuotes": 93,
 	"./Project/GrantsQuotes.js": 93,
-	"./Project/SecondaryNavbar": 11,
-	"./Project/SecondaryNavbar.js": 11,
+	"./Project/SecondaryNavbar": 12,
+	"./Project/SecondaryNavbar.js": 12,
 	"./Project/assets/Aracon": 99,
 	"./Project/assets/Aracon.js": 99,
 	"./Project/assets/Blog": 98,
@@ -725,10 +731,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 10;
+webpackContext.id = 11;
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -884,12 +890,6 @@ var Item = (0, _styledComponents2.default)(_ui.SafeLink)(_templateObject3, mediu
 var InternalItem = (0, _styledComponents2.default)(_reactStatic.Link)(_templateObject4, medium('display: block'));
 
 exports.default = SecondaryNavbar;
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-reveal/Fade");
 
 /***/ }),
 /* 13 */
@@ -2636,7 +2636,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Fade = __webpack_require__(12);
+var _Fade = __webpack_require__(10);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -2909,7 +2909,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Fade = __webpack_require__(12);
+var _Fade = __webpack_require__(10);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -3025,7 +3025,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(4);
 
-var _Fade = __webpack_require__(12);
+var _Fade = __webpack_require__(10);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -3977,14 +3977,14 @@ var Quote = function (_React$Component) {
       return _react2.default.createElement(
         QuoteContainer,
         {
-          background: background ? __webpack_require__(10)("./" + background) : '' },
+          background: background ? __webpack_require__(11)("./" + background) : '' },
         _react2.default.createElement(
           Box,
           null,
           _react2.default.createElement(
             _ui.BreakPoint,
             { from: 'medium' },
-            image && !imageRight && _react2.default.createElement('img', { src: __webpack_require__(10)("./" + image) })
+            image && !imageRight && _react2.default.createElement('img', { src: __webpack_require__(11)("./" + image) })
           ),
           content && _react2.default.createElement(
             'div',
@@ -4000,11 +4000,11 @@ var Quote = function (_React$Component) {
               title
             )
           ),
-          image && imageRight && _react2.default.createElement('img', { src: __webpack_require__(10)("./" + image) }),
+          image && imageRight && _react2.default.createElement('img', { src: __webpack_require__(11)("./" + image) }),
           _react2.default.createElement(
             _ui.BreakPoint,
             { to: 'medium' },
-            image && !imageRight && _react2.default.createElement('img', { src: __webpack_require__(10)("./" + image) })
+            image && !imageRight && _react2.default.createElement('img', { src: __webpack_require__(11)("./" + image) })
           )
         )
       );
@@ -4406,9 +4406,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  background: #019FE3;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n'], ['\n  background: #019FE3;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n']),
+var _templateObject = _taggedTemplateLiteral(['\n  background: #019fe3;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n'], ['\n  background: #019fe3;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  background-color: white;\n  min-height: 720px;\n  height: auto;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n'], ['\n  background-color: white;\n  min-height: 720px;\n  height: auto;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #019FE3;\n    text-align: left;\n    ', ';\n\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 38px;\n    font-weight: 100;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 554px;\n    text-align: left;\n    ', ';\n  }\n'], ['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #019FE3;\n    text-align: left;\n    ', ';\n\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 38px;\n    font-weight: 100;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 554px;\n    text-align: left;\n    ', ';\n  }\n']);
+    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #019fe3;\n    text-align: left;\n    ', ';\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 38px;\n    font-weight: 100;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 554px;\n    text-align: left;\n    ', ';\n  }\n'], ['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #019fe3;\n    text-align: left;\n    ', ';\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 38px;\n    font-weight: 100;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 554px;\n    text-align: left;\n    ', ';\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -4421,6 +4421,10 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 var _governance = __webpack_require__(46);
 
 var _governance2 = _interopRequireDefault(_governance);
+
+var _Fade = __webpack_require__(10);
+
+var _Fade2 = _interopRequireDefault(_Fade);
 
 var _ui = __webpack_require__(2);
 
@@ -4445,24 +4449,32 @@ var Governance = function Governance() {
       _react2.default.createElement(
         ImageContainer,
         null,
-        _react2.default.createElement('img', { src: _governance2.default })
+        _react2.default.createElement(
+          _Fade2.default,
+          { bottom: true, distance: '50px' },
+          _react2.default.createElement('img', { src: _governance2.default })
+        )
       )
     ),
     _react2.default.createElement(
       TextBox,
       null,
       _react2.default.createElement(
-        'div',
-        { className: 'content' },
+        _Fade2.default,
+        { bottom: true, distance: '50px' },
         _react2.default.createElement(
-          'h3',
-          null,
-          'Governance'
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Your stakeholders can participate in the future of the organization'
+          'div',
+          { className: 'content' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Governance'
+          ),
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Your stakeholders can participate in the future of the organization'
+          )
         )
       )
     ),
@@ -4472,7 +4484,12 @@ var Governance = function Governance() {
       _react2.default.createElement(
         ImageContainer,
         null,
-        _react2.default.createElement('img', { src: _governance2.default })
+        _react2.default.createElement(
+          _Fade2.default,
+          { bottom: true, distance: '50px' },
+          ' ',
+          _react2.default.createElement('img', { src: _governance2.default })
+        )
       )
     )
   );
@@ -5228,6 +5245,10 @@ var _preFooter = __webpack_require__(53);
 
 var _preFooter2 = _interopRequireDefault(_preFooter);
 
+var _Fade = __webpack_require__(10);
+
+var _Fade2 = _interopRequireDefault(_Fade);
+
 var _ui = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -5246,17 +5267,21 @@ var PreFooter = function PreFooter() {
     PreFooterSection,
     null,
     _react2.default.createElement(
-      Container,
-      null,
+      _Fade2.default,
+      { bottom: true, distance: '50px' },
       _react2.default.createElement(
-        'h2',
+        Container,
         null,
-        'Accountability, transparency and security is what it means to be Powered by Aragon'
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: 'https://wiki.aragon.org', target: '_blank' },
-        'Aragon Wiki'
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Accountability, transparency and security is what it means to be Powered by Aragon'
+        ),
+        _react2.default.createElement(
+          'a',
+          { href: 'https://wiki.aragon.org', target: '_blank' },
+          'Aragon Wiki'
+        )
       )
     )
   );
@@ -5278,8 +5303,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  height: auto;\n  background-color: #019FE3;\n  padding: 100px 0 0 0;\n  margin-bottom: -3px;\n'], ['\n  height: auto;\n  background-color: #019FE3;\n  padding: 100px 0 0 0;\n  margin-bottom: -3px;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n\n'], ['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  height: auto;\n  background-color: #019fe3;\n  padding: 100px 0 0 0;\n  margin-bottom: -3px;\n'], ['\n  height: auto;\n  background-color: #019fe3;\n  padding: 100px 0 0 0;\n  margin-bottom: -3px;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n'], ['\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  text-align: center;\n']);
 
 var _react = __webpack_require__(0);
 
@@ -5305,6 +5330,10 @@ var _melonport = __webpack_require__(50);
 
 var _melonport2 = _interopRequireDefault(_melonport);
 
+var _Fade = __webpack_require__(10);
+
+var _Fade2 = _interopRequireDefault(_Fade);
+
 var _ui = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -5326,24 +5355,40 @@ var Projects = function Projects() {
       Container,
       null,
       _react2.default.createElement(
-        'a',
-        { target: '_blank', href: 'https://google.com' },
-        _react2.default.createElement('img', { src: _althea2.default })
+        _Fade2.default,
+        { bottom: true, distance: '50px' },
+        _react2.default.createElement(
+          'a',
+          { target: '_blank', href: 'https://althea.org/' },
+          _react2.default.createElement('img', { src: _althea2.default })
+        )
       ),
       _react2.default.createElement(
-        'a',
-        { target: '_blank', href: 'https://google.com' },
-        _react2.default.createElement('img', { src: _dapp2.default })
+        _Fade2.default,
+        { bottom: true, distance: '50px', delay: 200 },
+        _react2.default.createElement(
+          'a',
+          { target: '_blank', href: 'https://dappnode.io/' },
+          _react2.default.createElement('img', { src: _dapp2.default })
+        )
       ),
       _react2.default.createElement(
-        'a',
-        { target: '_blank', href: 'https://google.com' },
-        _react2.default.createElement('img', { src: _melonport2.default })
+        _Fade2.default,
+        { bottom: true, distance: '50px', delay: 400 },
+        _react2.default.createElement(
+          'a',
+          { target: '_blank', href: 'https://melonport.com/' },
+          _react2.default.createElement('img', { src: _melonport2.default })
+        )
       ),
       _react2.default.createElement(
-        'a',
-        { target: '_blank', href: 'https://google.com' },
-        _react2.default.createElement('img', { src: _pando2.default })
+        _Fade2.default,
+        { bottom: true, distance: '50px', delay: 600 },
+        _react2.default.createElement(
+          'a',
+          { target: '_blank', href: 'https://github.com/pandonetwork/pando' },
+          _react2.default.createElement('img', { src: _pando2.default })
+        )
       )
     )
   );
@@ -5365,9 +5410,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  background: #70D5BE;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n'], ['\n  background: #70D5BE;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n']),
+var _templateObject = _taggedTemplateLiteral(['\n  background: #70d5be;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n'], ['\n  background: #70d5be;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  background-color: white;\n  min-height: 720px;\n  height: auto;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n'], ['\n  background-color: white;\n  min-height: 720px;\n  height: auto;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #75C2AD;\n\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n    b {\n      font-family: \'FontSemiBold\';\n    }\n  }\n  p {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 22px;\n    ', ';\n    line-height: 1.5;\n    color: #030304;\n    max-width: 499px;\n  }\n'], ['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #75C2AD;\n\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n    b {\n      font-family: \'FontSemiBold\';\n    }\n  }\n  p {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 22px;\n    ', ';\n    line-height: 1.5;\n    color: #030304;\n    max-width: 499px;\n  }\n']);
+    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #75c2ad;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n    b {\n      font-family: \'FontSemiBold\';\n    }\n  }\n  p {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 22px;\n    ', ';\n    line-height: 1.5;\n    color: #030304;\n    max-width: 499px;\n  }\n'], ['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #75c2ad;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n    b {\n      font-family: \'FontSemiBold\';\n    }\n  }\n  p {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 22px;\n    ', ';\n    line-height: 1.5;\n    color: #030304;\n    max-width: 499px;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -5380,6 +5425,10 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 var _security = __webpack_require__(55);
 
 var _security2 = _interopRequireDefault(_security);
+
+var _Fade = __webpack_require__(10);
+
+var _Fade2 = _interopRequireDefault(_Fade);
 
 var _ui = __webpack_require__(2);
 
@@ -5401,33 +5450,41 @@ var Security = function Security() {
     _react2.default.createElement(
       ImageContainer,
       null,
-      _react2.default.createElement('img', { src: _security2.default })
+      _react2.default.createElement(
+        _Fade2.default,
+        { bottom: true, distance: '50px' },
+        _react2.default.createElement('img', { src: _security2.default })
+      )
     ),
     _react2.default.createElement(
       TextBox,
       null,
       _react2.default.createElement(
-        'div',
-        { className: 'content' },
+        _Fade2.default,
+        { bottom: true, distance: '50px' },
         _react2.default.createElement(
-          'h3',
-          null,
-          'Security'
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'aragonOS secures more than ',
+          'div',
+          { className: 'content' },
           _react2.default.createElement(
-            'b',
+            'h3',
             null,
-            '$1m'
+            'Security'
+          ),
+          _react2.default.createElement(
+            'h2',
+            null,
+            'aragonOS secures more than ',
+            _react2.default.createElement(
+              'b',
+              null,
+              '$1m'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'The smart contracts have been audited by the Whitehat group, Consensys Dilligence and Authio'
           )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'The smart contracts have been audited by the Whitehat group, Consensys Dilligence and Authio'
         )
       )
     )
@@ -5452,9 +5509,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  background: #F0C46F;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n'], ['\n  background: #F0C46F;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n']),
+var _templateObject = _taggedTemplateLiteral(['\n  background: #f0c46f;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n'], ['\n  background: #f0c46f;\n  width: 100%;\n  margin: auto;\n  text-align: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: auto;\n  ', ';\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n  background-color: white;\n  min-height: 720px;\n  height: auto;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n'], ['\n  background-color: white;\n  min-height: 720px;\n  height: auto;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  ', ';\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #F0C46F;\n\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n  }\n'], ['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #F0C46F;\n\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n  }\n']);
+    _templateObject3 = _taggedTemplateLiteral(['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #f0c46f;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n  }\n'], ['\n  width: 100%;\n  div.content {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    padding: 70px 30px;\n    ', ';\n  }\n  h3 {\n    color: black;\n    font-family: \'FontBold\';\n    font-size: 28px;\n    line-height: 55px;\n    border-bottom: solid 4px #f0c46f;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-weight: 100;\n    font-size: 38px;\n    ', ';\n    line-height: 1.54;\n    color: #030304;\n    max-width: 422px;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -5467,6 +5524,10 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 var _transparency = __webpack_require__(56);
 
 var _transparency2 = _interopRequireDefault(_transparency);
+
+var _Fade = __webpack_require__(10);
+
+var _Fade2 = _interopRequireDefault(_Fade);
 
 var _ui = __webpack_require__(2);
 
@@ -5488,23 +5549,31 @@ var Transparency = function Transparency() {
     _react2.default.createElement(
       ImageContainer,
       null,
-      _react2.default.createElement('img', { src: _transparency2.default })
+      _react2.default.createElement(
+        _Fade2.default,
+        { bottom: true, distance: '50px' },
+        _react2.default.createElement('img', { src: _transparency2.default })
+      )
     ),
     _react2.default.createElement(
       TextBox,
       null,
       _react2.default.createElement(
-        'div',
-        { className: 'content' },
+        _Fade2.default,
+        { bottom: true, distance: '50px' },
         _react2.default.createElement(
-          'h3',
-          null,
-          'Transparency'
-        ),
-        _react2.default.createElement(
-          'h2',
-          null,
-          'Your stakeholders always know what\'s going on'
+          'div',
+          { className: 'content' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Transparency'
+          ),
+          _react2.default.createElement(
+            'h2',
+            null,
+            'Your stakeholders always know what\'s going on'
+          )
         )
       )
     )
@@ -8662,7 +8731,7 @@ var _About = __webpack_require__(85);
 
 var _About2 = _interopRequireDefault(_About);
 
-var _SecondaryNavbar = __webpack_require__(11);
+var _SecondaryNavbar = __webpack_require__(12);
 
 var _SecondaryNavbar2 = _interopRequireDefault(_SecondaryNavbar);
 
@@ -8817,7 +8886,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _components = __webpack_require__(7);
 
-var _SecondaryNavbar = __webpack_require__(11);
+var _SecondaryNavbar = __webpack_require__(12);
 
 var _SecondaryNavbar2 = _interopRequireDefault(_SecondaryNavbar);
 
@@ -8903,7 +8972,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _components = __webpack_require__(7);
 
-var _SecondaryNavbar = __webpack_require__(11);
+var _SecondaryNavbar = __webpack_require__(12);
 
 var _SecondaryNavbar2 = _interopRequireDefault(_SecondaryNavbar);
 
@@ -8994,7 +9063,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _components = __webpack_require__(7);
 
-var _SecondaryNavbar = __webpack_require__(11);
+var _SecondaryNavbar = __webpack_require__(12);
 
 var _SecondaryNavbar2 = _interopRequireDefault(_SecondaryNavbar);
 
@@ -9081,7 +9150,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _components = __webpack_require__(7);
 
-var _SecondaryNavbar = __webpack_require__(11);
+var _SecondaryNavbar = __webpack_require__(12);
 
 var _SecondaryNavbar2 = _interopRequireDefault(_SecondaryNavbar);
 
@@ -9352,7 +9421,7 @@ var _TryBella = __webpack_require__(65);
 
 var _TryBella2 = _interopRequireDefault(_TryBella);
 
-var _Fade = __webpack_require__(12);
+var _Fade = __webpack_require__(10);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -10929,4 +10998,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.1b27f861.js.map
+//# sourceMappingURL=static.d8fe420c.js.map
