@@ -4096,7 +4096,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding: 50px 0;\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding: 50px 0;\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding: 50px 0;\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n  a {\n    font-size: 16px;\n    line-height: 4;\n    text-align: center;\n    color: #22E0FF;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding: 50px 0;\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n  a {\n    font-size: 16px;\n    line-height: 4;\n    text-align: center;\n    color: #22E0FF;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -4148,7 +4148,17 @@ var About = function About() {
         _react2.default.createElement(
           'h4',
           null,
-          'Aragon responds to Aragon Network Token holders. You can also participate in the project\'s governance by buying ANT.'
+          'Aragon is governed by Aragon Network Token (ANT) holders. You can participate in governance by voting with ANT.'
+        ),
+        _react2.default.createElement(
+          'a',
+          { target: '_blank', href: 'https://wiki.aragon.org/documentation/aragon_network_token/' },
+          _react2.default.createElement(
+            'span',
+            null,
+            'About ANT ',
+            _react2.default.createElement('img', { src: __webpack_require__(5) })
+          )
         )
       )
     ),
@@ -4161,12 +4171,22 @@ var About = function About() {
         _react2.default.createElement(
           'h2',
           null,
-          'What is AGP?'
+          'What is an AGP?'
         ),
         _react2.default.createElement(
           'h4',
           null,
-          'AGP stands for Aragon Governance Proposal. An AGP is a document that details a change to the management, allocation, or use of shared resources owned or directly influenced by the Aragon Network. All AGPs must be consistent with the goals and values put forth in AGP-0 (the Aragon Manifesto) and compliant with the requirements outlined in this document, AGP-1.'
+          'AGP stands for Aragon Governance Proposal, a document that proposes a change to the governance of the Aragon project. The process for creating a proposal and participating in Aragon governance is defined in AGP-1: The Aragon Governance Proposal Process.'
+        ),
+        _react2.default.createElement(
+          'a',
+          { target: '_blank', href: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md' },
+          _react2.default.createElement(
+            'span',
+            null,
+            'Read AGP-1 ',
+            _react2.default.createElement('img', { src: __webpack_require__(5) })
+          )
         )
       ),
       _react2.default.createElement('img', { src: _what2.default })
@@ -4295,7 +4315,7 @@ var Hero = function Hero() {
       _react2.default.createElement(
         'h4',
         null,
-        'Aragon is all about empowering people, starting with our own community.',
+        'Aragon exists to empower people, starting with our own community.',
         _react2.default.createElement('br', null),
         'The project is community-governed, and we are committed to decentralizing power.'
       ),
@@ -4388,14 +4408,14 @@ var About = function About() {
           _react2.default.createElement(
             'p',
             null,
-            'Aragon organizations are fully modular. You can install apps that enhance your organization. Maybe you want a different voting process, or a different way to manage funds.'
+            'Do you have an idea for how to improve Aragon? Create an Aragon Governance Proposal and share your idea with the community.'
           ),
           _react2.default.createElement(
             _ui.Button.Anchor,
             {
               className: 'hero-link',
               mode: 'strong',
-              href: 'https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/',
+              href: 'https://forum.aragon.org/t/how-to-create-an-aragon-governance-proposal/374',
               target: '_blank' },
             'Create Proposal'
           )
@@ -4411,19 +4431,19 @@ var About = function About() {
           _react2.default.createElement(
             'h1',
             null,
-            'Buy now your ANT'
+            'Learn about ANT'
           ),
           _react2.default.createElement(
             'p',
             null,
-            'Aragon organizations are fully modular. You can install apps that enhance your organization. Maybe you want a different voting process, or a different way to manage funds.'
+            'The Aragon Network Token (ANT) is used to govern the Aragon Network. The quickest way to acquire ANT is to buy some on an exchange.'
           ),
           _react2.default.createElement(
             _ui.Button.Anchor,
             {
               className: 'hero-link',
               mode: 'strong',
-              href: 'https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/',
+              href: 'https://wiki.aragon.org/documentation/aragon_network_token/#trade-ant',
               target: '_blank' },
             'Buy ANT'
           )
@@ -4451,7 +4471,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  margin: 0;\n  padding: 50px 0;\n  ', ';\n  background: #f9fafc;\n  text-align: center;\n'], ['\n  width: 100%;\n  margin: 0;\n  padding: 50px 0;\n  ', ';\n  background: #f9fafc;\n  text-align: center;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n  div {\n    margin-left: 30px;\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n'], ['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n  div {\n    margin-left: 30px;\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n  div {\n    margin-left: 30px;\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n  a {\n    font-size: 16px;\n    line-height: 3;\n    text-align: center;\n    color: #22E0FF;\n  }\n'], ['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n  div {\n    margin-left: 30px;\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n  a {\n    font-size: 16px;\n    line-height: 3;\n    text-align: center;\n    color: #22E0FF;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -4499,9 +4519,6 @@ var medium = function medium(css) {
   return (0, _ui.breakpoint)('medium', css);
 };
 
-var TimelineBox = _styledComponents2.default.div(_templateObject, medium('padding: 50px 8.5%;'));
-
-var Box = _styledComponents2.default.div(_templateObject2);
 var Timeline = function Timeline() {
   return _react2.default.createElement(
     TimelineBox,
@@ -4529,6 +4546,16 @@ var Timeline = function Timeline() {
               null,
               'Before you spend time working on a proposal, make sure the proposal complies with AGP-1 and has a chance of passing review by the AGP Editors and your peers.',
               ' '
+            ),
+            _react2.default.createElement(
+              'a',
+              { target: '_blank', href: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md' },
+              _react2.default.createElement(
+                'span',
+                null,
+                'AGP-1 ',
+                _react2.default.createElement('img', { src: __webpack_require__(5) })
+              )
             )
           )
         )
@@ -4552,6 +4579,16 @@ var Timeline = function Timeline() {
               'h5',
               null,
               'During Stage II you should seek feedback on your AGP idea by sharing it with your peers in the Aragon community and soliciting their feedback. Be open-minded and respectful of all feedback you receive.'
+            ),
+            _react2.default.createElement(
+              'a',
+              { target: '_blank', href: 'https://forum.aragon.org/tags/agp' },
+              _react2.default.createElement(
+                'span',
+                null,
+                'Aragon forum ',
+                _react2.default.createElement('img', { src: __webpack_require__(5) })
+              )
             )
           )
         )
@@ -4575,6 +4612,16 @@ var Timeline = function Timeline() {
               'h5',
               null,
               'After you have asked the Aragon community whether an idea has any chance of support and have received sufficient feedback to feel confident going forward, you can create a draft AGP as a pull request to the AGP repo.'
+            ),
+            _react2.default.createElement(
+              'a',
+              { target: '_blank', href: 'https://github.com/aragon/AGPs/pulls' },
+              _react2.default.createElement(
+                'span',
+                null,
+                'Draft AGPs ',
+                _react2.default.createElement('img', { src: __webpack_require__(5) })
+              )
             )
           )
         )
@@ -4598,6 +4645,16 @@ var Timeline = function Timeline() {
               'h5',
               null,
               'The Association board review session begins two weeks before the next Aragon vote cycle is scheduled to begin and ends one week before the next vote cycle is scheduled to begin.'
+            ),
+            _react2.default.createElement(
+              'a',
+              { target: '_blank', href: 'https://github.com/aragon/AGPs/blob/master/aa_board_review.md' },
+              _react2.default.createElement(
+                'span',
+                null,
+                'Board review ',
+                _react2.default.createElement('img', { src: __webpack_require__(5) })
+              )
             )
           )
         )
@@ -4621,6 +4678,16 @@ var Timeline = function Timeline() {
               'h5',
               null,
               'All AGPs that have moved to Stage V since the last Aragon Network vote cycle and have been approved by the Association board are included on the ballot in the current vote cycle.'
+            ),
+            _react2.default.createElement(
+              'a',
+              { target: '_blank', href: 'https://blog.aragon.org/tag/governance-proposals/' },
+              _react2.default.createElement(
+                'span',
+                null,
+                'Vote announcements ',
+                _react2.default.createElement('img', { src: __webpack_require__(5) })
+              )
             )
           )
         )
@@ -4628,6 +4695,10 @@ var Timeline = function Timeline() {
     )
   );
 };
+
+var TimelineBox = _styledComponents2.default.div(_templateObject, medium('padding: 50px 8.5%;'));
+
+var Box = _styledComponents2.default.div(_templateObject2);
 
 exports.default = Timeline;
 
@@ -11679,4 +11750,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.d54c89a3.js.map
+//# sourceMappingURL=static.b413d23e.js.map
