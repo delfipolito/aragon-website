@@ -7,7 +7,8 @@ import about from './assets/about.svg';
 import what from './assets/what.svg';
 
 const About = () => (
-  <Section>
+  <div>
+  <StyledSection>
     <Container>
       <img src={about} />
       <div>
@@ -23,7 +24,10 @@ const About = () => (
         </a>
       </div>
     </Container>
+  </StyledSection>
+  <StyledSection>
     <Container>
+      <BreakPoint to="medium"><img src={what} /></BreakPoint>
       <div>
         <h2>What is an AGP?</h2>
         <h4>
@@ -38,16 +42,26 @@ const About = () => (
           </span>
         </a>
       </div>
-      <img src={what} />
+      <BreakPoint from="medium"><img src={what} /></BreakPoint>
     </Container>
-  </Section>
+  </StyledSection>
+  </div>
 );
+
+const StyledSection = styled(Section)`
+  border-bottom: 2px solid #f9fafc;
+`
 
 const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column;
+  ${medium('flex-direction: row;')};
   padding: 50px 0;
+  img {
+    max-width: 90%;
+  }
   div {
     max-width: 480px;
   }

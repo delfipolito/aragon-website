@@ -20,9 +20,10 @@ const TimelineContainer = styled.div`
     content: '';
     position: absolute;
     top: 12px;
-    left: calc(33% - 1px);
+    left: 23px;
     ${medium('left: 41px;')};
     bottom: 0px;
+    height: calc(100% + 8px);
     width: 1px;
     background: #D8D8D8;
   }
