@@ -4097,7 +4097,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding: 50px 0;\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n  a {\n    font-size: 16px;\n    line-height: 4;\n    text-align: center;\n    color: #22E0FF;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  padding: 50px 0;\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n  a {\n    font-size: 16px;\n    line-height: 4;\n    text-align: center;\n    color: #22E0FF;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  border-bottom: 2px solid #f9fafc;\n'], ['\n  border-bottom: 2px solid #f9fafc;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  ', ';\n  padding: 50px 0;\n  img {\n    max-width: 90%;\n  }\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n  a {\n    font-size: 16px;\n    line-height: 4;\n    text-align: center;\n    color: #22E0FF;\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  ', ';\n  padding: 50px 0;\n  img {\n    max-width: 90%;\n  }\n  div {\n    max-width: 480px;\n  }\n  h2 {\n    font-family: \'FontLight\';\n    font-size: 46px;\n    line-height: 62px;\n    color: #2d4051;\n    text-align: left;\n  }\n  h4 {\n    font-family: \'FontRegular\';\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: 0.24px;\n    color: #7f8198;\n    text-align: left;\n  }\n  a {\n    font-size: 16px;\n    line-height: 4;\n    text-align: center;\n    color: #22E0FF;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -4132,70 +4133,89 @@ var medium = function medium(css) {
 
 var About = function About() {
   return _react2.default.createElement(
-    _Section2.default,
+    'div',
     null,
     _react2.default.createElement(
-      Container,
+      StyledSection,
       null,
-      _react2.default.createElement('img', { src: _about2.default }),
       _react2.default.createElement(
-        'div',
+        Container,
         null,
+        _react2.default.createElement('img', { src: _about2.default }),
         _react2.default.createElement(
-          'h2',
+          'div',
           null,
-          'Aragon is a project run by its community.'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
-          'Aragon is governed by Aragon Network Token (ANT) holders. You can participate in governance by voting with ANT.'
-        ),
-        _react2.default.createElement(
-          'a',
-          { target: '_blank', href: 'https://wiki.aragon.org/documentation/aragon_network_token/' },
           _react2.default.createElement(
-            'span',
+            'h2',
             null,
-            'About ANT ',
-            _react2.default.createElement('img', { src: __webpack_require__(5) })
+            'Aragon is a project run by its community.'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Aragon is governed by Aragon Network Token (ANT) holders. You can participate in governance by voting with ANT.'
+          ),
+          _react2.default.createElement(
+            'a',
+            { target: '_blank', href: 'https://wiki.aragon.org/documentation/aragon_network_token/' },
+            _react2.default.createElement(
+              'span',
+              null,
+              'About ANT ',
+              _react2.default.createElement('img', { src: __webpack_require__(5) })
+            )
           )
         )
       )
     ),
     _react2.default.createElement(
-      Container,
+      StyledSection,
       null,
       _react2.default.createElement(
-        'div',
+        Container,
         null,
         _react2.default.createElement(
-          'h2',
-          null,
-          'What is an AGP?'
+          _ui.BreakPoint,
+          { to: 'medium' },
+          _react2.default.createElement('img', { src: _what2.default })
         ),
         _react2.default.createElement(
-          'h4',
+          'div',
           null,
-          'AGP stands for Aragon Governance Proposal, a document that proposes a change to the governance of the Aragon project. The process for creating a proposal and participating in Aragon governance is defined in AGP-1: The Aragon Governance Proposal Process.'
-        ),
-        _react2.default.createElement(
-          'a',
-          { target: '_blank', href: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md' },
           _react2.default.createElement(
-            'span',
+            'h2',
             null,
-            'Read AGP-1 ',
-            _react2.default.createElement('img', { src: __webpack_require__(5) })
+            'What is an AGP?'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'AGP stands for Aragon Governance Proposal, a document that proposes a change to the governance of the Aragon project. The process for creating a proposal and participating in Aragon governance is defined in AGP-1: The Aragon Governance Proposal Process.'
+          ),
+          _react2.default.createElement(
+            'a',
+            { target: '_blank', href: 'https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md' },
+            _react2.default.createElement(
+              'span',
+              null,
+              'Read AGP-1 ',
+              _react2.default.createElement('img', { src: __webpack_require__(5) })
+            )
           )
+        ),
+        _react2.default.createElement(
+          _ui.BreakPoint,
+          { from: 'medium' },
+          _react2.default.createElement('img', { src: _what2.default })
         )
-      ),
-      _react2.default.createElement('img', { src: _what2.default })
+      )
     )
   );
 };
 
-var Container = _styledComponents2.default.div(_templateObject);
+var StyledSection = (0, _styledComponents2.default)(_Section2.default)(_templateObject);
+
+var Container = _styledComponents2.default.div(_templateObject2, medium('flex-direction: row;'));
 
 exports.default = About;
 
@@ -4210,7 +4230,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  clear: both;\n  text-align: left;\n  position: relative;\n\n  .description:after {\n    content: \'\';\n    position: absolute;\n    width: 12px;\n    height: 12px;\n    border-radius: 12px;\n    top: 6px;\n    left: -14px;\n    background-image: linear-gradient(71deg,#6aacf4,#18ebd6);\n  }\n  .description:before {\n    content: \'\';\n    width: 26px;\n    height: 26px;\n    border-radius: 30px;\n    opacity: 0.22;\n    background-image: linear-gradient(to right,#6aacf4,#18ebd6);\n    position: absolute;\n    left: -21px;\n    top: -1px;\n  }\n  .description {\n    margin: 0 0 3em;\n    float: right;\n    width: 100%;\n    padding-left: 30px;\n    position: relative;\n  }\n  .description p {\n    font-size: 14px;\n    line-height: 1.7;\n    letter-spacing: 0.5px;\n    color: #2D4051;\n    text-transform: uppercase;\n  }\n'], ['\n  clear: both;\n  text-align: left;\n  position: relative;\n\n  .description:after {\n    content: \'\';\n    position: absolute;\n    width: 12px;\n    height: 12px;\n    border-radius: 12px;\n    top: 6px;\n    left: -14px;\n    background-image: linear-gradient(71deg,#6aacf4,#18ebd6);\n  }\n  .description:before {\n    content: \'\';\n    width: 26px;\n    height: 26px;\n    border-radius: 30px;\n    opacity: 0.22;\n    background-image: linear-gradient(to right,#6aacf4,#18ebd6);\n    position: absolute;\n    left: -21px;\n    top: -1px;\n  }\n  .description {\n    margin: 0 0 3em;\n    float: right;\n    width: 100%;\n    padding-left: 30px;\n    position: relative;\n  }\n  .description p {\n    font-size: 14px;\n    line-height: 1.7;\n    letter-spacing: 0.5px;\n    color: #2D4051;\n    text-transform: uppercase;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  clear: both;\n  text-align: left;\n  position: relative;\n\n  .description:after {\n    content: \'\';\n    position: absolute;\n    width: 12px;\n    height: 12px;\n    border-radius: 12px;\n    top: 5.5px;\n    left: 18px;\n    ', ';\n    background-image: linear-gradient(71deg,#6aacf4,#18ebd6);\n  }\n  .description:before {\n    content: \'\';\n    width: 26px;\n    height: 26px;\n    border-radius: 30px;\n    opacity: 0.22;\n    background-image: linear-gradient(to right,#6aacf4,#18ebd6);\n    position: absolute;\n    left: 10px;\n    top: -1px;\n    ', ';\n  }\n  .description {\n    margin: 0 0 3em;\n    float: right;\n    width: 100%;\n    padding-left: 45px;\n    ', ';\n    position: relative;\n  }\n  .description p {\n    font-size: 14px;\n    line-height: 1.7;\n    letter-spacing: 0.5px;\n    color: #2D4051;\n    text-transform: uppercase;\n  }\n'], ['\n  clear: both;\n  text-align: left;\n  position: relative;\n\n  .description:after {\n    content: \'\';\n    position: absolute;\n    width: 12px;\n    height: 12px;\n    border-radius: 12px;\n    top: 5.5px;\n    left: 18px;\n    ', ';\n    background-image: linear-gradient(71deg,#6aacf4,#18ebd6);\n  }\n  .description:before {\n    content: \'\';\n    width: 26px;\n    height: 26px;\n    border-radius: 30px;\n    opacity: 0.22;\n    background-image: linear-gradient(to right,#6aacf4,#18ebd6);\n    position: absolute;\n    left: 10px;\n    top: -1px;\n    ', ';\n  }\n  .description {\n    margin: 0 0 3em;\n    float: right;\n    width: 100%;\n    padding-left: 45px;\n    ', ';\n    position: relative;\n  }\n  .description p {\n    font-size: 14px;\n    line-height: 1.7;\n    letter-spacing: 0.5px;\n    color: #2D4051;\n    text-transform: uppercase;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -4235,7 +4255,7 @@ var large = function large(css) {
   return (0, _ui.breakpoint)('large', css);
 };
 
-var EntryBox = _styledComponents2.default.div(_templateObject);
+var EntryBox = _styledComponents2.default.div(_templateObject, medium('top: 6px; left: -14px;'), medium('left: -21px;'), medium('padding-left: 30px;'));
 
 var Entry = function Entry(_ref) {
   var props = _objectWithoutProperties(_ref, []);
@@ -4245,7 +4265,7 @@ var Entry = function Entry(_ref) {
     null,
     _react2.default.createElement(
       'div',
-      { className: 'description' },
+      { className: props.className ? props.className + " description" : "description" },
       _react2.default.createElement(
         'p',
         null,
@@ -4351,7 +4371,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  transition: all 0.25s ease-in-out;\n  div {\n    padding: 0 30px;\n    ', ';\n    ', ';\n  }\n\n  @media (min-width: 768px) {\n    height: 700px;\n  }\n  img {\n    height: auto;\n    width: 100%;\n    overflow: hidden;\n    border-top-right-radius: 12px;\n    border-top-left-radius: 12px;\n  }\n  p {\n    color: #7f8198;\n    text-align: left;\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: left;\n    color: #2d4051;\n    margin: 15px 0 0 0;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  transition: all 0.25s ease-in-out;\n  div {\n    padding: 0 30px;\n    ', ';\n    ', ';\n  }\n\n  @media (min-width: 768px) {\n    height: 700px;\n  }\n  img {\n    height: auto;\n    width: 100%;\n    overflow: hidden;\n    border-top-right-radius: 12px;\n    border-top-left-radius: 12px;\n  }\n  p {\n    color: #7f8198;\n    text-align: left;\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.35;\n    text-align: left;\n    color: #2d4051;\n    margin: 15px 0 0 0;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  transition: all 0.25s ease-in-out;\n  div {\n    padding: 0 30px;\n    ', ';\n    ', ';\n  }\n  a {\n    margin-bottom: 30px;\n    ', ';\n  }\n  @media (min-width: 768px) {\n    height: 700px;\n  }\n  ', ';\n  ', ';\n  img {\n    height: auto;\n    width: 100%;\n    overflow: hidden;\n    border-top-right-radius: 12px;\n    border-top-left-radius: 12px;\n  }\n  p {\n    color: #7f8198;\n    text-align: left;\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.2!important;\n    text-align: left;\n    color: #2d4051;\n    margin: 15px 0 0 0;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n'], ['\n  border-radius: 12px;\n  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.07);\n  background-color: #f9fafc;\n  transition: all 0.25s ease-in-out;\n  div {\n    padding: 0 30px;\n    ', ';\n    ', ';\n  }\n  a {\n    margin-bottom: 30px;\n    ', ';\n  }\n  @media (min-width: 768px) {\n    height: 700px;\n  }\n  ', ';\n  ', ';\n  img {\n    height: auto;\n    width: 100%;\n    overflow: hidden;\n    border-top-right-radius: 12px;\n    border-top-left-radius: 12px;\n  }\n  p {\n    color: #7f8198;\n    text-align: left;\n  }\n  h1 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 30px;\n    width: inherit;\n    ', ';\n    ', ';\n    font-weight: 300;\n    line-height: 1.2!important;\n    text-align: left;\n    color: #2d4051;\n    margin: 15px 0 0 0;\n  }\n  &:hover {\n    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.07);\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -4456,7 +4476,7 @@ var About = function About() {
 
 var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 700px'));
 
-var Box = _styledComponents2.default.div(_templateObject2, medium('padding: 0 15px;'), large('padding: 0 60px;'), medium('font-size: 36px; width: 100%;'), large('width: inherit; font-size: 44px; line-height: 2;'));
+var Box = _styledComponents2.default.div(_templateObject2, medium('padding: 25px 15px;'), large('padding: 25px 60px;'), medium('margin-bottom: auto;'), medium('height: 600px;;'), large('height: 700px;'), medium('font-size: 36px; width: 100%;'), large('width: inherit; font-size: 44px; line-height: 2;'));
 
 exports.default = About;
 
@@ -4471,8 +4491,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  margin: 0;\n  padding: 50px 0;\n  ', ';\n  background: #f9fafc;\n  text-align: center;\n'], ['\n  width: 100%;\n  margin: 0;\n  padding: 50px 0;\n  ', ';\n  background: #f9fafc;\n  text-align: center;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n  div {\n    margin-left: 30px;\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n  a {\n    font-size: 16px;\n    line-height: 3;\n    text-align: center;\n    color: #22E0FF;\n  }\n'], ['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-top: 20px;\n  div {\n    margin-left: 30px;\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n  a {\n    font-size: 16px;\n    line-height: 3;\n    text-align: center;\n    color: #22E0FF;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  width: 100%;\n  max-width: 870px;\n  margin: auto;\n  padding: 0;\n  ', ';\n'], ['\n  width: 100%;\n  max-width: 870px;\n  margin: auto;\n  padding: 0;\n  ', ';\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  width: 100%;\n  margin: 0;\n  padding: 50px 0;\n  ', ';\n  background: #f9fafc;\n  text-align: center;\n'], ['\n  width: 100%;\n  margin: 0;\n  padding: 50px 0;\n  ', ';\n  background: #f9fafc;\n  text-align: center;\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: column;\n  ', ';\n  margin-top: 20px;\n  max-width: 95%;\n  div {\n    margin-left: 0px;\n    margin-top: 20px;\n    ', ';\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n  a {\n    font-size: 16px;\n    line-height: 3;\n    text-align: center;\n    color: #22E0FF;\n  }\n'], ['\n  background: #ffffff;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.0245131);\n  border-radius: 6px;\n  padding: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: column;\n  ', ';\n  margin-top: 20px;\n  max-width: 95%;\n  div {\n    margin-left: 0px;\n    margin-top: 20px;\n    ', ';\n  }\n  h5 {\n    font-size: 16px;\n    line-height: 28px;\n    color: #60809c;\n  }\n  h6 {\n    font-size: 22px;\n    line-height: 42px;\n    color: #2d4051;\n  }\n  a {\n    font-size: 16px;\n    line-height: 3;\n    text-align: center;\n    color: #22E0FF;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -4659,13 +4680,17 @@ var Timeline = function Timeline() {
             )
           )
         )
-      ),
+      )
+    ),
+    _react2.default.createElement(
+      LastContainer,
+      null,
       _react2.default.createElement(
         _Entry2.default,
-        { title: 'Stage v' },
+        { title: 'Stage v', className: 'stage5-box' },
         _react2.default.createElement(
           Box,
-          null,
+          { id: 'stage5-box' },
           _react2.default.createElement('img', { src: _stage10.default }),
           _react2.default.createElement(
             'div',
@@ -4697,9 +4722,10 @@ var Timeline = function Timeline() {
   );
 };
 
-var TimelineBox = _styledComponents2.default.div(_templateObject, medium('padding: 50px 8.5%;'));
+var LastContainer = _styledComponents2.default.div(_templateObject, medium('padding: 5px 50px;'));
+var TimelineBox = _styledComponents2.default.div(_templateObject2, medium('padding: 50px 8.5%;'));
 
-var Box = _styledComponents2.default.div(_templateObject2);
+var Box = _styledComponents2.default.div(_templateObject3, medium('flex-direction: row;'), medium('margin-left: 30px; margin-top: 0;'));
 
 exports.default = Timeline;
 
@@ -4714,7 +4740,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n  margin-top: 50px;\n  .timeline {\n    width: 100%;\n    max-width: 870px;\n    padding: 0;\n    ', ';\n    position: relative;\n    margin: auto;\n  }\n  .timeline:before {\n    content: \'\';\n    position: absolute;\n    top: 12px;\n    left: calc(33% - 1px);\n    ', ';\n    bottom: 0px;\n    width: 1px;\n    background: #D8D8D8;\n  }\n  .timeline:after {\n    content: "";\n    display: table;\n    clear: both;\n  }\n'], ['\n  margin-top: 50px;\n  .timeline {\n    width: 100%;\n    max-width: 870px;\n    padding: 0;\n    ', ';\n    position: relative;\n    margin: auto;\n  }\n  .timeline:before {\n    content: \'\';\n    position: absolute;\n    top: 12px;\n    left: calc(33% - 1px);\n    ', ';\n    bottom: 0px;\n    width: 1px;\n    background: #D8D8D8;\n  }\n  .timeline:after {\n    content: "";\n    display: table;\n    clear: both;\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  margin-top: 50px;\n  .timeline {\n    width: 100%;\n    max-width: 870px;\n    padding: 0;\n    ', ';\n    position: relative;\n    margin: auto;\n  }\n  .timeline:before {\n    content: \'\';\n    position: absolute;\n    top: 12px;\n    left: 23px;\n    ', ';\n    bottom: 0px;\n    height: calc(100% + 8px);\n    width: 1px;\n    background: #D8D8D8;\n  }\n  .timeline:after {\n    content: "";\n    display: table;\n    clear: both;\n  }\n'], ['\n  margin-top: 50px;\n  .timeline {\n    width: 100%;\n    max-width: 870px;\n    padding: 0;\n    ', ';\n    position: relative;\n    margin: auto;\n  }\n  .timeline:before {\n    content: \'\';\n    position: absolute;\n    top: 12px;\n    left: 23px;\n    ', ';\n    bottom: 0px;\n    height: calc(100% + 8px);\n    width: 1px;\n    background: #D8D8D8;\n  }\n  .timeline:after {\n    content: "";\n    display: table;\n    clear: both;\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -11758,4 +11784,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ea6996c2.js.map
+//# sourceMappingURL=static.e97f2da1.js.map
