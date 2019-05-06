@@ -2841,19 +2841,19 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTci
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/da9d7255-governance.svg";
+module.exports = __webpack_require__.p + "static/d36e14b4-governance.svg";
 
 /***/ }),
 /* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/eed284b2-hero-bg.svg";
+module.exports = __webpack_require__.p + "static/faffbf28-hero-bg.svg";
 
 /***/ }),
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/29427090-hero-mobile.svg";
+module.exports = __webpack_require__.p + "static/951d1b39-hero-mobile.svg";
 
 /***/ }),
 /* 56 */
@@ -2895,13 +2895,13 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMjAi
 /* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/fca4a6b9-security.svg";
+module.exports = __webpack_require__.p + "static/02e5acd4-security.svg";
 
 /***/ }),
 /* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/b2c20655-transparency.svg";
+module.exports = __webpack_require__.p + "static/2a8a5523-transparency.svg";
 
 /***/ }),
 /* 64 */
@@ -11784,4 +11784,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.e97f2da1.js.map
+//# sourceMappingURL=static.18a44431.js.map
