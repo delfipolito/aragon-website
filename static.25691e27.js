@@ -714,29 +714,29 @@ var map = {
 	"./Project/assets/Wiki.js": 112,
 	"./Project/assets/association.svg": 66,
 	"./Project/assets/community-background.png": 164,
-	"./Project/assets/contribute-background1.png": 209,
+	"./Project/assets/contribute-background1.png": 210,
 	"./Project/assets/contribute1.svg": 143,
 	"./Project/assets/contribute2.svg": 144,
 	"./Project/assets/contribute3.svg": 145,
 	"./Project/assets/governance-background.png": 165,
 	"./Project/assets/governance1.svg": 146,
 	"./Project/assets/governance2.svg": 147,
-	"./Project/assets/governance3.png": 210,
+	"./Project/assets/governance3.png": 211,
 	"./Project/assets/grants-background.png": 166,
 	"./Project/assets/grants1.svg": 148,
 	"./Project/assets/hero-background.png": 167,
 	"./Project/assets/history-mobile.svg": 67,
 	"./Project/assets/history.svg": 68,
-	"./Project/assets/oliver_solo.png": 211,
+	"./Project/assets/oliver_solo.png": 212,
 	"./Project/assets/project1.svg": 149,
 	"./Project/assets/project2.svg": 150,
-	"./Project/assets/project3.png": 212,
-	"./Project/assets/quote-bg1.jpg": 213,
-	"./Project/assets/quote-bg2.jpg": 214,
+	"./Project/assets/project3.png": 213,
+	"./Project/assets/quote-bg1.jpg": 214,
+	"./Project/assets/quote-bg2.jpg": 215,
 	"./Project/assets/roadmap-background.png": 168,
 	"./Project/assets/speech.svg": 69,
 	"./Project/assets/videothumbnail.png": 169,
-	"./Project/assets/yalda_sola.png": 215,
+	"./Project/assets/yalda_sola.png": 216,
 	"./index": 8,
 	"./index.js": 8
 };
@@ -8245,8 +8245,10 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _templateObject = _taggedTemplateLiteral(['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n'], ['\n  display: grid;\n  ', ';\n  grid-template-columns: 100%;\n  grid-template-rows: auto;\n  grid-column-gap: 30px;\n  grid-row-gap: 30px;\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  ', ';\n  background-image: linear-gradient(119deg, #faf9f4, #2c86d0);\n  -webkit-background-clip: text;\n  background-clip: text;\n  \n  -webkit-text-fill-color: white;\n  -webkit-text-fill-color: transparent;\n  color: white;\n  // -webkit-text-fill-color: white;\n  margin: 30px -10% 0 -10%;\n  div {\n    padding: 15px;\n  }\n\n  h5 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 68px;\n    font-weight: 300;\n    line-height: 1.82;\n    text-align: center;\n  }\n  h3 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 24px;\n    font-weight: 300;\n    line-height: 1.33;\n    text-align: center;\n  }\n  h5, h3 {\n    background-image: -webkit-linear-gradient(119deg, #faf9f4, #2c86d0);\n    background-position-x: initial;\n    background-position-y: initial;\n    background-size: initial;\n    background-repeat-x: initial;\n    background-repeat-y: initial;\n    background-attachment: initial;\n    background-origin: initial;\n    background-clip: initial;\n    background-color: initial;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent\n  }\n  h3.one, h5.one {\n    background-image: -webkit-linear-gradient(119deg, #FAF9F4, #F9F5DE);\n  }\n  h3.two, h5.two {\n    background-image: -webkit-linear-gradient(119deg, #E1F6ED,  #92BDCB);\n  }\n  h3.three, h5.three {\n    background-image: -webkit-linear-gradient(119deg, #E8E5F7, #ADC5DB);\n  }\n  h3.four, h5.four {\n    background-image: -webkit-linear-gradient(119deg, #B0CBE4, #2C86D0);\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  ', ';\n  background-image: linear-gradient(119deg, #faf9f4, #2c86d0);\n  -webkit-background-clip: text;\n  background-clip: text;\n  \n  -webkit-text-fill-color: white;\n  -webkit-text-fill-color: transparent;\n  color: white;\n  // -webkit-text-fill-color: white;\n  margin: 30px -10% 0 -10%;\n  div {\n    padding: 15px;\n  }\n\n  h5 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 68px;\n    font-weight: 300;\n    line-height: 1.82;\n    text-align: center;\n  }\n  h3 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 24px;\n    font-weight: 300;\n    line-height: 1.33;\n    text-align: center;\n  }\n  h5, h3 {\n    background-image: -webkit-linear-gradient(119deg, #faf9f4, #2c86d0);\n    background-position-x: initial;\n    background-position-y: initial;\n    background-size: initial;\n    background-repeat-x: initial;\n    background-repeat-y: initial;\n    background-attachment: initial;\n    background-origin: initial;\n    background-clip: initial;\n    background-color: initial;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent\n  }\n  h3.one, h5.one {\n    background-image: -webkit-linear-gradient(119deg, #FAF9F4, #F9F5DE);\n  }\n  h3.two, h5.two {\n    background-image: -webkit-linear-gradient(119deg, #E1F6ED,  #92BDCB);\n  }\n  h3.three, h5.three {\n    background-image: -webkit-linear-gradient(119deg, #E8E5F7, #ADC5DB);\n  }\n  h3.four, h5.four {\n    background-image: -webkit-linear-gradient(119deg, #B0CBE4, #2C86D0);\n  }\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  ', ';\n  color: white;\n  margin: 30px -10% 0 -10%;\n  div {\n    padding: 15px;\n  }\n\n  h5 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 68px;\n    font-weight: 300;\n    line-height: 1.82;\n    text-align: center;\n    min-height: 123px;\n  }\n  h3 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 24px;\n    font-weight: 300;\n    line-height: 1.33;\n    text-align: center;\n  }\n  h5,\n  h3 {\n    background-image: -webkit-linear-gradient(119deg, #faf9f4, #2c86d0);\n    background-position-x: initial;\n    background-position-y: initial;\n    background-size: initial;\n    background-repeat-x: initial;\n    background-repeat-y: initial;\n    background-attachment: initial;\n    background-origin: initial;\n    background-clip: initial;\n    background-color: initial;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n  }\n  h3.one,\n  h5.one {\n    background-image: -webkit-linear-gradient(119deg, #faf9f4, #f9f5de);\n  }\n  h3.two,\n  h5.two {\n    background-image: -webkit-linear-gradient(119deg, #e1f6ed, #92bdcb);\n  }\n  h3.three,\n  h5.three {\n    background-image: -webkit-linear-gradient(119deg, #e8e5f7, #adc5db);\n  }\n  h3.four,\n  h5.four {\n    background-image: -webkit-linear-gradient(119deg, #b0cbe4, #2c86d0);\n  }\n'], ['\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  ', ';\n  color: white;\n  margin: 30px -10% 0 -10%;\n  div {\n    padding: 15px;\n  }\n\n  h5 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 68px;\n    font-weight: 300;\n    line-height: 1.82;\n    text-align: center;\n    min-height: 123px;\n  }\n  h3 {\n    font-family: \'FontLight\', sans-serif;\n    font-size: 24px;\n    font-weight: 300;\n    line-height: 1.33;\n    text-align: center;\n  }\n  h5,\n  h3 {\n    background-image: -webkit-linear-gradient(119deg, #faf9f4, #2c86d0);\n    background-position-x: initial;\n    background-position-y: initial;\n    background-size: initial;\n    background-repeat-x: initial;\n    background-repeat-y: initial;\n    background-attachment: initial;\n    background-origin: initial;\n    background-clip: initial;\n    background-color: initial;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n  }\n  h3.one,\n  h5.one {\n    background-image: -webkit-linear-gradient(119deg, #faf9f4, #f9f5de);\n  }\n  h3.two,\n  h5.two {\n    background-image: -webkit-linear-gradient(119deg, #e1f6ed, #92bdcb);\n  }\n  h3.three,\n  h5.three {\n    background-image: -webkit-linear-gradient(119deg, #e8e5f7, #adc5db);\n  }\n  h3.four,\n  h5.four {\n    background-image: -webkit-linear-gradient(119deg, #b0cbe4, #2c86d0);\n  }\n']);
 
 var _react = __webpack_require__(0);
 
@@ -8270,13 +8272,24 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _ui = __webpack_require__(2);
 
+var _reactCountup = __webpack_require__(209);
+
+var _reactCountup2 = _interopRequireDefault(_reactCountup);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 var medium = function medium(css) {
   return (0, _ui.breakpoint)('medium', css);
 };
+
 
 var mudule1Content = _react2.default.createElement(
   'span',
@@ -8291,7 +8304,10 @@ var mudule1Content = _react2.default.createElement(
     null,
     _react2.default.createElement(
       'a',
-      { className: 'action-button', href: 'https://github.com/aragon/nest', target: '_blank' },
+      {
+        className: 'action-button',
+        href: 'https://github.com/aragon/nest',
+        target: '_blank' },
       _react2.default.createElement(
         'span',
         null,
@@ -8314,7 +8330,10 @@ var mudule2Content = _react2.default.createElement(
     null,
     _react2.default.createElement(
       'a',
-      { className: 'action-button', href: 'https://github.com/aragon/nest#how-to-submit-a-proposal-for-a-grant', target: '_blank' },
+      {
+        className: 'action-button',
+        href: 'https://github.com/aragon/nest#how-to-submit-a-proposal-for-a-grant',
+        target: '_blank' },
       _react2.default.createElement(
         'span',
         null,
@@ -8325,82 +8344,155 @@ var mudule2Content = _react2.default.createElement(
   )
 );
 
-var GrantsContent = function GrantsContent() {
-  return _react2.default.createElement(
-    _Section2.default,
-    null,
-    _react2.default.createElement(
-      Container,
-      null,
-      _react2.default.createElement(
-        _LongCard2.default,
-        { textAlign: 'center', color: '#b4b5cc', gradient: 'radial-gradient(circle at 99% 100%, #1c1d23, #2d2e39)', colorWhite: true, title: 'A thriving ecosystem' },
+var GrantsContent = function (_React$Component) {
+  _inherits(GrantsContent, _React$Component);
+
+  function GrantsContent(props) {
+    _classCallCheck(this, GrantsContent);
+
+    var _this = _possibleConstructorReturn(this, (GrantsContent.__proto__ || Object.getPrototypeOf(GrantsContent)).call(this, props));
+
+    _this.listenToScroll = function () {
+      var scrolled = document.body.scrollTop || document.documentElement.scrollTop;
+
+      var element = document.getElementById('numbersAnimation');
+      var elem = element.getBoundingClientRect().top + document.documentElement.scrollTop;
+
+      if (scrolled >= elem - window.innerHeight - 24) {
+        _this.setState({
+          one: _react2.default.createElement(_reactCountup2.default, { end: 1.5, duration: 2, decimals: 1 }),
+          two: _react2.default.createElement(_reactCountup2.default, { end: 15, duration: 2 }),
+          three: _react2.default.createElement(_reactCountup2.default, { end: 60, duration: 2 }),
+          four: _react2.default.createElement(_reactCountup2.default, { end: 120, duration: 2 })
+        });
+      }
+    };
+
+    _this.state = { one: '', two: '', three: '', four: '' };
+    return _this;
+  }
+
+  _createClass(GrantsContent, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      window.addEventListener('scroll', this.listenToScroll);
+
+      var element = document.getElementById('numbersAnimation');
+      var elem = element.getBoundingClientRect().top + document.documentElement.scrollTop;
+      if (elem - window.innerHeight - 24 <= 0) {
+        this.setState({
+          one: _react2.default.createElement(_reactCountup2.default, { end: 1.5, duration: 2, decimals: 1 }),
+          two: _react2.default.createElement(_reactCountup2.default, { end: 15, duration: 2 }),
+          three: _react2.default.createElement(_reactCountup2.default, { end: 60, duration: 2 }),
+          four: _react2.default.createElement(_reactCountup2.default, { end: 120, duration: 2 })
+        });
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      window.removeEventListener('scroll', this.listenToScroll);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var four = this.state.four;
+
+      return _react2.default.createElement(
+        _Section2.default,
+        null,
         _react2.default.createElement(
-          LongCardContainer,
+          Container,
           null,
           _react2.default.createElement(
-            'div',
-            null,
+            _LongCard2.default,
+            {
+              textAlign: 'center',
+              color: '#b4b5cc',
+              gradient: 'radial-gradient(circle at 99% 100%, #1c1d23, #2d2e39)',
+              colorWhite: true,
+              title: 'A thriving ecosystem' },
             _react2.default.createElement(
-              'h5',
-              { className: 'one' },
-              '$1.5'
-            ),
-            _react2.default.createElement(
-              'h3',
-              { className: 'one' },
-              'Millions given away in grants'
+              LongCardContainer,
+              null,
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  'h5',
+                  { className: 'one' },
+                  '$',
+                  this.state.one
+                ),
+                _react2.default.createElement(
+                  'h3',
+                  { className: 'one', id: 'numbersAnimation' },
+                  'Millions given away in grants'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  'h5',
+                  { className: 'two' },
+                  this.state.two
+                ),
+                _react2.default.createElement(
+                  'h3',
+                  { className: 'two' },
+                  'Teams working together'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  'h5',
+                  { className: 'three' },
+                  this.state.three
+                ),
+                _react2.default.createElement(
+                  'h3',
+                  { className: 'three' },
+                  'People making their dreams possible'
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  'h5',
+                  { className: 'four' },
+                  this.state.four
+                ),
+                _react2.default.createElement(
+                  'h3',
+                  { className: 'four' },
+                  'Applications to the program'
+                )
+              )
             )
           ),
-          _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              'h5',
-              { className: 'two' },
-              '15'
-            ),
-            _react2.default.createElement(
-              'h3',
-              { className: 'two' },
-              'Teams working together'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              'h5',
-              { className: 'three' },
-              '60'
-            ),
-            _react2.default.createElement(
-              'h3',
-              { className: 'three' },
-              'People making their dreams possible'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              'h5',
-              { className: 'four' },
-              '120'
-            ),
-            _react2.default.createElement(
-              'h3',
-              { className: 'four' },
-              'Applications to the program'
-            )
-          )
+          _react2.default.createElement(_Card2.default, {
+            linkTo: 'https://github.com/aragon/nest',
+            imageUrl: 'Project/assets/governance2',
+            title: 'Fully transparent',
+            content: mudule1Content
+          }),
+          _react2.default.createElement(_Card2.default, {
+            linkTo: 'https://github.com/aragon/nest#how-to-submit-a-proposal-for-a-grant',
+            imageUrl: 'Home/home-assets/home4',
+            title: 'Apply now',
+            content: mudule2Content
+          })
         )
-      ),
-      _react2.default.createElement(_Card2.default, { linkTo: 'https://github.com/aragon/nest', imageUrl: 'Project/assets/governance2', title: 'Fully transparent', content: mudule1Content }),
-      _react2.default.createElement(_Card2.default, { linkTo: 'https://github.com/aragon/nest#how-to-submit-a-proposal-for-a-grant', imageUrl: 'Home/home-assets/home4', title: 'Apply now', content: mudule2Content })
-    )
-  );
-};
+      );
+    }
+  }]);
+
+  return GrantsContent;
+}(_react2.default.Component);
 
 var Container = _styledComponents2.default.div(_templateObject, medium('grid-template-columns: calc(50% - 15px) calc(50% - 15px); grid-template-rows: 500px 500px'));
 
@@ -10212,7 +10304,7 @@ var _Fade = __webpack_require__(10);
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
-var _Pulse = __webpack_require__(216);
+var _Pulse = __webpack_require__(217);
 
 var _Pulse2 = _interopRequireDefault(_Pulse);
 
@@ -10549,7 +10641,7 @@ var _reactStaticRoutes = __webpack_require__(184);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-var _app = __webpack_require__(217);
+var _app = __webpack_require__(218);
 
 var _app2 = _interopRequireDefault(_app);
 
@@ -11738,54 +11830,60 @@ module.exports = __webpack_require__.p + "static/cd2f575f-poster.png";
 
 /***/ }),
 /* 209 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "static/0af87067-contribute-background1.png";
+module.exports = require("react-countup");
 
 /***/ }),
 /* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/44800377-governance3.png";
+module.exports = __webpack_require__.p + "static/0af87067-contribute-background1.png";
 
 /***/ }),
 /* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/e2e2d287-oliver_solo.png";
+module.exports = __webpack_require__.p + "static/44800377-governance3.png";
 
 /***/ }),
 /* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/d2c1f634-project3.png";
+module.exports = __webpack_require__.p + "static/e2e2d287-oliver_solo.png";
 
 /***/ }),
 /* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/62afd7fb-quote-bg1.jpg";
+module.exports = __webpack_require__.p + "static/d2c1f634-project3.png";
 
 /***/ }),
 /* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/ccd63b3a-quote-bg2.jpg";
+module.exports = __webpack_require__.p + "static/62afd7fb-quote-bg1.jpg";
 
 /***/ }),
 /* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/3c797885-yalda_sola.png";
+module.exports = __webpack_require__.p + "static/ccd63b3a-quote-bg2.jpg";
 
 /***/ }),
 /* 216 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/3c797885-yalda_sola.png";
+
+/***/ }),
+/* 217 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-reveal/Pulse");
 
 /***/ }),
-/* 217 */
+/* 218 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -11793,4 +11891,4 @@ module.exports = require("react-reveal/Pulse");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.a57d4186.js.map
+//# sourceMappingURL=static.25691e27.js.map
