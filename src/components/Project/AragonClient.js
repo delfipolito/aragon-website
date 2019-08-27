@@ -235,7 +235,7 @@ class AragonClient extends React.Component {
               <Entry>
                 <Module>
                   <div className="badge-container">
-                    <StyledBadge className="orange">Foundraising</StyledBadge>
+                    <StyledBadge className="orange">Fundraising</StyledBadge>
                     <AragonBlackBadge>Aragon Black</AragonBlackBadge>
                   </div>
                   <h3>Fundraising library</h3>
@@ -251,7 +251,7 @@ class AragonClient extends React.Component {
               <Entry>
                 <Module>
                   <div className="badge-container">
-                    <StyledBadge className="orange">Foundraising</StyledBadge>
+                    <StyledBadge className="orange">Fundraising</StyledBadge>
                     <AragonBlackBadge>Aragon Black</AragonBlackBadge>
                   </div>
                   <h3>Fundraising app</h3>
@@ -548,7 +548,7 @@ class AragonClient extends React.Component {
                   <h3>Contextual Discussions</h3>
                   <h4>
                     Develop a design pattern and component for contextual
-                    discussions within Aragon, and implement it one application
+                    discussions within Aragon, and implement it on one application
                     to showcase the feature, such as the Voting app.
                   </h4>
                 </Module>
@@ -716,6 +716,8 @@ const AutarkBadge = styled(Badge)`
 
 const RoadmapSection = styled(Section)`
   background: #f9fafc;
+  margin-top: -25px;
+  z-index: -1;
 `;
 const Container = styled.div`
   width: 100%;

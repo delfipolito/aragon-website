@@ -3,6 +3,10 @@
  src: url('./fonts/HKGrotesk-Regular.ttf') format('opentype');
 }
 @font-face {
+ font-family: 'FontMedium';
+ src: url('./fonts/HKGrotesk-Medium.ttf') format('opentype');
+}
+@font-face {
  font-family: 'FontLight';
  src: url('./fonts/HKGrotesk-Light.ttf') format('opentype');
 }
@@ -14,6 +18,10 @@
  font-family: 'FontBold';
  src: url('./fonts/HKGrotesk-Bold.ttf') format('opentype');
 }
+@font-face {
+ font-family: 'FontSemiBold';
+ src: url('./fonts/HKGrotesk-SemiBold.ttf') format('opentype');
+}
 
 body {
   font-family: 'FontRegular', sans-serif !important;
@@ -21,6 +29,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background: white!important;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }

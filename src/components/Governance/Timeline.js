@@ -16,7 +16,7 @@ const Timeline = () => (
     <TimelineContainer>
       <Entry title="Stage i">
         <Box>
-          <img src={stage1} />
+          <StageImg src={stage1} />
           <div>
             <h6>Select AGP Track</h6>
             <h5>
@@ -24,7 +24,9 @@ const Timeline = () => (
               proposal complies with AGP-1 and has a chance of passing review by
               the AGP Editors and your peers.{' '}
             </h5>
-            <a target="_blank" href="https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md">
+            <a
+              target="_blank"
+              href="https://github.com/aragon/AGPs/blob/master/AGPs/AGP-1.md">
               <span>
                 AGP-1 <img src={require(`../General/assets/arrow.svg`)} />
               </span>
@@ -34,7 +36,7 @@ const Timeline = () => (
       </Entry>
       <Entry title="Stage ii">
         <Box>
-          <img src={stage2} />
+          <StageImg src={stage2} />
           <div>
             <h6>Pre-proposal</h6>
             <h5>
@@ -45,7 +47,8 @@ const Timeline = () => (
             </h5>
             <a target="_blank" href="https://forum.aragon.org/tags/agp">
               <span>
-                Aragon forum <img src={require(`../General/assets/arrow.svg`)} />
+                Aragon forum{' '}
+                <img src={require(`../General/assets/arrow.svg`)} />
               </span>
             </a>
           </div>
@@ -53,7 +56,7 @@ const Timeline = () => (
       </Entry>
       <Entry title="Stage iii">
         <Box>
-          <img src={stage3} />
+          <StageImg src={stage3} />
           <div>
             <h6>Draft Proposal</h6>
             <h5>
@@ -72,7 +75,7 @@ const Timeline = () => (
       </Entry>
       <Entry title="Stage iv">
         <Box>
-          <img src={stage4} />
+          <StageImg src={stage4} />
           <div>
             <h6>Final Proposal</h6>
             <h5>
@@ -80,9 +83,12 @@ const Timeline = () => (
               next Aragon vote cycle is scheduled to begin and ends one week
               before the next vote cycle is scheduled to begin.
             </h5>
-            <a target="_blank" href="https://github.com/aragon/AGPs/blob/master/aa_board_review.md">
+            <a
+              target="_blank"
+              href="https://github.com/aragon/AGPs/blob/master/aa_board_review.md">
               <span>
-                Board review <img src={require(`../General/assets/arrow.svg`)} />
+                Board review{' '}
+                <img src={require(`../General/assets/arrow.svg`)} />
               </span>
             </a>
           </div>
@@ -90,24 +96,27 @@ const Timeline = () => (
       </Entry>
     </TimelineContainer>
     <LastContainer>
-    <Entry title="Stage v" className="stage5-box">
-      <Box id="stage5-box">
-        <img src={stage5} />
-        <div>
-          <h6>Aragon Network Vote</h6>
-          <h5>
-            All AGPs that have moved to Stage V since the last Aragon Network
-            vote cycle and have been approved by the Association board are
-            included on the ballot in the current vote cycle.
-          </h5>
-          <a target="_blank" href="https://blog.aragon.org/tag/governance-proposals/">
-            <span>
-              Vote announcements <img src={require(`../General/assets/arrow.svg`)} />
-            </span>
-          </a>
-        </div>
-      </Box>
-    </Entry>
+      <Entry title="Stage v" className="stage5-box">
+        <Box id="stage5-box">
+          <StageImg src={stage5} />
+          <div>
+            <h6>Aragon Network Vote</h6>
+            <h5>
+              All AGPs that have moved to Stage V since the last Aragon Network
+              vote cycle and have been approved by the Association board are
+              included on the ballot in the current vote cycle.
+            </h5>
+            <a
+              target="_blank"
+              href="https://blog.aragon.org/tag/governance-proposals/">
+              <span>
+                Vote announcements{' '}
+                <img src={require(`../General/assets/arrow.svg`)} />
+              </span>
+            </a>
+          </div>
+        </Box>
+      </Entry>
     </LastContainer>
   </TimelineBox>
 );
@@ -118,7 +127,7 @@ const LastContainer = styled.div`
   margin: auto;
   padding: 0;
   ${medium('padding: 5px 50px;')};
-`
+`;
 const TimelineBox = styled.div`
   width: 100%;
   margin: 0;
@@ -126,6 +135,9 @@ const TimelineBox = styled.div`
   ${medium('padding: 50px 8.5%;')};
   background: #f9fafc;
   text-align: center;
+`;
+const StageImg = styled.img`
+  height: 158px;
 `;
 
 const Box = styled.div`
@@ -145,6 +157,7 @@ const Box = styled.div`
     margin-top: 20px;
     ${medium('margin-left: 30px; margin-top: 0;')};
   }
+
   h5 {
     font-size: 16px;
     line-height: 28px;
@@ -159,7 +172,7 @@ const Box = styled.div`
     font-size: 16px;
     line-height: 3;
     text-align: center;
-    color: #22E0FF;
+    color: #22e0ff;
   }
 `;
 

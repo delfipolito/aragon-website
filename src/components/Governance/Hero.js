@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Section from '../General/Section';
-import background from './assets/hero.png';
+import background from './assets/governance-cover.svg';
 import {breakpoint, BreakPoint, Button} from '@aragon/ui';
 const medium = css => breakpoint('medium', css);
 const large = css => breakpoint('large', css);
@@ -11,8 +11,8 @@ const Hero = () => (
     <Container>
       <h2>Governance</h2>
       <h4>
-        Aragon exists to empower people, starting with our own community. 
-        <br/>The project is community-governed, and we are committed to decentralizing power.
+        Aragon exists to empower people, starting with our own community.
+        <br/>The project is community-governed, and we are committed to decentralizing control.
       </h4>
       <Button.Anchor
         className="hero-link"
