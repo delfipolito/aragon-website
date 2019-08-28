@@ -91,5 +91,8 @@ const ProductFeatures = styled.div`
   .universe h3 .blue {
     color: #639cf5;
   }
+  .universe {
+    padding: 60px 0 0 0;
+  }
 `;
 export default About;

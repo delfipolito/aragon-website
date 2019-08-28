@@ -35,9 +35,11 @@ const UseCasesBadge = styled(Badge)`
   color: #459D85!important;
   padding: 1px 15px 0!important;
   line-height: 2!important;
+  margin-bottom: 30px;
 `
 const UseCasesSection = styled(Section)`
   background-color: white;
+  padding: 100px 15px 30px 15px;
 `;
 
 const Container = styled.div`
@@ -65,7 +67,7 @@ const UseCase = styled.div`
     max-height: 534px;
   }
   h2 {
-    font-family: 'FontMedium';
+    font-family: 'FontLight';
     font-size: 37px;
     ${medium('font-size: 46px;')};
     line-height: 1.28;
