@@ -16,10 +16,10 @@ import events from './assets/secondary-navbar/events.svg';
 import wiki from './assets/secondary-navbar/wiki.svg';
 
 const dropdownItems = [
-  <span className="dropdown-span">
+  <a href="http://www.google.com"><span className="dropdown-span">
     <img src={governance} />
     Governance
-  </span>,
+  </span></a>,
   <span className="dropdown-span">
     <img src={grants} />
     Grants
@@ -31,6 +31,10 @@ const dropdownItems = [
   <span className="dropdown-span">
     <img src={blog} />
     Blog
+  </span>,
+  <span className="dropdown-span">
+    <img src={roadmap} />
+    Roadmap
   </span>,
   <span className="dropdown-span">
     <img src={events} />
@@ -46,14 +50,22 @@ const dropdownNames = [
   'grants',
   'contribute',
   'blog',
+  'roadmap',
   'events',
   'wiki',
 ];
+const dropdownLinks = [
+  './project/governance',
+  './project/grants',
+  './contribute',
+  'https://blog.aragon.org',
+  './project/roadmap',
+  'https://aracon.one',
+  'https://wiki.aragon.org',
+];
 
 class SecondaryNavbar extends React.Component {
-  handleChange(index) {
-    this.setState({activeItem: index});
-  }
+
 
   render() {
     console.log(dropdownNames.indexOf(this.props.page), this.props.page);

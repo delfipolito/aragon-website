@@ -65,11 +65,12 @@ const SmallCard = styled.div`
   ${medium('padding: 15px;')};
   ${large('padding: 30px 60px;')};
   @media (min-width: 768px) {
-    height: ${props => (props.cardHeight ? props.cardHeight : '500px')};
+    height: ${props => (props.cardHeight ? props.cardHeight : '650px')};
   }
   img {
-    height: 140px;
-    width: 140px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
     ${props => props.imageBig && 'height: auto;'};
     ${props => props.imageBig && 'width: 100%;'};
   }
