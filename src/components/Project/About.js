@@ -141,7 +141,7 @@ const History = styled.div`
     ${medium('width: 594px;')};
   }
   h3 {
-    font-family: 'FontLigh', sans-serif;
+    font-family: 'FontLight', sans-serif;
     font-size: 48px;
     line-height: 59px;
     letter-spacing: -0.564706px;
