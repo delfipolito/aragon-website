@@ -26,7 +26,7 @@ const SCard = ({...props}) => (
       </div>
     )}
     <h1>{props.title}</h1>
-    <h1>{props.content}</h1>
+    <div className="content">{props.content}</div>
   </SmallCard>
 );
 
@@ -77,6 +77,7 @@ const SmallCard = styled.div`
   p {
     color: ${props => (props.colorWhite ? '#b4b5cc' : '#7f8198')};
     text-align: ${props => (props.textAlign ? props.textAlign : 'center')};
+    margin: 15px 0 0 0;
   }
   h1 {
     font-family: 'FontLight', sans-serif;
