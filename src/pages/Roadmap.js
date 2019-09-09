@@ -98,7 +98,7 @@ const Hero = styled(Section)`
   background-color: rgb(207, 213, 234);
   background-image: url(${backgroundImage});
   background-size: cover;
-  background-position: center
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
