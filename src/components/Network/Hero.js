@@ -19,13 +19,12 @@ const Hero = () => (
         The Aragon Network will change the way you think about jurisdictions and
         governments.
       </h4>
-      <Button.Anchor
-        className="principal-hero-link"
-        mode="strong"
-        href="https://github.com/aragon/whitepaper"
-        target="_blank">
-        Whitepaper
-      </Button.Anchor>
+      <div className="hero-button-container centered">
+        <a className="principal-button" href="https://github.com/aragon/whitepaper"
+          target="_blank">
+          Whitepaper
+        </a>
+      </div>
     </TextContainer>
   </HeroSection>
 );

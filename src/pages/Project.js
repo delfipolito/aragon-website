@@ -37,7 +37,12 @@ class Project extends React.Component {
             <Container>
               <h2>Fight for freedom</h2>
               <h4>Aragon is a project to empower freedom by creating tools for decentralized organizations to thrive.</h4>
-              <Button.Anchor className="hero-link" mode="strong" href="https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/" target="_blank">Manifesto</Button.Anchor>
+              <div className="hero-button-container centered">
+                <a className="principal-button" href="https://blog.aragon.org/the-aragon-manifesto-4a21212eac03/"
+                  target="_blank">
+                  Manifesto
+                </a>
+              </div>
             </Container>
           </Box>
         </HeroSection>

@@ -42,9 +42,7 @@ class Page extends React.Component {
 
 const Content = styled.div`
   min-height: calc(100vh - 116px) !important;
-  ${p =>
-    p.contentColor &&
-    'background-color: ' + p.contentColor}
+  ${p => p.contentColor && 'background-color: ' + p.contentColor}
   p {
     font-family: 'FontRegular', sans-serif;
     font-size: 16px;
@@ -59,7 +57,7 @@ const Content = styled.div`
     line-height: 1;
     text-align: center;
     letter-spacing: -1.8px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 20px;
   }
   h4 {
@@ -68,14 +66,14 @@ const Content = styled.div`
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.33px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .action-button {
     font-family: 'FontRegular', sans-serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: normal;
-    color: #4A80E4;
+    color: #4a80e4;
     margin-top: 20px;
     ${large('margin-top: 30px;')}
     display: block;
@@ -130,9 +128,27 @@ const Content = styled.div`
     padding: 14px 28px;
     cursor: pointer;
   }
+  .principal-button:hover {
+    background: linear-gradient(
+      186.69deg,
+      rgb(74, 255, 246) -103.98%,
+      rgb(54, 216, 247) 80.13%
+    );
+  }
   .principal-button.centered,
   .secondary-button.centered {
     margin: 0 10px;
+  }
+  .hero-button-container {
+    height: 83px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-button-container.centered {
+    justify-content: center;
+  }
+  .hero-button-container.left {
+    justify-content: flex-start;
   }
   .;
 `;
