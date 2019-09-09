@@ -53,7 +53,8 @@ const Content = styled.div`
   }
   h2 {
     font-family: 'FontBold', sans-serif;
-    font-size: 68px;
+    font-size: 52px;
+    ${medium('font-size: 68px;')}
     line-height: 1;
     text-align: center;
     letter-spacing: -1.8px;
@@ -62,7 +63,8 @@ const Content = styled.div`
   }
   h4 {
     font-family: 'FontRegular', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
+    ${medium('font-size: 22px;')}
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.33px;

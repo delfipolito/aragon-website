@@ -9,7 +9,7 @@ import buy from './assets/learn-about-ant.svg';
 import proposal from './assets/proposal.svg';
 
 const About = () => (
-  <Section>
+  <ModulesSection>
     <Container>
       <Card
         imageUrl={'Governance/assets/proposal'}
@@ -45,8 +45,12 @@ const About = () => (
         </span>}
       />
     </Container>
-  </Section>
+  </ModulesSection>
 );
+
+const ModulesSection = styled(Section)`
+  padding: 90px 15px;
+`
 
 const Container = styled.div`
   display: grid;
