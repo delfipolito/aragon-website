@@ -44,7 +44,8 @@ const Box = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 1305px;
+  max-width: 1100px;
+  margin: auto;
   ${large('flex-direction: row;')};
 `;
 const Container = styled.div`

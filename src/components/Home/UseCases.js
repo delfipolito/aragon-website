@@ -210,6 +210,7 @@ const UseCasesSection = styled(Section)`
 const Container = styled.div`
   img {
     max-width: 100%;
+    height: 100%;
     ${medium('max-width: 60%;')}
     ${large('max-width: 42.6%;')}
     object-fit: cover;
