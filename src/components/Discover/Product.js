@@ -94,5 +94,8 @@ const ProductFeatures = styled.div`
   .universe {
     padding: 60px 0 0 0;
   }
+  .universe img {
+    ${medium('padding-left: 120px;')};
+  }
 `;
 export default About;

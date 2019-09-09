@@ -74,8 +74,8 @@ const Content = styled.div`
     font-weight: 400;
     letter-spacing: normal;
     color: #4a80e4;
-    margin-top: 20px;
-    ${large('margin-top: 30px;')}
+    margin-top: 10px;
+    ${large('margin-top: 10px;')}
     display: block;
     text-decoration: none;
     cursor: pointer;
