@@ -22,10 +22,10 @@ const Footer = ({...props}) => (
       <p>Create and manage your organization and give power to your stakeholder community.</p>
       </PreFooterText>
       <div>
-        <a className="principal-button centered" href="./discover">
+        <a className="principal-button centered" href="https://app.aragon.org">
           Try the product
         </a>
-        <a className="secondary-button centered" href="./discover">
+        <a className="secondary-button centered" href="/discover">
           Discover Aragon
         </a>
       </div>
