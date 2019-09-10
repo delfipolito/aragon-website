@@ -118,6 +118,7 @@ const Content = styled.div`
     font-family: 'FontMedium';
     padding: 14px 28px;
     cursor: pointer;
+    transition: all 0.25s ease-in-out;
   }
   .secondary-button {
     background: #ffffff;
@@ -129,13 +130,13 @@ const Content = styled.div`
     font-family: 'FontMedium';
     padding: 14px 28px;
     cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
   }
-  .principal-button:hover {
-    background: linear-gradient(
-      186.69deg,
-      rgb(74, 255, 246) -103.98%,
-      rgb(54, 216, 247) 80.13%
-    );
+  .principal-button:hover,
+  .secondary-button:hover {
+    opacity: 0.95;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.150249);
   }
   .principal-button.centered,
   .secondary-button.centered {
