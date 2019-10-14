@@ -10,8 +10,7 @@ const medium = css => breakpoint('medium', css);
 const mudule1Content = (
   <p>
     Aragon organizations are digital natives. They live on Ethereum, a ledger
-    secured by incentives and cryptography. No one can take your organization
-    away from you.
+    secured by incentives and cryptography. Transactions are transparent and immutable.
   </p>
 );
 const mudule2Content = (
@@ -52,6 +51,8 @@ const Container = styled.div`
   .discover1 img {
     width: 266px;
   }
+  padding-top: 65px;
+  padding-bottom: 65px;
 `;
 
 export default About;

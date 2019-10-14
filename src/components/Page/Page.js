@@ -71,8 +71,8 @@ const Content = styled.div`
     color: #ffffff;
   }
   .action-button {
-    font-family: 'FontRegular', sans-serif;
-    font-size: 16px;
+    font-family: 'FontMedium', sans-serif;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: normal;
     color: #4a80e4;
@@ -156,4 +156,21 @@ const Content = styled.div`
   .;
 `;
 
-export default Page;
+const AGPBanner = styled.div `
+  position: fixed;
+  z-index: 5;
+  width: 100vw;
+  text-align: center;
+  background-image: linear-gradient(90deg, #2CF4E1, #2CB2E1);
+  p {
+    line-height: 35px;
+    padding: 0 30px;
+    text-align: center:;
+    color: black;
+  }
+  a {
+    font-weight: 700;
+  }
+`
+
+export default Page

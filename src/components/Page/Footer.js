@@ -46,8 +46,8 @@ const Footer = ({...props}) => (
         <a href="https://hack.aragon.org/" target="_blank">
           Developers
         </a>
-        <a href="https://wiki.aragon.org/dev/bug_bounty/" target="_blank">
-          Bug bounty
+        <a href="https://wiki.aragon.org/association/security/" target="_blank">
+          Security
         </a>
         <Link to="/project/grants">Grants</Link>
         <Link to="/project/governance">Governance</Link>
@@ -58,7 +58,7 @@ const Footer = ({...props}) => (
         <a href="https://wiki.aragon.org/" target="_blank">
           Wiki
         </a>
-        <a href="https://aracon.one/" target="_blank">
+        <a href="https://aracon.one" target="_blank">
           AraCon
         </a>
       </Item>
@@ -147,7 +147,7 @@ const FooterSection = styled(Section)`
     margin: 10px;
     ${medium('margin: 10px;')};
     display:  block;
-    ${medium('display: inline;')};
+    ${large('display: inline;')};
   }
 `;
 const PreFooterText = styled.div`
@@ -184,6 +184,11 @@ const PreFooter = styled.div`
     letter-spacing: 0.315px;
     margin-top: 12px;
     color: #6d7693;
+  }
+  .principal-button, .secondary-button {
+    display: block;
+    margin: 30px 0;
+    ${large('display: inline; margin: 0;')}
   }
 
   .principal-button:hover,

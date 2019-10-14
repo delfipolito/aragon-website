@@ -12,9 +12,8 @@ const Hero = () => (
       <TextContainer>
           <h2><span className="black">Take back your</span> freedom to organize</h2>
           <h4>
-            Discover the unparalleled power to organize. Whether you want to
-            collaborate with your co-founder, open a non-profit, or just organize
-            an online community, Aragon is there for you.
+            Discover the unparalleled power to organize. Use Aragon to launch a startup, 
+            form a nonprofit, or rally an online community.
           </h4>
           <div className="hero-button-container centered">
             <a className="principal-button" href="https://mainnet.aragon.org "
@@ -27,7 +26,13 @@ const Hero = () => (
 );
 
 const HeroSection = styled(Section)`
-  background-image: linear-gradient(290deg, #95bbce, #c5d0e6 46%, #e7e4f6);
+
+  background: linear-gradient(270deg, #95BBCE, #E7E4F6);
+  background-size: 400% 400%;
+  -webkit-animation: HeroAnimation 7s ease infinite;
+  -moz-animation: HeroAnimation 7s ease infinite;
+  animation: HeroAnimation 7s ease infinite;
+
   height: auto;
   ${medium('height: 550px;')};
   padding-top: 94px;
@@ -36,7 +41,6 @@ const HeroSection = styled(Section)`
   justify-content: center;
   position: relative;
   overflow: hidden;
-  animation: shine 4s linear infinite;
 `;
 
 const TextContainer = styled.div`

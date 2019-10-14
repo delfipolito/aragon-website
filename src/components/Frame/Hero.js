@@ -14,7 +14,7 @@ const Hero = () => (
       <h2>Aragon Agent</h2>
       <div className="h4-blue-box">
         <h4 className="blue">
-          Hold assets and perfom actions from Aragon organizations
+          Hold assets and perform actions from Aragon organizations
         </h4>
       </div>
       <Slide bottom>
@@ -26,7 +26,7 @@ const Hero = () => (
 
 const HeroSection = styled(Section)`
   height: 550px;
-  background: #f9eddf;
+  background: #141E27;
   background-image: url(${background});
   background-size: cover;
   background-position: center;

@@ -16,7 +16,6 @@ const ARAGON_UI_ASSETS = path.dirname(require.resolve('@aragon/ui'))
 
 export default {
   siteRoot: process.env.SITE_ROOT || '',
-  basePath: process.env.BASE_PATH || 'aragon-website',
   getSiteData: () => ({
     title: 'Aragon',
   }),
@@ -77,8 +76,13 @@ export default {
       getData: () => ({ title: '' }),
     },
     {
-      path: '/frame',
+      path: '/agent',
       component: 'src/pages/Frame',
+      getData: () => ({ title: '' }),
+    },
+    {
+      path: '/fundraising',
+      component: 'src/pages/Fundraising',
       getData: () => ({ title: '' }),
     },
     {
