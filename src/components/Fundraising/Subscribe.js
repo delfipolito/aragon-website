@@ -53,7 +53,7 @@ const Subscribe = () => (
 );
 
 const SubscribeSection = styled(Section)`
-  padding: 114px 15px;
+  padding: 50px 15px 100px 15px;
   z-index: 3;
   background: #6190ea;
   .email-field {
@@ -84,6 +84,7 @@ const SubscribeSection = styled(Section)`
       color: white;
       height: 44px;
       width: 140px;
+      outline: none;
     }
     button:hover {
       opacity: 1;
