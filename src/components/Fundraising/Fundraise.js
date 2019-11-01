@@ -14,7 +14,7 @@ const Fundraise = () => (
       <div>
         <h3>Fundraise <span className="orange">on your terms</span></h3>
         <p>
-          Fundraising’s customizable framework makes setting investment and fundraising terms a dream
+          Fundraising's customizable framework makes setting fundraising and trading terms easier than ever
         </p>
         <BreakPoint to="medium"><img src={imageMobile} /></BreakPoint>
         <BreakPoint from="medium"><img src={image} /></BreakPoint>

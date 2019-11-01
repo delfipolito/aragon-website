@@ -16,14 +16,14 @@ const Hero = () => (
       <div>
         <h2>Fair and sustainable fundraising for all</h2>
         <h4>
-          Fundraising empowers individuals and organizations to raise funds
+          The Fundraising app empowers individuals and organizations to raise funds
           sustainably by maintaining accountability between projects and
-          patrons.
+          supporters.
         </h4>
         <div className="hero-button-container">
           <a
             className="principal-button"
-            href="https://mainnet.aragon.org"
+            href="https://rinkeby.aragon.org/#/create"
             target="_blank">
             Try Fundraising now
           </a>

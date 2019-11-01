@@ -7,6 +7,7 @@ import About from '../components/Fundraising/About';
 import Crowfunding from '../components/Fundraising/Crowfunding';
 import Divider from '../components/Fundraising/Divider';
 import SustainCommunity from '../components/Fundraising/SustainCommunity';
+import Subscribe from '../components/Fundraising/Subscribe';
 import Fundraise from '../components/Fundraising/Fundraise';
 import Card from '../components/Fundraising/Card';
 import Discover from '../components/Fundraising/Discover';
@@ -20,6 +21,7 @@ class Fundraising extends React.Component {
         <Crowfunding />
         <Divider />
         <SustainCommunity />
+        <Subscribe />
         <Fundraise />
         <Card />
         <Discover />

@@ -14,7 +14,7 @@ const Discover = () => (
       <h3>
         Discover fair and sustainable crowdfunding Now available on Aragon
       </h3>
-      <a target="_blank" href="https://mainnet.aragon.org">Click here to discover Fundraising</a>
+      <a target="_blank" href="https://rinkeby.aragon.org/#/create">Click here to try Fundraising</a>
     </Container>
   </Section>
 );
